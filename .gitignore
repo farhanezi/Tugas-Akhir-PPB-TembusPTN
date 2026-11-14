@@ -1,0 +1,8 @@
+# Rahasia dan hasil pasang: jangan pernah masuk repo
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.vercel/
+*.log

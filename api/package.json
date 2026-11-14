@@ -1,0 +1,21 @@
+{
+  "name": "tembusptn-api",
+  "version": "0.1.0",
+  "description": "Backend TembusPTN (Tugas Akhir Praktikum PPB)",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch --env-file=.env src/server.js",
+    "cek-db": "node --env-file=.env scripts/cek-db.js",
+    "uji": "node --env-file=.env scripts/uji-e2e.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
