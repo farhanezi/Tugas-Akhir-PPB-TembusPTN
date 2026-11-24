@@ -1,7 +1,7 @@
 const supabase = require('../config/supabase');
 const bungkus = require('../utils/bungkus');
 const { Galat } = require('../utils/galat');
-const { periksa, pastikanProfil } = require('../utils/bantu');
+const { periksa, pastikanProfil, materiSelesai } = require('../utils/bantu');
 
 async function targetDenganId(id) {
   if (!id) return null;
@@ -29,7 +29,7 @@ exports.ambil = bungkus(async (req, res) => {
       .eq('profil_id', req.user.id)
       .eq('jenis', 'try_out')
       .not('selesai_at', 'is', null),
-    supabase.from('progres_materi').select('materi_id', { count: 'exact', head: true }).eq('profil_id', req.user.id),
+    materiSelesai(req.user.id),
   ]);
   const skor = periksa(tryOut).map((r) => Number(r.skor)).filter((n) => !Number.isNaN(n));
 
@@ -41,7 +41,7 @@ exports.ambil = bungkus(async (req, res) => {
     ringkasan: {
       try_out_selesai: skor.length,
       skor_tertinggi: skor.length ? Math.max(...skor) : null,
-      materi_selesai: materi.count || 0,
+      materi_selesai: materi.size,
     },
   });
 });

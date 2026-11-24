@@ -52,6 +52,7 @@ async function main() {
     // bersihkan jejak uji sebelumnya (hanya milik akun uji)
     await supabase.from('sesi').delete().eq('profil_id', uid); // jawaban & sesi_subtes ikut terhapus (cascade)
     await supabase.from('progres_materi').delete().eq('profil_id', uid);
+    await supabase.from('progres_submateri').delete().eq('profil_id', uid);
     await supabase.from('profil').delete().eq('id', uid);
 
     // ---------- 2. profil
@@ -75,20 +76,37 @@ async function main() {
     const materiBerisi = r.data.materi.filter((m) => m.jumlah_soal_latihan > 0);
     const m1 = r.data.materi[0];
     r = await api('GET', `/materi/${m1.id}`);
-    cek('GET detail materi (video/pdf kosong = null)', r.status === 200 && r.data.video_url === null && r.data.materi_sebelumnya_id === null && r.data.materi_berikutnya_id !== null, JSON.stringify(r.data));
-    r = await api('POST', `/materi/${m1.id}/selesai`);
-    cek('tandai selesai', r.status === 200 && r.data.selesai === true, JSON.stringify(r.data));
-    r = await api('POST', `/materi/${m1.id}/selesai`);
-    cek('tandai selesai dua kali aman', r.status === 200);
+    cek('GET detail materi: berisi sub materi, tetangga benar', r.status === 200 && r.data.submateri.length > 1 && r.data.materi_sebelumnya_id === null && r.data.materi_berikutnya_id !== null && r.data.selesai === false, JSON.stringify(r.data).slice(0, 300));
+    const subs = r.data.submateri;
+    cek('materi bersub materi: tanda langsung ditolak (422)', kode(await api('POST', `/materi/${m1.id}/selesai`)) === 'VALIDASI');
+    r = await api('GET', `/submateri/${subs[0].id}`);
+    cek('GET detail sub materi (video/pdf kosong = null)', r.status === 200 && r.data.video_url === null && r.data.materi.id === m1.id && r.data.submateri_sebelumnya_id === null && r.data.submateri_berikutnya_id === subs[1].id && r.data.urutan === 1, JSON.stringify(r.data).slice(0, 300));
+    r = await api('POST', `/submateri/${subs[0].id}/selesai`);
+    cek('tandai sub materi selesai', r.status === 200 && r.data.selesai === true, JSON.stringify(r.data));
+    r = await api('POST', `/submateri/${subs[0].id}/selesai`);
+    cek('tandai sub materi dua kali aman', r.status === 200);
     r = await api('GET', `/subtes/${subtesPK.id}/materi`);
-    cek('progres tercatat', r.data.materi.find((m) => m.id === m1.id).selesai === true);
-    r = await api('DELETE', `/materi/${m1.id}/selesai`);
-    cek('batal tandai selesai', r.status === 200 && r.data.selesai === false);
+    let mm = r.data.materi.find((m) => m.id === m1.id);
+    cek('progres sub materi tercatat, materi belum selesai', mm.submateri_selesai === 1 && mm.jumlah_submateri === subs.length && mm.selesai === false, JSON.stringify(mm));
+    for (const s of subs.slice(1)) await api('POST', `/submateri/${s.id}/selesai`);
+    r = await api('GET', `/subtes/${subtesPK.id}/materi`);
+    cek('semua sub materi selesai -> materi selesai', r.data.materi.find((m) => m.id === m1.id).selesai === true);
+    r = await api('GET', '/profil');
+    cek('ringkasan profil menghitung materi selesai', r.data.ringkasan.materi_selesai === 1, JSON.stringify(r.data.ringkasan));
+    r = await api('DELETE', `/submateri/${subs[0].id}/selesai`);
+    cek('batal tandai sub materi', r.status === 200 && r.data.selesai === false);
+    r = await api('GET', `/subtes/${subtesPK.id}/materi`);
+    cek('batal satu sub materi -> materi tidak selesai', r.data.materi.find((m) => m.id === m1.id).selesai === false);
+    cek('sub materi tidak ada -> 404', kode(await api('GET', '/submateri/999999')) === 'TIDAK_DITEMUKAN');
     cek('materi tidak ada -> 404', kode(await api('GET', '/materi/999999')) === 'TIDAK_DITEMUKAN');
 
     // ---------- 4. latihan
-    const stokTotal = materiBerisi.reduce((j, m) => j + m.jumlah_soal_latihan, 0);
-    cek('stok kurang -> STOK_KURANG', kode(await api('POST', '/latihan/sesi', { materi_ids: materiBerisi.map((m) => m.id), jumlah: stokTotal + 1 })) === 'STOK_KURANG');
+    // Jumlah per sesi dibatasi 50. Uji STOK_KURANG memakai materi dengan stok paling sedikit.
+    const materiTerkecil = [...materiBerisi].sort((a, b) => a.jumlah_soal_latihan - b.jumlah_soal_latihan)[0];
+    if (materiTerkecil.jumlah_soal_latihan + 1 <= 50) {
+      cek('stok kurang -> STOK_KURANG', kode(await api('POST', '/latihan/sesi', { materi_ids: [materiTerkecil.id], jumlah: materiTerkecil.jumlah_soal_latihan + 1 })) === 'STOK_KURANG');
+    }
+    cek('jumlah di atas 50 -> VALIDASI', kode(await api('POST', '/latihan/sesi', { materi_ids: materiBerisi.map((m) => m.id), jumlah: 51 })) === 'VALIDASI');
     r = await api('POST', '/latihan/sesi', { materi_ids: materiBerisi.map((m) => m.id), jumlah: 3 });
     cek('mulai latihan 3 soal', r.status === 201 && r.data.soal.length === 3, JSON.stringify(r.data).slice(0, 200));
     const teks = JSON.stringify(r.data);

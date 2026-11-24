@@ -1,7 +1,7 @@
 const supabase = require('../config/supabase');
 const bungkus = require('../utils/bungkus');
 const { Galat } = require('../utils/galat');
-const { idParam, periksa, pastikanProfil, materiSelesai, stokLatihan } = require('../utils/bantu');
+const { idParam, periksa, pastikanProfil, progresSubmateri, materiSelesai, stokLatihan } = require('../utils/bantu');
 
 // GET /api/subtes
 exports.daftarSubtes = bungkus(async (req, res) => {
@@ -42,10 +42,11 @@ exports.materiDiSubtes = bungkus(async (req, res) => {
   const subtes = periksa(await supabase.from('subtes').select('id, nama').eq('id', subtesId).maybeSingle());
   if (!subtes) throw new Galat('TIDAK_DITEMUKAN', 'Subtes tidak ditemukan.');
 
-  const [materi, selesai, stok] = await Promise.all([
+  const [materi, selesai, stok, { perMateri }] = await Promise.all([
     supabase.from('materi').select('id, nama, urutan').eq('subtes_id', subtesId).order('urutan').order('id'),
     materiSelesai(req.user.id),
     stokLatihan(),
+    progresSubmateri(req.user.id),
   ]);
 
   res.json({
@@ -55,26 +56,31 @@ exports.materiDiSubtes = bungkus(async (req, res) => {
       nama: m.nama,
       urutan: m.urutan,
       selesai: selesai.has(m.id),
+      jumlah_submateri: perMateri.get(m.id)?.jumlah || 0,
+      submateri_selesai: perMateri.get(m.id)?.selesai || 0,
       jumlah_soal_latihan: stok.get(m.id) || 0,
     })),
   });
 });
 
-// GET /api/materi/:id
+// GET /api/materi/:id  (berisi daftar sub materi; unit belajar ada di /api/submateri/:id)
 exports.detailMateri = bungkus(async (req, res) => {
   const id = idParam(req.params.id);
   const m = periksa(
     await supabase
       .from('materi')
-      .select('id, nama, urutan, subtes_id, video_url, pdf_url, subtes:subtes_id (id, nama)')
+      .select('id, nama, urutan, subtes_id, subtes:subtes_id (id, nama)')
       .eq('id', id)
       .maybeSingle()
   );
   if (!m) throw new Galat('TIDAK_DITEMUKAN', 'Materi tidak ditemukan.');
 
-  const [saudara, selesai] = await Promise.all([
+  const [saudara, sub, { selesaiIds }, selesai, stok] = await Promise.all([
     supabase.from('materi').select('id').eq('subtes_id', m.subtes_id).order('urutan').order('id'),
+    supabase.from('submateri').select('id, nama, urutan, video_url, pdf_url').eq('materi_id', id).order('urutan').order('id'),
+    progresSubmateri(req.user.id),
     materiSelesai(req.user.id),
+    stokLatihan(),
   ]);
   const ids = periksa(saudara).map((r) => r.id);
   const i = ids.indexOf(m.id);
@@ -83,11 +89,54 @@ exports.detailMateri = bungkus(async (req, res) => {
     id: m.id,
     nama: m.nama,
     subtes: m.subtes,
-    video_url: m.video_url, // null = tampilkan "Segera hadir"
-    pdf_url: m.pdf_url,
+    submateri: periksa(sub).map((s) => ({
+      id: s.id,
+      nama: s.nama,
+      urutan: s.urutan,
+      selesai: selesaiIds.has(s.id),
+      ada_video: !!s.video_url,
+      ada_pdf: !!s.pdf_url,
+    })),
     selesai: selesai.has(m.id),
+    jumlah_soal_latihan: stok.get(m.id) || 0,
     materi_sebelumnya_id: i > 0 ? ids[i - 1] : null,
     materi_berikutnya_id: i < ids.length - 1 ? ids[i + 1] : null,
+  });
+});
+
+// GET /api/submateri/:id
+exports.detailSubmateri = bungkus(async (req, res) => {
+  const id = idParam(req.params.id);
+  const s = periksa(
+    await supabase
+      .from('submateri')
+      .select('id, nama, urutan, materi_id, video_url, pdf_url, materi:materi_id (id, nama, subtes:subtes_id (id, nama))')
+      .eq('id', id)
+      .maybeSingle()
+  );
+  if (!s) throw new Galat('TIDAK_DITEMUKAN', 'Sub materi tidak ditemukan.');
+
+  const [saudara, { selesaiIds }, stok] = await Promise.all([
+    supabase.from('submateri').select('id').eq('materi_id', s.materi_id).order('urutan').order('id'),
+    progresSubmateri(req.user.id),
+    stokLatihan(),
+  ]);
+  const ids = periksa(saudara).map((r) => r.id);
+  const i = ids.indexOf(s.id);
+
+  res.json({
+    id: s.id,
+    nama: s.nama,
+    urutan: i + 1,
+    jumlah_saudara: ids.length,
+    materi: { id: s.materi.id, nama: s.materi.nama },
+    subtes: s.materi.subtes,
+    video_url: s.video_url, // null = tampilkan "Segera hadir"
+    pdf_url: s.pdf_url,
+    selesai: selesaiIds.has(s.id),
+    jumlah_soal_latihan: stok.get(s.materi_id) || 0,
+    submateri_sebelumnya_id: i > 0 ? ids[i - 1] : null,
+    submateri_berikutnya_id: i < ids.length - 1 ? ids[i + 1] : null,
   });
 });
 
@@ -100,6 +149,8 @@ async function pastikanMateriAda(id) {
 exports.tandaiSelesai = bungkus(async (req, res) => {
   const id = idParam(req.params.id);
   await pastikanMateriAda(id);
+  const punyaSub = periksa(await supabase.from('submateri').select('id').eq('materi_id', id).limit(1));
+  if (punyaSub.length > 0) throw new Galat('VALIDASI', 'Materi ini punya sub materi. Tandai selesai lewat sub materinya.');
   await pastikanProfil(req.user.id);
   periksa(
     await supabase
@@ -115,4 +166,30 @@ exports.batalSelesai = bungkus(async (req, res) => {
   await pastikanMateriAda(id);
   periksa(await supabase.from('progres_materi').delete().eq('profil_id', req.user.id).eq('materi_id', id));
   res.json({ materi_id: id, selesai: false });
+});
+
+async function pastikanSubmateriAda(id) {
+  const ada = periksa(await supabase.from('submateri').select('id').eq('id', id).maybeSingle());
+  if (!ada) throw new Galat('TIDAK_DITEMUKAN', 'Sub materi tidak ditemukan.');
+}
+
+// POST /api/submateri/:id/selesai (aman dipanggil berulang)
+exports.tandaiSubmateriSelesai = bungkus(async (req, res) => {
+  const id = idParam(req.params.id);
+  await pastikanSubmateriAda(id);
+  await pastikanProfil(req.user.id);
+  periksa(
+    await supabase
+      .from('progres_submateri')
+      .upsert({ profil_id: req.user.id, submateri_id: id }, { onConflict: 'profil_id,submateri_id', ignoreDuplicates: true })
+  );
+  res.json({ submateri_id: id, selesai: true });
+});
+
+// DELETE /api/submateri/:id/selesai
+exports.batalSubmateriSelesai = bungkus(async (req, res) => {
+  const id = idParam(req.params.id);
+  await pastikanSubmateriAda(id);
+  periksa(await supabase.from('progres_submateri').delete().eq('profil_id', req.user.id).eq('submateri_id', id));
+  res.json({ submateri_id: id, selesai: false });
 });

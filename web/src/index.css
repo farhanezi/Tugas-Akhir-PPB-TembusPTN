@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import "@fontsource-variable/plus-jakarta-sans";
+
+/* Token dari claude/arah-desain.md. Ubah di sini, bukan di komponen. */
+@theme {
+  --font-sans: "Plus Jakarta Sans Variable", "Inter", system-ui, sans-serif;
+
+  --color-bg: #f3f6f2;
+  --color-surface: #ffffff;
+  --color-sunken: #eaefe9;
+  --color-line: #dde4dc;
+  --color-ink: #0f1f17;
+  --color-ink2: #44544b;
+  --color-ink3: #66746b;
+  --color-primary: #0b5d3b;
+  --color-primary-dark: #08432b;
+  --color-primary-soft: #e1f0e6;
+  --color-lime: #c6f25a;
+  --color-lime-ink: #1e3a0f;
+  --color-panel: #0c2b1e;
+  --color-panel-line: #214736;
+  --color-panel-text: #a9c2b4;
+  --color-ok: #1b7f45;
+  --color-ok-soft: #e0f3e7;
+  --color-bad: #be3329;
+  --color-bad-soft: #fbe8e5;
+  --color-warn: #8a5a0b;
+  --color-warn-soft: #fbefcf;
+  --color-warn-fill: #f0b429;
+
+  /* Titik lebar: md 768 (tablet, rel ikon), lg 1100 (desktop, sidebar). Lihat arah-desain.md. */
+  --breakpoint-lg: 68.75rem;
+
+  --radius-field: 14px;
+  --radius-card: 20px;
+  --radius-panel: 24px;
+}
+
+html, body, #root { min-height: 100dvh; }
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+::selection { background: var(--color-lime); color: var(--color-lime-ink); }
+:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
+input { caret-color: var(--color-primary); }
+
+@utility text-display { font-size: 28px; line-height: 34px; font-weight: 700; letter-spacing: -0.02em; }
+@utility text-title { font-size: 20px; line-height: 26px; font-weight: 700; letter-spacing: -0.01em; }
+@utility text-heading { font-size: 16px; line-height: 22px; font-weight: 600; }
+@utility text-body { font-size: 14px; line-height: 21px; }
+@utility text-caption { font-size: 12px; line-height: 16px; font-weight: 500; }
+
+@keyframes denyut { 50% { opacity: 0.5; } }
+.kerangka { background: var(--color-sunken); border-radius: 14px; animation: denyut 1.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .kerangka { animation: none; } }

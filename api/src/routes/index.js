@@ -26,6 +26,9 @@ router.get('/riwayat', riwayat.riwayat);
 router.get('/subtes', materi.daftarSubtes);
 router.get('/subtes/:id/materi', materi.materiDiSubtes);
 router.get('/materi/:id', materi.detailMateri);
+router.get('/submateri/:id', materi.detailSubmateri);
+router.post('/submateri/:id/selesai', materi.tandaiSubmateriSelesai);
+router.delete('/submateri/:id/selesai', materi.batalSubmateriSelesai);
 router.post('/materi/:id/selesai', materi.tandaiSelesai);
 router.delete('/materi/:id/selesai', materi.batalSelesai);
 
