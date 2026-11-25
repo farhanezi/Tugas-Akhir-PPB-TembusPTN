@@ -1,5 +1,6 @@
 import { useEffect, useId, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import masukDesktop from '../assets/masuk-desktop.png';
 import { ChevronLeft, CircleCheck, CircleX, Eye, EyeOff, Flag, Image, LoaderCircle, RefreshCw, X } from 'lucide-react';
 
 const cx = (...a) => a.filter(Boolean).join(' ');
@@ -105,7 +106,7 @@ export function LayarAuth({ children }) {
     <div className="flex min-h-dvh bg-bg">
       <aside className="hidden w-[44%] max-w-[640px] shrink-0 flex-col gap-7 bg-panel p-14 lg:flex">
         <Logo putih />
-        <GambarPlaceholder gelap className="mt-auto h-[300px]" nama="ilustrasi masuk (desktop)" instruksi="Ilustrasi datar 528 x 300: siswa SMA belajar dengan laptop dan gerbang kampus di latar. Warna hijau tua, lime, putih. Tanpa teks." />
+        <img src={masukDesktop} alt="" className="mt-auto h-[300px] w-full rounded-card object-cover" />
         <div className="flex flex-col gap-2.5">
           <p className="text-[34px] leading-[42px] font-bold tracking-[-0.02em] text-white">Materi, latihan, dan try out UTBK dalam satu tempat</p>
           <p className="text-[16px] leading-6 text-panel-text">Pasang target prodimu, lalu lihat berapa poin lagi jaraknya.</p>

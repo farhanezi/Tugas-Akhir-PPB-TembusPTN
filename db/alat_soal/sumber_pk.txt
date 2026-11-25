@@ -1,0 +1,1082 @@
+# SUBTES: Pengetahuan Kuantitatif
+
+## PK-BIL-001 | Bilangan | mudah
+Q: Hasil dari 2/5 + 3/10 adalah ….
+A: 5/15
+B: 1/2
+C: 3/5
+D: 7/10
+E: 4/5
+K: D
+V: F(2,5)+F(3,10)
+P: Samakan penyebut: 2/5 = 4/10, sehingga 4/10 + 3/10 = 7/10. Kesalahan umum adalah menjumlahkan pembilang dan penyebut secara langsung (5/15).
+
+## PK-BIL-002 | Bilangan | mudah
+Q: Harga sebuah sepatu Rp150.000. Karena promo, harganya naik 20% untuk edisi terbatas. Harga sepatu edisi terbatas adalah ….
+A: Rp160.000
+B: Rp170.000
+C: Rp175.000
+D: Rp180.000
+E: Rp200.000
+K: D
+V: 150000*F(120,100)
+P: Kenaikan 20% dari 150.000 adalah 30.000. Harga baru = 150.000 + 30.000 = Rp180.000.
+
+## PK-BIL-003 | Bilangan | mudah
+Q: Nilai dari 5² − 3 × 4 adalah ….
+A: 13
+B: 15
+C: 17
+D: 20
+E: 25
+K: A
+V: 5**2-3*4
+P: Kerjakan pangkat dan perkalian lebih dulu: 5² = 25 dan 3 × 4 = 12, sehingga 25 − 12 = 13.
+
+## PK-BIL-004 | Bilangan | mudah
+Q: KPK dari 12 dan 18 adalah ….
+A: 6
+B: 24
+C: 30
+D: 36
+E: 72
+K: D
+V: math.lcm(12,18)
+P: 12 = 2² × 3 dan 18 = 2 × 3². KPK mengambil pangkat terbesar tiap faktor: 2² × 3² = 36.
+
+## PK-BIL-005 | Bilangan | mudah
+Q: Hasil dari 0,25 × 80 adalah ….
+A: 5
+B: 8
+C: 10
+D: 15
+E: 20
+K: E
+V: 0.25*80
+P: 0,25 sama dengan 1/4, sehingga 1/4 × 80 = 20.
+
+## PK-BIL-006 | Bilangan | mudah
+Q: Perbandingan banyak kelereng Ani dan Budi adalah 3 : 5. Jika kelereng Budi berjumlah 40, banyak kelereng Ani adalah ….
+A: 15
+B: 24
+C: 30
+D: 40
+E: 64
+K: B
+V: 40*3/5
+P: Satu bagian = 40 : 5 = 8. Kelereng Ani = 3 × 8 = 24.
+
+## PK-BIL-007 | Bilangan | mudah
+Q: Banyak bilangan prima antara 20 dan 30 adalah ….
+A: 1
+B: 2
+C: 3
+D: 4
+E: 5
+K: B
+V: len([n for n in range(21,30) if all(n%d for d in range(2,n))])
+P: Bilangan antara 20 dan 30 yang prima hanya 23 dan 29, jadi ada 2 bilangan.
+
+## PK-BIL-008 | Bilangan | mudah
+Q: Nilai dari √144 + √81 adalah ….
+A: 15
+B: 18
+C: 19
+D: 21
+E: 225
+K: D
+V: 12+9
+P: √144 = 12 dan √81 = 9, sehingga jumlahnya 21.
+
+## PK-BIL-009 | Bilangan | mudah
+Q: Jika 3ˣ⁺¹ = 81, nilai x adalah ….
+A: 3
+B: 4
+C: 5
+D: 6
+E: 8
+K: A
+V: 3
+P: 81 = 3⁴, sehingga x + 1 = 4 dan x = 3.
+
+## PK-BIL-010 | Bilangan | sedang
+Q: Hasil dari (2⁴ × 4³) : 8 adalah ….
+A: 32
+B: 64
+C: 96
+D: 128
+E: 256
+K: D
+V: (2**4*4**3)//8
+P: Ubah ke basis 2: 4³ = 2⁶ dan 8 = 2³. Maka 2⁴ × 2⁶ : 2³ = 2⁷ = 128.
+
+## PK-BIL-011 | Bilangan | sedang
+Q: Jumlah tiga bilangan genap berurutan adalah 78. Bilangan terbesar di antara ketiganya adalah ….
+A: 20
+B: 22
+C: 24
+D: 26
+E: 28
+K: E
+V: 28
+P: Misalkan bilangan tengahnya n, maka (n − 2) + n + (n + 2) = 3n = 78, sehingga n = 26. Bilangan terbesar = n + 2 = 28.
+
+## PK-BIL-012 | Bilangan | sedang
+Q: Hasil dari (3/4 : 3/8) × 5/2 adalah ….
+A: 5/4
+B: 5/2
+C: 4
+D: 5
+E: 15/4
+K: D
+V: (F(3,4)/F(3,8))*F(5,2)
+P: 3/4 : 3/8 = 3/4 × 8/3 = 2. Lalu 2 × 5/2 = 5.
+
+## PK-BIL-013 | Bilangan | sedang
+Q: Banyak bilangan bulat positif kurang dari 100 yang habis dibagi 6 adalah ….
+A: 16
+B: 17
+C: 18
+D: 20
+E: 24
+K: A
+V: len([n for n in range(1,100) if n%6==0])
+P: Bilangan yang habis dibagi 6 dan kurang dari 100 adalah 6, 12, ..., 96. Banyaknya = 96 : 6 = 16.
+
+## PK-BIL-014 | Bilangan | sedang
+Q: Sebuah tas berharga Rp400.000. Toko memberi diskon 25%, lalu diskon tambahan 20% dari harga setelah diskon pertama. Harga yang dibayar adalah ….
+A: Rp220.000
+B: Rp240.000
+C: Rp260.000
+D: Rp280.000
+E: Rp300.000
+K: B
+V: 400000*0.75*0.8
+P: Setelah diskon 25%, harga = 400.000 × 0,75 = 300.000. Setelah diskon 20%, harga = 300.000 × 0,8 = Rp240.000. Dua diskon tidak boleh dijumlahkan menjadi 45% (itu akan menghasilkan Rp220.000).
+
+## PK-BIL-015 | Bilangan | sedang
+Q: Diketahui a = 48 dan b = 72.
+Pernyataan mana saja yang bernilai benar berdasarkan informasi di atas?
+(1) FPB dari a dan b adalah 12.
+(2) KPK dari a dan b adalah 144.
+(3) Jumlah a dan b habis dibagi 7.
+(4) Selisih b dan a habis dibagi 8.
+F: pernyataan
+T: math.gcd(48,72)==12; math.lcm(48,72)==144; (48+72)%7==0; (72-48)%8==0
+P: FPB(48, 72) = 24, bukan 12, sehingga (1) salah. KPK = 48 × 72 : 24 = 144, sehingga (2) benar. a + b = 120 dan 120 : 7 tidak bulat, sehingga (3) salah. b − a = 24 dan 24 : 8 = 3, sehingga (4) benar. Pernyataan yang benar: (2) dan (4).
+
+## PK-BIL-016 | Bilangan | sedang
+Q: Angka satuan dari 3²⁰²⁵ adalah ….
+A: 1
+B: 3
+C: 5
+D: 7
+E: 9
+K: B
+V: pow(3,2025,10)
+P: Angka satuan pangkat 3 berulang dengan pola 3, 9, 7, 1 (periode 4). Karena 2025 dibagi 4 bersisa 1, angka satuannya sama dengan 3¹, yaitu 3.
+
+## PK-BIL-017 | Bilangan | sedang
+Q: Uang Andi, Bima, dan Cici berjumlah Rp70.000 dengan perbandingan Andi : Bima : Cici = 8 : 12 : 15. Uang Cici adalah ….
+A: Rp16.000
+B: Rp20.000
+C: Rp24.000
+D: Rp28.000
+E: Rp30.000
+K: E
+V: 70000*15//35
+P: Jumlah perbandingan = 8 + 12 + 15 = 35. Uang Cici = 15/35 × 70.000 = Rp30.000.
+
+## PK-BIL-018 | Bilangan | sedang
+Q: Pak Rahmat menabung Rp2.000.000 dengan bunga tunggal 6% per tahun. Setelah 9 bulan, jumlah tabungannya adalah ….
+A: Rp2.060.000
+B: Rp2.090.000
+C: Rp2.120.000
+D: Rp2.180.000
+E: Rp2.270.000
+K: B
+V: 2000000+2000000*F(6,100)*F(9,12)
+P: Bunga 9 bulan = 2.000.000 × 6% × 9/12 = 90.000. Jumlah tabungan = 2.000.000 + 90.000 = Rp2.090.000.
+
+## PK-BIL-019 | Bilangan | sedang
+Q: Bilangan bulat positif terkecil yang jika dibagi 7 bersisa 3 dan jika dibagi 5 bersisa 2 adalah ….
+A: 5
+B: 10
+C: 12
+D: 17
+E: 22
+K: D
+V: min(n for n in range(1,200) if n%7==3 and n%5==2)
+P: Bilangan yang bersisa 3 jika dibagi 7: 3, 10, 17, 24, ... Periksa sisa pembagian 5: 3 (sisa 3), 10 (sisa 0), 17 (sisa 2). Jadi bilangan terkecilnya 17.
+
+## PK-BIL-020 | Bilangan | mudah
+Q: Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?
+P = 30% dari 80
+Q = 40% dari 60
+F: pq
+VP: 0.3*80
+VQ: 0.4*60
+P: P = 0,3 × 80 = 24 dan Q = 0,4 × 60 = 24. Kedua kuantitas sama besar.
+
+## PK-BIL-021 | Bilangan | sedang
+Q: Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?
+P = 2³⁰
+Q = 3²⁰
+F: pq
+VP: 2**30
+VQ: 3**20
+P: Samakan pangkatnya: 2³⁰ = (2³)¹⁰ = 8¹⁰ dan 3²⁰ = (3²)¹⁰ = 9¹⁰. Karena 8 < 9 dengan pangkat yang sama, P kurang dari Q.
+
+## PK-BIL-022 | Bilangan | sedang
+Q: Bilangan real x memenuhi x² = 16. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?
+P = x
+Q = 0
+F: pq
+K: D
+P: Persamaan x² = 16 memberi x = 4 atau x = −4. Jika x = 4, P lebih dari Q, tetapi jika x = −4, P kurang dari Q. Hubungan keduanya tidak dapat ditentukan.
+
+## PK-BIL-023 | Bilangan | sedang
+Q: Apakah bilangan bulat n habis dibagi 6?
+Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.
+(1) n habis dibagi 3.
+(2) n adalah bilangan genap.
+F: cukup
+K: C
+P: Pernyataan (1) saja tidak cukup (n bisa 9 yang tidak habis dibagi 6). Pernyataan (2) saja juga tidak cukup (n bisa 4). Jika keduanya digabung, n habis dibagi 2 dan 3 sehingga pasti habis dibagi 6. Jadi dua pernyataan bersama-sama cukup, tetapi satu pernyataan saja tidak cukup.
+
+## PK-BIL-024 | Bilangan | sulit
+Q: Jumlah semua digit dari bilangan 2¹² × 5⁹ adalah ….
+A: 8
+B: 9
+C: 10
+D: 12
+E: 14
+K: A
+V: sum(int(c) for c in str(2**12*5**9))
+P: 2¹² × 5⁹ = 2³ × (2⁹ × 5⁹) = 8 × 10⁹ = 8.000.000.000. Jumlah digitnya 8.
+
+## PK-BIL-025 | Bilangan | sulit
+Q: Banyak pembagi positif dari 360 adalah ….
+A: 18
+B: 20
+C: 24
+D: 30
+E: 36
+K: C
+V: len([d for d in range(1,361) if 360%d==0])
+P: 360 = 2³ × 3² × 5¹. Banyak pembagi positif = (3 + 1)(2 + 1)(1 + 1) = 4 × 3 × 2 = 24.
+
+## PK-BIL-026 | Bilangan | sulit
+Q: Angka satuan dari 2²⁰²⁶ + 3²⁰²⁶ adalah ….
+A: 1
+B: 3
+C: 5
+D: 7
+E: 9
+K: B
+V: (pow(2,2026,10)+pow(3,2026,10))%10
+P: Angka satuan 2ⁿ berulang 2, 4, 8, 6 dan angka satuan 3ⁿ berulang 3, 9, 7, 1, keduanya berperiode 4. 2026 dibagi 4 bersisa 2, sehingga satuan 2²⁰²⁶ adalah 4 dan satuan 3²⁰²⁶ adalah 9. Jumlahnya 4 + 9 = 13, jadi angka satuannya 3.
+
+## PK-BIL-027 | Bilangan | sulit
+Q: Kran A dapat mengisi penuh sebuah bak dalam 6 jam, kran B dalam 12 jam, sedangkan kebocoran di dasar bak dapat mengosongkan bak penuh dalam 36 jam. Jika kedua kran dibuka bersamaan dengan kebocoran yang tetap ada, bak yang kosong akan penuh dalam ….
+A: 3 jam
+B: 3,5 jam
+C: 4 jam
+D: 4,2 jam
+E: 4,5 jam
+K: E
+V: 1/(F(1,6)+F(1,12)-F(1,36))
+P: Dalam 1 jam, kran A mengisi 1/6 bagian, kran B 1/12 bagian, dan kebocoran mengurangi 1/36 bagian. Laju bersih = 6/36 + 3/36 − 1/36 = 8/36 = 2/9 bagian per jam. Waktu penuh = 1 : 2/9 = 9/2 = 4,5 jam.
+
+## PK-BIL-028 | Bilangan | sulit
+Q: Bilangan bulat positif terkecil n sehingga 1.440n merupakan kuadrat sempurna adalah ….
+A: 2
+B: 5
+C: 10
+D: 20
+E: 40
+K: C
+V: min(n for n in range(1,1000) if math.isqrt(1440*n)**2==1440*n)
+P: 1.440 = 2⁵ × 3² × 5. Agar menjadi kuadrat sempurna, semua pangkat prima harus genap. Pangkat 2 dan 5 masih ganjil, sehingga n minimal 2 × 5 = 10. Hasilnya 14.400 = 120².
+
+## PK-GEO-001 | Geometri | mudah
+Q: Sebuah persegi panjang berukuran 12 cm × 5 cm. Panjang diagonalnya adalah ... cm.
+A: 13
+B: 14
+C: 15
+D: 17
+E: 60
+K: A
+V: math.hypot(12,5)
+P: Diagonal persegi panjang membentuk segitiga siku-siku dengan sisi 12 dan 5. Panjang diagonal = √(12² + 5²) = √169 = 13 cm.
+
+## PK-GEO-002 | Geometri | mudah
+Q: Keliling sebuah lingkaran adalah 44 cm (π = 22/7). Jari-jari lingkaran tersebut adalah ... cm.
+A: 5
+B: 7
+C: 11
+D: 14
+E: 22
+K: B
+V: 44/(2*F(22,7))
+P: Keliling = 2πr, sehingga r = 44 : (2 × 22/7) = 44 : (44/7) = 7 cm.
+
+## PK-GEO-003 | Geometri | mudah
+Q: Sebuah segitiga memiliki alas 10 cm dan tinggi 8 cm. Luas segitiga tersebut adalah ... cm².
+A: 18
+B: 28
+C: 40
+D: 80
+E: 100
+K: C
+V: F(1,2)*10*8
+P: Luas segitiga = ½ × alas × tinggi = ½ × 10 × 8 = 40 cm². Jika lupa mengalikan ½, hasilnya 80.
+
+## PK-GEO-004 | Geometri | mudah
+Q: Volume sebuah kubus dengan panjang rusuk 6 cm adalah ... cm³.
+A: 36
+B: 108
+C: 144
+D: 216
+E: 324
+K: D
+V: 6**3
+P: Volume kubus = rusuk³ = 6 × 6 × 6 = 216 cm³.
+
+## PK-GEO-005 | Geometri | mudah
+Q: Dua sudut sebuah segitiga berukuran 50° dan 60°. Besar sudut ketiga adalah ….
+A: 40°
+B: 50°
+C: 60°
+D: 65°
+E: 70°
+K: E
+V: 180-50-60
+P: Jumlah sudut dalam segitiga 180°. Sudut ketiga = 180° − 50° − 60° = 70°.
+
+## PK-GEO-006 | Geometri | mudah
+Q: Sebuah trapesium memiliki sisi sejajar 8 cm dan 12 cm serta tinggi 5 cm. Luas trapesium tersebut adalah ... cm².
+A: 50
+B: 60
+C: 80
+D: 100
+E: 120
+K: A
+V: F(8+12,2)*5
+P: Luas trapesium = ½ × (jumlah sisi sejajar) × tinggi = ½ × (8 + 12) × 5 = 50 cm².
+
+## PK-GEO-007 | Geometri | mudah
+Q: Jumlah seluruh sudut dalam sebuah segi enam adalah ….
+A: 540°
+B: 720°
+C: 900°
+D: 1.080°
+E: 1.260°
+K: B
+V: (6-2)*180
+P: Jumlah sudut dalam segi-n = (n − 2) × 180°. Untuk n = 6, jumlahnya 4 × 180° = 720°.
+
+## PK-GEO-008 | Geometri | sedang
+Q: Sebuah tabung memiliki jari-jari alas 7 cm dan tinggi 10 cm. Dengan π = 22/7, volume tabung tersebut adalah ... cm³.
+A: 440
+B: 770
+C: 1.540
+D: 3.080
+E: 6.160
+K: C
+V: F(22,7)*49*10
+P: Volume tabung = πr²t = 22/7 × 49 × 10 = 22 × 7 × 10 = 1.540 cm³.
+
+## PK-GEO-009 | Geometri | sedang
+Q: Sebuah kubus memiliki volume 125 cm³. Luas permukaan kubus tersebut adalah ... cm².
+A: 75
+B: 100
+C: 125
+D: 150
+E: 250
+K: D
+V: 6*5**2
+P: Rusuk kubus = ∛125 = 5 cm. Luas permukaan = 6 × rusuk² = 6 × 25 = 150 cm².
+
+## PK-GEO-010 | Geometri | sedang
+Q: Sebuah juring lingkaran memiliki sudut pusat 90° dan jari-jari 14 cm. Dengan π = 22/7, luas juring tersebut adalah ... cm².
+A: 49
+B: 77
+C: 98
+D: 132
+E: 154
+K: E
+V: F(1,4)*F(22,7)*196
+P: Luas juring = (90°/360°) × πr² = ¼ × 22/7 × 196 = ¼ × 616 = 154 cm².
+
+## PK-GEO-011 | Geometri | sedang
+Q: Diagonal-diagonal sebuah belah ketupat panjangnya 16 cm dan 12 cm. Keliling belah ketupat tersebut adalah ... cm.
+A: 40
+B: 44
+C: 48
+D: 56
+E: 96
+K: A
+V: 4*math.hypot(8,6)
+P: Diagonal saling berpotongan tegak lurus di tengah, membentuk segitiga siku-siku dengan sisi 8 dan 6. Sisi belah ketupat = √(64 + 36) = 10 cm. Keliling = 4 × 10 = 40 cm.
+
+## PK-GEO-012 | Geometri | sedang
+Q: Sebuah tangga sepanjang 13 m bersandar pada dinding tegak. Jarak kaki tangga ke dinding adalah 5 m. Tinggi ujung atas tangga dari tanah adalah ... m.
+A: 8
+B: 12
+C: 14
+D: 15
+E: 18
+K: B
+V: math.sqrt(13**2-5**2)
+P: Tangga, dinding, dan tanah membentuk segitiga siku-siku dengan sisi miring 13 m. Tinggi = √(13² − 5²) = √(169 − 25) = √144 = 12 m.
+
+## PK-GEO-013 | Geometri | sedang
+Q: Jarak antara titik A(2, 3) dan titik B(8, 11) pada bidang koordinat adalah ….
+A: 6
+B: 8
+C: 10
+D: 12
+E: 14
+K: C
+V: math.hypot(8-2,11-3)
+P: Selisih koordinat x = 6 dan selisih koordinat y = 8. Jarak = √(6² + 8²) = √100 = 10.
+
+## PK-GEO-014 | Geometri | sedang
+Q: Segitiga dengan titik sudut O(0, 0), P(6, 0), dan Q(0, 8) memiliki luas ….
+A: 12
+B: 14
+C: 20
+D: 24
+E: 48
+K: D
+V: F(1,2)*6*8
+P: Segitiga siku-siku di O dengan alas OP = 6 dan tinggi OQ = 8. Luas = ½ × 6 × 8 = 24.
+
+## PK-GEO-015 | Geometri | sulit
+Q: Segitiga ABC sebangun dengan segitiga PQR. Sisi AB = 6 cm bersesuaian dengan sisi PQ = 9 cm. Jika luas segitiga ABC adalah 24 cm², luas segitiga PQR adalah ... cm².
+A: 36
+B: 40
+C: 45
+D: 48
+E: 54
+K: E
+V: 24*F(9,6)**2
+P: Perbandingan luas dua bangun sebangun sama dengan kuadrat perbandingan sisi. Luas PQR = 24 × (9/6)² = 24 × 9/4 = 54 cm². Jika memakai perbandingan sisi saja tanpa dikuadratkan, hasilnya 36 (salah).
+
+## PK-GEO-016 | Geometri | sedang
+Q: Sebuah kerucut memiliki jari-jari alas 3 cm dan tinggi 4 cm. Luas selimut kerucut tersebut adalah ... cm².
+A: 15π
+B: 20π
+C: 24π
+D: 36π
+E: 48π
+K: A
+V: 3*5
+P: Garis pelukis kerucut s = √(3² + 4²) = 5 cm. Luas selimut = πrs = π × 3 × 5 = 15π cm².
+
+## PK-GEO-017 | Geometri | sedang
+Q: Sebuah segitiga sama kaki memiliki panjang kaki 13 cm dan alas 10 cm. Luas segitiga tersebut adalah ... cm².
+A: 30
+B: 60
+C: 65
+D: 120
+E: 130
+K: B
+V: F(1,2)*10*12
+P: Garis tinggi dari puncak membagi alas menjadi dua bagian 5 cm. Tinggi = √(13² − 5²) = 12 cm. Luas = ½ × 10 × 12 = 60 cm².
+
+## PK-GEO-018 | Geometri | sedang
+Q: Dua garis sejajar dipotong oleh sebuah garis lain. Dua sudut dalam sepihak berukuran (3x + 20)° dan (5x − 40)°. Nilai x adalah ….
+A: 20
+B: 22
+C: 25
+D: 28
+E: 30
+K: C
+V: 25
+P: Sudut dalam sepihak berjumlah 180°. Maka (3x + 20) + (5x − 40) = 180, yaitu 8x − 20 = 180 dan x = 25. Pengecekan: 95° + 85° = 180°.
+
+## PK-GEO-019 | Geometri | sedang
+Q: Sebuah prisma tegak memiliki alas berbentuk segitiga siku-siku dengan sisi tegak 6 cm dan 8 cm. Jika tinggi prisma 10 cm, volume prisma tersebut adalah ... cm³.
+A: 48
+B: 120
+C: 160
+D: 240
+E: 480
+K: D
+V: F(1,2)*6*8*10
+P: Luas alas = ½ × 6 × 8 = 24 cm². Volume = luas alas × tinggi = 24 × 10 = 240 cm³.
+
+## PK-GEO-020 | Geometri | sedang
+Q: Sebuah persegi panjang berukuran 12 cm × 8 cm berkeliling 40 cm. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?
+P = luas persegi panjang tersebut
+Q = luas persegi yang juga berkeliling 40 cm
+F: pq
+VP: 12*8
+VQ: 10*10
+P: Luas persegi panjang P = 12 × 8 = 96 cm². Persegi berkeliling 40 cm memiliki sisi 10 cm, sehingga Q = 100 cm². Jadi P kurang dari Q. Untuk keliling yang sama, persegi memberikan luas terbesar.
+
+## PK-GEO-021 | Geometri | sulit
+Q: Sebuah balok berukuran 8 cm × 6 cm × 24 cm.
+Pernyataan mana saja yang bernilai benar berdasarkan informasi di atas?
+(1) Volume balok adalah 1.152 cm³.
+(2) Luas permukaan balok adalah 768 cm².
+(3) Panjang diagonal ruang balok adalah 26 cm.
+(4) Panjang diagonal bidang pada sisi berukuran 8 cm × 6 cm adalah 12 cm.
+F: pernyataan
+T: 8*6*24==1152; 2*(8*6+8*24+6*24)==768; math.sqrt(8**2+6**2+24**2)==26; math.hypot(8,6)==12
+P: (1) Volume = 8 × 6 × 24 = 1.152, benar. (2) Luas permukaan = 2(48 + 192 + 144) = 768, benar. (3) Diagonal ruang = √(64 + 36 + 576) = √676 = 26, benar. (4) Diagonal bidang 8 × 6 = √(64 + 36) = 10, bukan 12, sehingga salah. Pernyataan benar: (1), (2), dan (3).
+
+## PK-GEO-022 | Geometri | sulit
+Q: Persegi panjang ABCD memiliki keliling 28 cm, dengan AB = 8 cm.
+Apakah luas persegi panjang ABCD lebih dari 48 cm²?
+Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.
+(1) Keliling persegi panjang ABCD adalah 28 cm.
+(2) Panjang AB adalah 8 cm.
+F: cukup
+K: C
+P: Pernyataan (1) saja tidak cukup: panjang + lebar = 14, sehingga luas bisa 48 (6 × 8), 40 (4 × 10), atau 49 (7 × 7). Pernyataan (2) saja tidak cukup karena sisi lainnya belum diketahui. Bersama-sama, sisi lainnya 14 − 8 = 6 cm sehingga luas tepat 48 cm² dan tidak lebih dari 48. Jawabannya pasti, jadi dua pernyataan bersama-sama cukup.
+
+## PK-GEO-023 | Geometri | sulit
+Q: Sebuah lingkaran terletak tepat di dalam persegi berukuran sisi 14 cm (lingkaran menyinggung keempat sisi persegi). Dengan π = 22/7, luas daerah di dalam persegi tetapi di luar lingkaran adalah ... cm².
+A: 21
+B: 42
+C: 49
+D: 154
+E: 196
+K: B
+V: 196-F(22,7)*49
+P: Diameter lingkaran = sisi persegi = 14 cm, sehingga r = 7 cm. Luas lingkaran = 22/7 × 49 = 154 cm². Luas persegi = 196 cm². Daerah di luar lingkaran = 196 − 154 = 42 cm².
+
+## PK-GEO-024 | Geometri | sulit
+Q: Segitiga ABC siku-siku di B dengan AB = 6 cm dan BC = 8 cm. Titik D terletak pada AC sehingga BD tegak lurus AC. Panjang BD adalah ... cm.
+A: 3,6
+B: 4,2
+C: 4,5
+D: 4,8
+E: 5,0
+K: D
+V: 6*8/10
+P: AC = √(36 + 64) = 10 cm. Luas segitiga dapat dihitung dengan dua cara: ½ × AB × BC = ½ × AC × BD. Maka 6 × 8 = 10 × BD, sehingga BD = 4,8 cm.
+
+## PK-ALJ-001 | Aljabar dan Fungsi | mudah
+Q: Jika 3x − 7 = 14, nilai x adalah ….
+A: 7
+B: 9
+C: 11
+D: 14
+E: 21
+K: A
+V: (14+7)//3
+P: 3x = 14 + 7 = 21, sehingga x = 21 : 3 = 7.
+
+## PK-ALJ-002 | Aljabar dan Fungsi | mudah
+Q: Diketahui f(x) = 2x² − 3. Nilai f(3) adalah ….
+A: 3
+B: 9
+C: 12
+D: 14
+E: 15
+K: E
+V: 2*3**2-3
+P: f(3) = 2(3)² − 3 = 2 × 9 − 3 = 18 − 3 = 15.
+
+## PK-ALJ-003 | Aljabar dan Fungsi | mudah
+Q: Jika x + y = 10 dan x − y = 4, nilai x adalah ….
+A: 3
+B: 5
+C: 7
+D: 9
+E: 14
+K: C
+V: (10+4)//2
+P: Jumlahkan kedua persamaan: 2x = 14, sehingga x = 7 (dan y = 3).
+
+## PK-ALJ-004 | Aljabar dan Fungsi | mudah
+Q: Gradien garis yang melalui titik (1, 2) dan (3, 8) adalah ….
+A: 2
+B: 3
+C: 4
+D: 6
+E: 8
+K: B
+V: F(8-2,3-1)
+P: Gradien = (y₂ − y₁)/(x₂ − x₁) = (8 − 2)/(3 − 1) = 6/2 = 3.
+
+## PK-ALJ-005 | Aljabar dan Fungsi | mudah
+Q: Himpunan penyelesaian dari 2x + 5 > 11 adalah ….
+A: x < 3
+B: x > 8
+C: x < 8
+D: x > 3
+E: x > 6
+K: D
+P: 2x > 11 − 5 = 6, sehingga x > 3. Tanda pertidaksamaan tidak berubah karena kedua ruas dibagi bilangan positif.
+
+## PK-ALJ-006 | Aljabar dan Fungsi | mudah
+Q: Hasil kali akar-akar persamaan x² − 7x + 12 = 0 adalah ….
+A: −7
+B: 3
+C: 4
+D: 7
+E: 12
+K: E
+V: 12
+P: Untuk ax² + bx + c = 0, hasil kali akar = c/a = 12/1 = 12. Akar-akarnya 3 dan 4, sehingga 3 × 4 = 12. Angka 7 adalah jumlah akar-akarnya.
+
+## PK-ALJ-007 | Aljabar dan Fungsi | mudah
+Q: Diketahui f(x) = x + 4 dan g(x) = 2x. Nilai (f ∘ g)(5) adalah ….
+A: 14
+B: 18
+C: 20
+D: 24
+E: 29
+K: A
+V: 2*5+4
+P: (f ∘ g)(5) = f(g(5)). g(5) = 10, lalu f(10) = 10 + 4 = 14. Urutan terbalik, (g ∘ f)(5), menghasilkan 18.
+
+## PK-ALJ-008 | Aljabar dan Fungsi | mudah
+Q: Jika 3(x − 2) = 2(x + 1), nilai x adalah ….
+A: 4
+B: 6
+C: 8
+D: 10
+E: 12
+K: C
+V: 8
+P: 3x − 6 = 2x + 2, sehingga x = 2 + 6 = 8.
+
+## PK-ALJ-009 | Aljabar dan Fungsi | sedang
+Q: Persamaan garis yang melalui titik (0, −3) dengan gradien 2 adalah ….
+A: y = −2x − 3
+B: y = 2x + 3
+C: y = 2x − 3
+D: y = −3x + 2
+E: y = 3x − 2
+K: C
+P: Titik (0, −3) berada pada sumbu y sehingga c = −3. Dengan gradien 2, persamaan garisnya y = 2x − 3.
+
+## PK-ALJ-010 | Aljabar dan Fungsi | sedang
+Q: Diketahui a dan b bilangan real. Berapakah nilai a + b?
+Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.
+(1) a − b = 2.
+(2) a = b + 2.
+F: cukup
+K: E
+P: Pernyataan (1) dan (2) memuat informasi yang sama, yaitu a − b = 2. Dengan satu persamaan untuk dua bilangan, nilai a + b tidak dapat ditentukan (misalnya a = 3, b = 1 memberi 4, sedangkan a = 5, b = 3 memberi 8). Jadi pernyataan (1) dan (2) tidak cukup, bahkan bila digabungkan.
+
+## PK-ALJ-011 | Aljabar dan Fungsi | sedang
+Q: Himpunan penyelesaian dari x² − 4x − 5 ≤ 0 adalah ….
+A: −1 ≤ x ≤ 5
+B: x ≤ −1 atau x ≥ 5
+C: −5 ≤ x ≤ 1
+D: x ≤ −5 atau x ≥ 1
+E: 1 ≤ x ≤ 5
+K: A
+P: Faktorkan: (x − 5)(x + 1) ≤ 0. Pembuat nolnya x = −1 dan x = 5. Parabola terbuka ke atas, sehingga nilainya ≤ 0 di antara kedua akar: −1 ≤ x ≤ 5.
+
+## PK-ALJ-012 | Aljabar dan Fungsi | sedang
+Q: Jika 2x + 3y = 12 dan x − y = 1, nilai xy adalah ….
+A: 1
+B: 2
+C: 3
+D: 5
+E: 6
+K: E
+V: 3*2
+P: Dari x − y = 1 diperoleh x = y + 1. Substitusi: 2(y + 1) + 3y = 12, sehingga 5y = 10 dan y = 2, lalu x = 3. Maka xy = 3 × 2 = 6.
+
+## PK-ALJ-013 | Aljabar dan Fungsi | sedang
+Q: Diketahui f(x) = 3x − 5.
+Pernyataan mana saja yang bernilai benar berdasarkan informasi di atas?
+(1) f(2) = 1.
+(2) f⁻¹(10) = 3.
+(3) f⁻¹(x) = (x + 5)/3.
+(4) Grafik f memotong sumbu y di titik (0, 5).
+F: pernyataan
+T: 3*2-5==1; (10+5)/3==3; True; 3*0-5==5
+P: (1) f(2) = 6 − 5 = 1, benar. (2) f⁻¹(10) = (10 + 5)/3 = 5, bukan 3, sehingga salah. (3) Invers dari y = 3x − 5 adalah x = (y + 5)/3, benar. (4) f(0) = −5, sehingga grafik memotong sumbu y di (0, −5), salah. Pernyataan benar: (1) dan (3).
+
+## PK-ALJ-014 | Aljabar dan Fungsi | sedang
+Q: Nilai minimum fungsi y = x² − 6x + 5 adalah ….
+A: −9
+B: −6
+C: −5
+D: −4
+E: 5
+K: D
+V: 3**2-6*3+5
+P: Titik puncak berada di x = −b/(2a) = 6/2 = 3. Nilai minimum = 3² − 6(3) + 5 = 9 − 18 + 5 = −4.
+
+## PK-ALJ-015 | Aljabar dan Fungsi | sedang
+Q: Jika a + b = 5 dan ab = 6, nilai a² + b² adalah ….
+A: 13
+B: 19
+C: 25
+D: 31
+E: 37
+K: A
+V: 5**2-2*6
+P: a² + b² = (a + b)² − 2ab = 25 − 12 = 13. Bentuk (a + b)² saja bernilai 25.
+
+## PK-ALJ-016 | Aljabar dan Fungsi | sedang
+Q: Harga 2 buku dan 3 pensil adalah Rp19.000, sedangkan harga 3 buku dan 2 pensil adalah Rp21.000. Harga 1 buku dan 1 pensil adalah ….
+A: Rp7.000
+B: Rp8.000
+C: Rp8.500
+D: Rp9.000
+E: Rp9.500
+K: B
+V: (19000+21000)//5
+P: Jumlahkan kedua persamaan: 5 buku + 5 pensil = 40.000, sehingga 1 buku + 1 pensil = Rp8.000. (Harga satuannya: buku Rp5.000 dan pensil Rp3.000.)
+
+## PK-ALJ-017 | Aljabar dan Fungsi | sedang
+Q: Jumlah semua nilai x yang memenuhi |2x − 3| = 7 adalah ….
+A: 1
+B: 2
+C: 3
+D: 5
+E: 7
+K: C
+V: 5+(-2)
+P: |2x − 3| = 7 berarti 2x − 3 = 7 atau 2x − 3 = −7. Diperoleh x = 5 atau x = −2. Jumlahnya 5 + (−2) = 3.
+
+## PK-ALJ-018 | Aljabar dan Fungsi | sedang
+Q: Diketahui f(x) = −x² + 4x + 1.
+Pernyataan mana saja yang bernilai benar berdasarkan informasi di atas?
+(1) Grafik f terbuka ke atas.
+(2) Nilai maksimum f adalah 5.
+(3) Sumbu simetri grafik f adalah x = −2.
+(4) f(0) = 1.
+F: pernyataan
+T: False; -(2**2)+4*2+1==5; 2==-2; 0+1==1
+P: (1) Koefisien x² negatif (−1), sehingga grafik terbuka ke bawah; pernyataan salah. (2) Sumbu simetri x = −4/(2 × (−1)) = 2, nilai maksimum = −4 + 8 + 1 = 5, benar. (3) Sumbu simetri x = 2, bukan −2, salah. (4) f(0) = 1, benar. Pernyataan benar: (2) dan (4).
+
+## PK-ALJ-019 | Aljabar dan Fungsi | sedang
+Q: Diketahui f(x) = x² + 1 dan g(x) = x − 2. Nilai (g ∘ f)(3) adalah ….
+A: 2
+B: 8
+C: 10
+D: 11
+E: 12
+K: B
+V: (3**2+1)-2
+P: (g ∘ f)(3) = g(f(3)). f(3) = 9 + 1 = 10, lalu g(10) = 10 − 2 = 8. Jika urutannya terbalik, (f ∘ g)(3) = f(1) = 2.
+
+## PK-ALJ-020 | Aljabar dan Fungsi | sedang
+Q: Diketahui fungsi f(x) = x² − 4x + 7. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?
+P = nilai minimum f(x)
+Q = 3
+F: pq
+VP: 2**2-4*2+7
+VQ: 3
+P: Titik puncak di x = 4/2 = 2, sehingga nilai minimum f = 4 − 8 + 7 = 3. Jadi P = 3 dan Q = 3, kedua kuantitas sama.
+
+## PK-ALJ-021 | Aljabar dan Fungsi | sedang
+Q: Bilangan real a bernilai positif dan bilangan real b bernilai negatif. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?
+P = a − b
+Q = a + b
+F: pq
+K: A
+P: Selisih P − Q = (a − b) − (a + b) = −2b. Karena b negatif, −2b positif, sehingga P selalu lebih dari Q untuk semua nilai a dan b yang memenuhi.
+
+## PK-ALJ-022 | Aljabar dan Fungsi | sulit
+Q: Persamaan kuadrat x² − 6x + k = 0 memiliki dua akar real yang selisihnya 4. Nilai k adalah ….
+A: 5
+B: 8
+C: 9
+D: 10
+E: 12
+K: A
+V: 5*1
+P: Misalkan akarnya x₁ dan x₂ dengan x₁ + x₂ = 6 dan x₁ − x₂ = 4. Diperoleh x₁ = 5 dan x₂ = 1. Maka k = x₁ × x₂ = 5.
+
+## PK-ALJ-023 | Aljabar dan Fungsi | sulit
+Q: Jika f(x − 1) = 2x + 3, nilai f(5) adalah ….
+A: 9
+B: 11
+C: 13
+D: 15
+E: 17
+K: D
+V: 2*6+3
+P: Agar x − 1 = 5, dipilih x = 6. Maka f(5) = 2(6) + 3 = 15. Menyubstitusi x = 5 langsung (13) adalah kesalahan umum.
+
+## PK-ALJ-024 | Aljabar dan Fungsi | sulit
+Q: Persamaan kuadrat x² + px + 12 = 0 memiliki akar-akar x₁ dan x₂ dengan x₁² + x₂² = 25. Nilai p² adalah ….
+A: 25
+B: 36
+C: 49
+D: 64
+E: 81
+K: C
+V: 25+2*12
+P: x₁ + x₂ = −p dan x₁x₂ = 12. Maka x₁² + x₂² = (x₁ + x₂)² − 2x₁x₂ = p² − 24 = 25, sehingga p² = 49.
+
+## PK-ALJ-025 | Aljabar dan Fungsi | sulit
+Q: Parabola y = x² + bx + c memotong sumbu x di titik (1, 0) dan (3, 0). Nilai b + c adalah ….
+A: −4
+B: −1
+C: 0
+D: 3
+E: 4
+K: B
+V: -4+3
+P: Karena memotong sumbu x di x = 1 dan x = 3, y = (x − 1)(x − 3) = x² − 4x + 3. Maka b = −4 dan c = 3, sehingga b + c = −1.
+
+## PK-ALJ-026 | Aljabar dan Fungsi | sulit
+Q: Jika x + y = 7 dan xy = 10, nilai x³ + y³ adalah ….
+A: 133
+B: 147
+C: 153
+D: 169
+E: 343
+K: A
+V: 7**3-3*10*7
+P: Gunakan identitas x³ + y³ = (x + y)³ − 3xy(x + y) = 343 − 3 × 10 × 7 = 343 − 210 = 133. Nilai 343 hanyalah (x + y)³.
+
+## PK-STA-001 | Statistika dan Peluang | mudah
+Q: Rata-rata dari data 4, 6, 8, 10, dan 12 adalah ….
+A: 4
+B: 5
+C: 6
+D: 7
+E: 8
+K: E
+V: (4+6+8+10+12)/5
+P: Jumlah data = 4 + 6 + 8 + 10 + 12 = 40. Rata-rata = 40 : 5 = 8.
+
+## PK-STA-002 | Statistika dan Peluang | mudah
+Q: Median dari data 3, 9, 5, 7, dan 1 adalah ….
+A: 3
+B: 4
+C: 5
+D: 6
+E: 7
+K: C
+V: 5
+P: Urutkan data: 1, 3, 5, 7, 9. Karena banyak data 5 (ganjil), median adalah data tengah, yaitu 5. Median tidak boleh diambil dari data yang belum diurutkan.
+
+## PK-STA-003 | Statistika dan Peluang | mudah
+Q: Modus dari data 2, 3, 3, 4, 5, 3, 6 adalah ….
+A: 3
+B: 4
+C: 5
+D: 6
+E: 7
+K: A
+V: 3
+P: Modus adalah nilai yang paling sering muncul. Angka 3 muncul tiga kali, lebih banyak daripada angka lain.
+
+## PK-STA-004 | Statistika dan Peluang | mudah
+Q: Sebuah kartu diambil secara acak dari 10 kartu bernomor 1 sampai 10. Peluang terambil kartu bernomor genap adalah ….
+A: 1/5
+B: 1/2
+C: 3/5
+D: 7/10
+E: 9/10
+K: B
+V: F(5,10)
+P: Kartu bernomor genap: 2, 4, 6, 8, 10 (5 kartu) dari 10 kartu. Peluangnya 5/10 = 1/2.
+
+## PK-STA-005 | Statistika dan Peluang | mudah
+Q: Dalam sebuah kantong terdapat 3 bola merah dan 5 bola biru. Satu bola diambil secara acak. Peluang terambil bola biru adalah ….
+A: 1/8
+B: 3/8
+C: 1/2
+D: 3/5
+E: 5/8
+K: E
+V: F(5,8)
+P: Total bola = 3 + 5 = 8, dengan 5 di antaranya biru. Peluang = 5/8.
+
+## PK-STA-006 | Statistika dan Peluang | sedang
+Q: Sembilan siswa memiliki rata-rata nilai 70. Setelah satu siswa lagi dengan nilai 80 bergabung, rata-rata nilai kesepuluh siswa menjadi ….
+A: 71
+B: 72
+C: 73
+D: 75
+E: 80
+K: A
+V: (9*70+80)/10
+P: Jumlah nilai sembilan siswa = 9 × 70 = 630. Setelah ditambah 80 menjadi 710. Rata-rata baru = 710 : 10 = 71.
+
+## PK-STA-007 | Statistika dan Peluang | sedang
+Q: Median dari data 2, 4, 4, 5, 7, 8, 9, 10 adalah ….
+A: 4
+B: 5
+C: 6
+D: 7
+E: 8
+K: C
+V: (5+7)/2
+P: Data sudah terurut dan berjumlah 8 (genap). Median = rata-rata dua data tengah, yaitu data ke-4 (5) dan ke-5 (7): (5 + 7)/2 = 6.
+
+## PK-STA-008 | Statistika dan Peluang | sedang
+Q: Dua buah dadu dilempar bersamaan satu kali. Peluang jumlah mata kedua dadu sama dengan 8 adalah ….
+A: 1/12
+B: 5/36
+C: 1/6
+D: 7/36
+E: 1/4
+K: B
+V: F(len([1 for a in range(1,7) for b in range(1,7) if a+b==8]),36)
+P: Pasangan dengan jumlah 8: (2,6), (3,5), (4,4), (5,3), (6,2), yaitu 5 pasangan dari 36 kemungkinan. Peluangnya 5/36.
+
+## PK-STA-009 | Statistika dan Peluang | sedang
+Q: Dari 7 orang akan dipilih 3 orang untuk mengikuti lomba, tanpa memperhatikan urutan. Banyak cara memilih adalah ….
+A: 10
+B: 21
+C: 30
+D: 35
+E: 42
+K: D
+V: math.comb(7,3)
+P: Karena urutan tidak diperhatikan, gunakan kombinasi: C(7,3) = 7!/(3! × 4!) = (7 × 6 × 5)/(3 × 2 × 1) = 35.
+
+## PK-STA-010 | Statistika dan Peluang | sedang
+Q: Dari 5 orang calon akan dipilih seorang ketua, seorang sekretaris, dan seorang bendahara (tidak ada yang merangkap). Banyak susunan pengurus yang mungkin adalah ….
+A: 10
+B: 15
+C: 60
+D: 120
+E: 125
+K: C
+V: math.perm(5,3)
+P: Karena jabatan berbeda, urutan diperhatikan sehingga memakai permutasi: P(5,3) = 5 × 4 × 3 = 60.
+
+## PK-STA-011 | Statistika dan Peluang | sedang
+Q: Kelas A terdiri atas 40 siswa dengan rata-rata nilai 72, sedangkan kelas B terdiri atas 60 siswa dengan rata-rata nilai 82. Rata-rata nilai seluruh siswa kedua kelas adalah ….
+A: 72
+B: 77
+C: 78
+D: 80
+E: 82
+K: C
+V: (40*72+60*82)/100
+P: Jumlah nilai kelas A = 40 × 72 = 2.880 dan kelas B = 60 × 82 = 4.920. Rata-rata gabungan = (2.880 + 4.920) : 100 = 78. Nilai 77 adalah kesalahan karena hanya merata-ratakan 72 dan 82.
+
+## PK-STA-012 | Statistika dan Peluang | sedang
+Q: Sebuah kotak berisi 4 bola merah dan 6 bola putih. Dua bola diambil satu per satu tanpa pengembalian. Peluang kedua bola yang terambil berwarna merah adalah ….
+A: 1/15
+B: 2/15
+C: 4/25
+D: 4/15
+E: 2/5
+K: B
+V: F(4,10)*F(3,9)
+P: Peluang bola pertama merah = 4/10. Setelah satu merah diambil, tersisa 3 merah dari 9 bola, sehingga peluang kedua merah = 3/9. Peluang keduanya = 4/10 × 3/9 = 12/90 = 2/15. (Nilai 4/25 muncul bila pengambilan dengan pengembalian.)
+
+## PK-STA-013 | Statistika dan Peluang | sedang
+Q: Sebuah koin dilempar tiga kali. Peluang muncul paling sedikit satu sisi angka adalah ….
+A: 1/8
+B: 1/2
+C: 5/8
+D: 3/4
+E: 7/8
+K: E
+V: 1-F(1,8)
+P: Gunakan komplemen. Peluang tidak ada angka sama sekali (ketiganya gambar) = 1/8. Maka peluang paling sedikit satu angka = 1 − 1/8 = 7/8.
+
+## PK-STA-014 | Statistika dan Peluang | sedang
+Q: Nilai ujian sekelompok siswa disajikan pada tabel berikut.
+Nilai 6 : 2 siswa
+Nilai 7 : 5 siswa
+Nilai 8 : 8 siswa
+Nilai 9 : 3 siswa
+Nilai 10 : 2 siswa
+Rata-rata nilai siswa tersebut adalah ….
+A: 7,5
+B: 7,7
+C: 7,8
+D: 7,9
+E: 8,1
+K: D
+V: (6*2+7*5+8*8+9*3+10*2)/20
+P: Jumlah siswa = 2 + 5 + 8 + 3 + 2 = 20. Jumlah nilai = 12 + 35 + 64 + 27 + 20 = 158. Rata-rata = 158 : 20 = 7,9.
+
+## PK-STA-015 | Statistika dan Peluang | sedang
+Q: Diketahui data: 2, 4, 4, 6, 8, 12.
+Pernyataan mana saja yang bernilai benar berdasarkan informasi di atas?
+(1) Rata-rata data adalah 5.
+(2) Median data adalah 5.
+(3) Modus data adalah 6.
+(4) Jangkauan data adalah 10.
+F: pernyataan
+T: 36/6==5; (4+6)/2==5; 4==6; 12-2==10
+P: (1) Rata-rata = 36 : 6 = 6, bukan 5, sehingga salah. (2) Median = (4 + 6)/2 = 5, benar. (3) Modus adalah 4 (muncul dua kali), bukan 6, salah. (4) Jangkauan = 12 − 2 = 10, benar. Pernyataan benar: (2) dan (4).
+
+## PK-STA-016 | Statistika dan Peluang | sedang
+Q: Sebuah dadu dilempar satu kali. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?
+P = peluang muncul mata dadu prima
+Q = peluang muncul mata dadu yang merupakan faktor dari 6
+F: pq
+VP: F(3,6)
+VQ: F(4,6)
+P: Mata dadu prima: 2, 3, 5, sehingga P = 3/6 = 1/2. Faktor dari 6 yang ada pada dadu: 1, 2, 3, 6, sehingga Q = 4/6 = 2/3. Karena 1/2 < 2/3, P kurang dari Q.
+
+## PK-STA-017 | Statistika dan Peluang | sedang
+Q: Terdapat lima bilangan bulat. Apakah rata-rata kelima bilangan tersebut lebih dari 10?
+Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.
+(1) Median kelima bilangan tersebut adalah 12.
+(2) Jumlah kelima bilangan tersebut adalah 55.
+F: cukup
+K: B
+P: Pernyataan (1) saja tidak cukup: median 12 tidak menentukan rata-rata (misalnya 1, 2, 12, 13, 14 memiliki rata-rata 8,4 sedangkan 10, 11, 12, 13, 14 memiliki rata-rata 12). Pernyataan (2) saja cukup karena rata-rata = 55 : 5 = 11, yang lebih dari 10. Jadi hanya pernyataan (2) yang cukup.
+
+## PK-STA-018 | Statistika dan Peluang | sulit
+Q: Empat siswa dan tiga siswi akan duduk berjajar dalam satu baris. Jika ketiga siswi harus duduk berdampingan, banyak susunan duduk yang mungkin adalah ….
+A: 720
+B: 1.440
+C: 2.880
+D: 4.320
+E: 5.040
+K: A
+V: math.factorial(5)*math.factorial(3)
+P: Anggap ketiga siswi sebagai satu kelompok. Bersama 4 siswa, ada 5 objek yang diatur dalam 5! = 120 cara. Di dalam kelompok, siswi dapat diatur dalam 3! = 6 cara. Total = 120 × 6 = 720. Nilai 5.040 (7!) mengabaikan syarat berdampingan.
+
+## PK-STA-019 | Statistika dan Peluang | sulit
+Q: Dari 6 pria dan 4 wanita akan dibentuk tim beranggotakan 4 orang dengan syarat minimal terdapat 2 wanita. Banyak tim yang dapat dibentuk adalah ….
+A: 90
+B: 115
+C: 120
+D: 155
+E: 210
+K: B
+V: math.comb(4,2)*math.comb(6,2)+math.comb(4,3)*math.comb(6,1)+math.comb(4,4)
+P: Ada tiga kemungkinan. Dua wanita dan dua pria: C(4,2) × C(6,2) = 6 × 15 = 90. Tiga wanita dan satu pria: C(4,3) × C(6,1) = 4 × 6 = 24. Empat wanita: C(4,4) = 1. Total = 90 + 24 + 1 = 115.
+
+## PK-STA-020 | Statistika dan Peluang | sulit
+Q: Banyak bilangan tiga angka yang habis dibagi 5 dan semua angkanya berbeda adalah ….
+A: 100
+B: 120
+C: 128
+D: 136
+E: 144
+K: D
+V: len([n for n in range(100,1000) if n%5==0 and len(set(str(n)))==3])
+P: Angka satuan harus 0 atau 5. Jika satuannya 0: angka ratusan 9 pilihan (1 sampai 9) dan puluhan 8 pilihan, sehingga 9 × 8 = 72. Jika satuannya 5: ratusan 8 pilihan (1 sampai 9 kecuali 5) dan puluhan 8 pilihan (0 sampai 9 kecuali 5 dan angka ratusan), sehingga 8 × 8 = 64. Total = 72 + 64 = 136.
+
+## PK-STA-021 | Statistika dan Peluang | sulit
+Q: Rata-rata lima bilangan adalah 8. Jika rata-rata tiga bilangan pertama adalah 7, rata-rata dua bilangan terakhir adalah ….
+A: 8
+B: 8,5
+C: 9
+D: 9,2
+E: 9,5
+K: E
+V: (5*8-3*7)/2
+P: Jumlah kelima bilangan = 5 × 8 = 40. Jumlah tiga bilangan pertama = 3 × 7 = 21. Jumlah dua bilangan terakhir = 40 − 21 = 19, sehingga rata-ratanya 19 : 2 = 9,5.
+
+## PK-STA-022 | Statistika dan Peluang | sulit
+Q: Tiga buah dadu dilempar bersamaan satu kali. Peluang jumlah ketiga mata dadu sama dengan 10 adalah ….
+A: 1/12
+B: 1/9
+C: 1/8
+D: 5/36
+E: 1/6
+K: C
+V: F(len([1 for a in range(1,7) for b in range(1,7) for c in range(1,7) if a+b+c==10]),216)
+P: Banyak hasil seluruhnya 6³ = 216. Susunan terurut dengan jumlah 10 ada 27: (1,3,6) dan (1,4,5) masing-masing 6 susunan, (2,2,6) dan (3,3,4) masing-masing 3 susunan, (2,3,5) 6 susunan, serta (2,4,4) 3 susunan, sehingga 6 + 6 + 3 + 3 + 6 + 3 = 27. Peluangnya 27/216 = 1/8.
+

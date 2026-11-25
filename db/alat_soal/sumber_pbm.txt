@@ -1,0 +1,1095 @@
+# SUBTES: Pemahaman Bacaan dan Menulis
+
+@W w_ai
+(1) Sejumlah sekolah mulai mengizinkan siswa memanfaatkan kecerdasan buatan untuk membantu belajar. (2) Aplikasi tersebut dapat menjelaskan ulang materi dengan bahasa yang lebih sederhana dan memberi latihan soal sesuai kemampuan siswa. (3) Siswa yang malu bertanya di kelas pun memiliki ruang untuk memahami materi tanpa tekanan. (4) Guru terbantu karena dapat memakai waktu tatap muka untuk diskusi yang lebih mendalam.
+(5) Di sisi lain, penggunaan kecerdasan buatan tanpa batas dapat melemahkan kebiasaan berpikir mandiri. (6) Siswa yang langsung menyalin jawaban dari aplikasi tidak melatih kemampuan menalar. (7) Karena itu, sekolah perlu menetapkan aturan yang jelas tentang kapan dan bagaimana aplikasi tersebut boleh digunakan. (8) Dengan aturan tersebut, kecerdasan buatan dapat menjadi pendamping belajar, bukan pengganti proses berpikir.
+@END
+
+@W w_kf
+(1) Perubahan iklim mulai dirasakan oleh petani kopi di dataran tinggi. (2) Tanaman kopi, terutama jenis arabika, membutuhkan suhu yang sejuk dan curah hujan yang teratur. (3) Ketika suhu naik, buah kopi matang lebih cepat dengan cita rasa yang kurang kompleks. (4) Hama dan penyakit karat daun juga lebih mudah berkembang pada suhu yang lebih hangat.
+(5) Sebagian petani menyiasatinya dengan menanam kopi di lahan yang lebih tinggi. (6) Namun, pilihan ini terbatas karena lahan di ketinggian tertentu sering berupa hutan lindung. (7) Petani lain menanam pohon penaung agar suhu di kebun tetap sejuk. (8) Cara ini dinilai lebih ramah lingkungan sekaligus membantu menyimpan cadangan air.
+@END
+
+@W w_lg
+(1) Banyak orang memasang target berjalan 10.000 langkah setiap hari demi kesehatan. (2) Angka tersebut sebenarnya bermula dari kampanye pemasaran alat penghitung langkah di Jepang pada tahun 1960-an, bukan dari penelitian medis. (3) Penelitian yang lebih baru menunjukkan bahwa manfaat kesehatan sudah terasa pada jumlah langkah yang lebih sedikit, misalnya sekitar 7.000 langkah per hari. (4) Artinya, angka 10.000 bukanlah batas ajaib yang harus dicapai.
+(5) Meski begitu, target langkah tetap berguna sebagai pemacu untuk lebih aktif bergerak. (6) Orang yang selama ini jarang bergerak dapat memulai dari target kecil, lalu menaikkannya secara bertahap. (7) Yang terpenting adalah konsistensi, bukan sekadar mengejar angka. (8) Dengan demikian, setiap tambahan langkah tetap memberi manfaat bagi tubuh.
+@END
+
+@W w_bd
+(1) Bahasa daerah di Indonesia kian terancam punah karena semakin sedikit anak yang menggunakannya di rumah. (2) Orang tua di kota banyak yang memilih berbahasa Indonesia atau bahasa asing dengan anak agar dianggap lebih menunjang pendidikan. (3) Akibatnya, anak-anak memahami bahasa daerah secara pasif atau bahkan tidak sama sekali. (4) Padahal, bahasa daerah menyimpan kosakata dan cara pandang yang tidak selalu dapat diterjemahkan.
+(5) Upaya pelestarian sebenarnya sudah dilakukan, antara lain dengan menjadikan bahasa daerah sebagai muatan lokal di sekolah. (6) Namun, pelajaran di kelas saja tidak cukup apabila bahasa tersebut tidak dipakai dalam percakapan sehari-hari. (7) Karena itu, keluarga dan komunitas perlu menjadi ruang utama pewarisan bahasa. (8) Sekolah hanya berperan memperkuat apa yang telah ditanamkan di rumah.
+@END
+
+@W w_sw
+(1) Luas lahan sawah di sejumlah daerah penyangga kota terus menyusut. (2) Sawah subur diubah menjadi perumahan, pabrik, dan jalan karena harga lahan terus naik. (3) Petani yang menjual lahannya sering kali tidak lagi memiliki mata pencaharian tetap. (4) Sementara itu, kebutuhan pangan penduduk justru bertambah setiap tahun.
+(5) Pemerintah sebenarnya telah menetapkan kawasan sawah yang dilindungi dari alih fungsi. (6) Akan tetapi, penegakan aturan di lapangan belum konsisten. (7) Pemberian insentif kepada petani yang mempertahankan lahan dapat menjadi pelengkap kebijakan larangan. (8) Dengan kombinasi aturan dan insentif, sawah produktif lebih mungkin bertahan.
+@END
+
+## PBM-SIM-001 | Simpulan dan Ide Pokok | mudah | W=w_ai
+Q: Ide pokok paragraf pertama bacaan tentang kecerdasan buatan di sekolah adalah ….
+A: Siswa lebih pandai daripada guru dalam menggunakan aplikasi.
+B: Kecerdasan buatan membantu proses belajar siswa dan meringankan tugas guru.
+C: Siswa yang malu bertanya sebaiknya tidak mengikuti pelajaran.
+D: Latihan soal hanya diberikan oleh guru.
+E: Waktu tatap muka di kelas sebaiknya dikurangi.
+K: B
+P: Paragraf pertama memaparkan manfaat kecerdasan buatan bagi siswa (penjelasan ulang, latihan soal, ruang bertanya) dan guru (waktu untuk diskusi).
+
+## PBM-SIM-002 | Simpulan dan Ide Pokok | sedang | W=w_ai
+Q: Tujuan penulis menyampaikan paragraf kedua pada bacaan tentang kecerdasan buatan di sekolah adalah ….
+A: melarang siswa memakai ponsel di sekolah
+B: membandingkan beberapa aplikasi belajar
+C: mengkritik guru yang jarang berdiskusi
+D: mengingatkan perlunya aturan agar kecerdasan buatan tidak melemahkan kemampuan menalar siswa
+E: mengajak siswa menyalin jawaban dengan cepat
+K: D
+P: Paragraf kedua menyebut risiko melemahnya berpikir mandiri lalu menyarankan aturan yang jelas. Tujuannya mengingatkan perlunya aturan.
+
+## PBM-SIM-003 | Simpulan dan Ide Pokok | sulit | W=w_ai
+Q: Simpulan yang paling tepat dari seluruh bacaan tentang kecerdasan buatan di sekolah adalah ….
+A: Kecerdasan buatan bermanfaat bagi pembelajaran jika penggunaannya diatur dan tetap melibatkan proses berpikir siswa.
+B: Kecerdasan buatan sebaiknya dilarang sepenuhnya di sekolah.
+C: Kecerdasan buatan dapat menggantikan peran guru di kelas.
+D: Siswa yang memakai kecerdasan buatan pasti kehilangan kemampuan menalar.
+E: Aturan penggunaan kecerdasan buatan tidak diperlukan.
+K: A
+P: Bacaan memuat manfaat dan risiko, lalu menyimpulkan bahwa kecerdasan buatan menjadi pendamping jika ada aturan dan proses berpikir tetap berjalan.
+
+## PBM-SIM-004 | Simpulan dan Ide Pokok | sedang | W=w_ai
+Q: Pernyataan yang sesuai dengan bacaan tentang kecerdasan buatan di sekolah adalah ….
+A: Aplikasi kecerdasan buatan selalu menggantikan tugas guru.
+B: Aplikasi tersebut hanya dapat dipakai oleh siswa berprestasi.
+C: Siswa tidak boleh bertanya kepada guru jika memakai aplikasi.
+D: Sekolah tidak boleh menetapkan aturan penggunaan aplikasi.
+E: Aplikasi dapat memberi latihan soal sesuai kemampuan siswa.
+K: E
+P: Kalimat (2) menyebutkan aplikasi memberi latihan soal sesuai kemampuan siswa.
+
+## PBM-SIM-005 | Simpulan dan Ide Pokok | mudah | W=w_kf
+Q: Paragraf pertama bacaan tentang kopi dan perubahan iklim terutama menjelaskan ….
+A: cara membuat kopi arabika yang nikmat
+B: perbedaan kopi arabika dan jenis kopi lain
+C: dampak naiknya suhu terhadap tanaman kopi
+D: harga kopi di pasar internasional
+E: jumlah petani kopi di dataran tinggi
+K: C
+P: Paragraf pertama membahas pengaruh suhu yang naik terhadap tanaman kopi (matang lebih cepat, rasa menurun, hama berkembang).
+
+## PBM-SIM-006 | Simpulan dan Ide Pokok | sedang | W=w_kf
+Q: Alasan menanam kopi di lahan yang lebih tinggi sulit dilakukan secara luas menurut bacaan adalah ….
+A: Tanaman kopi tidak dapat tumbuh di dataran tinggi.
+B: Petani tidak memiliki bibit kopi.
+C: Harga kopi di dataran tinggi lebih murah.
+D: Sebagian lahan di ketinggian tertentu berupa hutan lindung.
+E: Hama lebih banyak di dataran tinggi.
+K: D
+P: Kalimat (6) menyebut pilihan ini terbatas karena lahan di ketinggian tertentu sering berupa hutan lindung.
+
+## PBM-SIM-007 | Simpulan dan Ide Pokok | sedang | W=w_kf
+Q: Cara menghadapi perubahan iklim yang dinilai lebih ramah lingkungan menurut bacaan tentang kopi adalah ….
+A: menanam pohon penaung di kebun
+B: menanam kopi di hutan lindung
+C: menebang pohon di sekitar kebun
+D: mengganti kopi dengan tanaman lain
+E: memanen kopi lebih cepat
+K: A
+P: Kalimat (7) dan (8): pohon penaung menjaga suhu sejuk dan dinilai lebih ramah lingkungan serta membantu menyimpan cadangan air.
+
+## PBM-SIM-008 | Simpulan dan Ide Pokok | sulit | W=w_kf
+Q: Simpulan yang paling tepat dari bacaan tentang kopi dan perubahan iklim tersebut adalah ….
+A: Petani kopi sebaiknya berhenti menanam arabika.
+B: Kopi arabika tidak terpengaruh oleh perubahan suhu.
+C: Karat daun hanya muncul di dataran rendah.
+D: Hutan lindung boleh dibuka untuk kebun kopi.
+E: Petani kopi menyesuaikan diri dengan perubahan iklim, dan penaung dianggap cara yang paling berkelanjutan.
+K: E
+P: Bacaan menyebut dua cara petani menyiasati iklim, lalu menilai pohon penaung ramah lingkungan dan menyimpan air (berkelanjutan).
+
+## PBM-SIM-009 | Simpulan dan Ide Pokok | mudah | W=w_lg
+Q: Ide pokok paragraf pertama bacaan tentang 10.000 langkah adalah ….
+A: Berjalan kaki lebih baik daripada berlari.
+B: Angka 10.000 langkah per hari bukan batas yang harus dicapai karena manfaat sudah terasa pada langkah yang lebih sedikit.
+C: Alat penghitung langkah merupakan penemuan medis.
+D: Orang Jepang paling banyak berjalan kaki.
+E: Semua orang wajib berjalan 7.000 langkah.
+K: B
+P: Paragraf pertama menjelaskan asal angka 10.000 dari kampanye pemasaran dan bahwa manfaat sudah terasa pada sekitar 7.000 langkah.
+
+## PBM-SIM-010 | Simpulan dan Ide Pokok | sedang | W=w_lg
+Q: Sikap penulis terhadap target langkah harian pada bacaan tersebut adalah ….
+A: menolak target langkah sepenuhnya
+B: menganggap target 10.000 langkah mutlak diperlukan
+C: menilai target langkah berguna asalkan tidak dijadikan patokan yang kaku
+D: menganggap berjalan kaki tidak bermanfaat
+E: menyarankan agar orang berhenti menghitung langkah
+K: C
+P: Penulis menolak anggapan 10.000 langkah sebagai batas ajaib, tetapi tetap menilai target berguna sebagai pemacu dan menekankan konsistensi.
+
+## PBM-SIM-011 | Simpulan dan Ide Pokok | sedang | W=w_lg
+Q: Simpulan paragraf kedua bacaan tentang 10.000 langkah adalah ….
+A: Orang yang jarang bergerak sebaiknya tidak memulai target langkah.
+B: Target langkah harus dinaikkan secara drastis dalam sehari.
+C: Hanya orang yang mencapai 10.000 langkah memperoleh manfaat.
+D: Konsistensi tidak penting dibandingkan angka.
+E: Target langkah bermanfaat sebagai pemacu bila dimulai kecil dan dilakukan konsisten.
+K: E
+P: Paragraf kedua menyebut target berguna sebagai pemacu, dimulai dari kecil dan bertahap, serta konsistensi lebih penting daripada angka.
+
+## PBM-SIM-012 | Simpulan dan Ide Pokok | sulit | W=w_lg
+Q: Pernyataan berikut yang TIDAK sesuai dengan bacaan tentang 10.000 langkah adalah ….
+A: Angka 10.000 langkah muncul dari kampanye pemasaran alat penghitung langkah.
+B: Manfaat kesehatan dapat terasa pada sekitar 7.000 langkah per hari.
+C: Angka 10.000 langkah berasal dari hasil penelitian medis.
+D: Orang yang jarang bergerak dapat memulai dari target kecil.
+E: Setiap tambahan langkah tetap bermanfaat bagi tubuh.
+K: C
+P: Kalimat (2) menyatakan angka 10.000 bukan berasal dari penelitian medis, melainkan kampanye pemasaran.
+
+## PBM-SIM-013 | Simpulan dan Ide Pokok | mudah | W=w_bd
+Q: Ide pokok paragraf pertama bacaan tentang bahasa daerah adalah ….
+A: Orang tua di kota tidak peduli pada pendidikan anak.
+B: Bahasa daerah terancam punah karena semakin jarang dipakai anak di rumah.
+C: Bahasa daerah lebih mudah dipelajari daripada bahasa asing.
+D: Bahasa Indonesia mengancam keberadaan bahasa asing.
+E: Anak-anak menolak mempelajari bahasa apa pun.
+K: B
+P: Kalimat (1) memuat gagasan utama, dan kalimat berikutnya menjelaskan penyebab serta akibatnya.
+
+## PBM-SIM-014 | Simpulan dan Ide Pokok | sedang | W=w_bd
+Q: Penyebab utama terancamnya bahasa daerah menurut bacaan tersebut adalah ….
+A: Orang tua memilih berbahasa lain dengan anak karena menganggapnya lebih menunjang pendidikan.
+B: Bahasa daerah tidak memiliki kosakata yang lengkap.
+C: Sekolah melarang penggunaan bahasa daerah.
+D: Anak-anak tidak menyukai budaya daerah.
+E: Bahasa daerah sulit diterjemahkan ke bahasa lain.
+K: A
+P: Kalimat (2) menyebut orang tua di kota memilih bahasa Indonesia atau asing agar dianggap menunjang pendidikan, sehingga anak hanya memahami bahasa daerah secara pasif.
+
+## PBM-SIM-015 | Simpulan dan Ide Pokok | sedang | W=w_bd
+Q: Gagasan utama paragraf kedua bacaan tentang bahasa daerah adalah ….
+A: Muatan lokal harus dihapus dari kurikulum sekolah.
+B: Sekolah merupakan satu-satunya pihak yang berperan melestarikan bahasa.
+C: Bahasa daerah sebaiknya diganti dengan bahasa asing.
+D: Pelestarian tidak cukup dilakukan di sekolah, keluarga dan komunitas menjadi ruang utama pewarisan bahasa.
+E: Pelajaran bahasa daerah tidak berpengaruh pada penguasaan bahasa.
+K: D
+P: Paragraf kedua menjelaskan upaya sekolah, keterbatasannya, lalu menekankan peran keluarga dan komunitas.
+
+## PBM-SIM-016 | Simpulan dan Ide Pokok | sulit | W=w_bd
+Q: Simpulan yang paling tepat dari bacaan tentang bahasa daerah tersebut adalah ….
+A: Bahasa daerah akan punah karena tidak diajarkan di sekolah.
+B: Sekolah tidak perlu lagi mengajarkan bahasa daerah.
+C: Bahasa daerah dapat lestari bila dipakai dalam percakapan sehari-hari, terutama di keluarga dan komunitas.
+D: Bahasa asing perlu dijadikan bahasa utama di rumah.
+E: Orang tua di kota tidak boleh berbahasa Indonesia.
+K: C
+P: Bacaan menegaskan pelajaran sekolah tidak cukup tanpa pemakaian sehari-hari, dengan keluarga dan komunitas sebagai ruang utama.
+
+## PBM-SIM-017 | Simpulan dan Ide Pokok | mudah | W=w_sw
+Q: Ide pokok paragraf pertama bacaan tentang lahan sawah adalah ….
+A: Harga lahan di kota menurun setiap tahun.
+B: Petani lebih suka bekerja di pabrik.
+C: Perumahan menyediakan lapangan kerja bagi petani.
+D: Kebutuhan pangan penduduk terus menurun.
+E: Alih fungsi sawah di daerah penyangga kota merugikan petani, sementara kebutuhan pangan terus bertambah.
+K: E
+P: Paragraf pertama menjelaskan menyusutnya sawah, dampaknya bagi petani, dan kebutuhan pangan yang meningkat.
+
+## PBM-SIM-018 | Simpulan dan Ide Pokok | sedang | W=w_sw
+Q: Alasan perlunya insentif bagi petani menurut bacaan tentang lahan sawah adalah ….
+A: Petani tidak ingin menanam padi lagi.
+B: Pemerintah ingin membeli semua lahan sawah.
+C: Insentif lebih murah daripada membangun perumahan.
+D: Larangan saja belum cukup karena penegakan aturan belum konsisten.
+E: Sawah subur tidak lagi dibutuhkan.
+K: D
+P: Kalimat (6) menyebut penegakan aturan belum konsisten, sehingga kalimat (7) menyarankan insentif sebagai pelengkap larangan.
+
+## PBM-SIM-019 | Simpulan dan Ide Pokok | sedang | W=w_sw
+Q: Saran penulis untuk mempertahankan sawah produktif pada bacaan tersebut adalah ….
+A: melarang petani menjual hasil panen
+B: menggabungkan aturan perlindungan lahan dengan insentif bagi petani
+C: membangun lebih banyak pabrik di dekat sawah
+D: menaikkan harga lahan pertanian
+E: memindahkan petani ke kota
+K: B
+P: Kalimat (8) menyatakan kombinasi aturan dan insentif membuat sawah produktif lebih mungkin bertahan.
+
+## PBM-SIM-020 | Simpulan dan Ide Pokok | sulit | W=w_sw
+Q: Simpulan yang paling tepat dari bacaan tentang lahan sawah tersebut adalah ….
+A: Mempertahankan sawah produktif memerlukan penegakan aturan yang konsisten disertai insentif bagi petani.
+B: Aturan perlindungan sawah sudah berhasil mencegah alih fungsi lahan.
+C: Petani yang menjual lahan selalu memperoleh pekerjaan yang lebih baik.
+D: Pangan dapat dipenuhi tanpa lahan sawah.
+E: Insentif menggantikan kebutuhan akan aturan.
+K: A
+P: Bacaan menyebut aturan sudah ada tetapi penegakannya belum konsisten, dan insentif menjadi pelengkap. Simpulan A merangkumnya.
+
+## PBM-SIM-021 | Simpulan dan Ide Pokok | mudah
+Q: Perhatikan paragraf berikut.
+Daun pandan sering dipakai sebagai pewangi alami dalam masakan. Tumbuhan ini juga dimanfaatkan sebagai pewarna hijau makanan dan bahan anyaman. Di beberapa daerah, akarnya direbus sebagai ramuan tradisional.
+Ide pokok paragraf tersebut adalah ….
+A: Tanaman pandan memiliki beragam kegunaan.
+B: Pandan hanya digunakan untuk masakan.
+C: Ramuan tradisional lebih baik daripada obat modern.
+D: Pandan tumbuh di semua daerah di Indonesia.
+E: Pewarna hijau buatan berbahaya bagi kesehatan.
+K: A
+P: Setiap kalimat menyebut kegunaan pandan (pewangi, pewarna, anyaman, ramuan), sehingga ide pokoknya beragam kegunaan pandan.
+
+## PBM-SIM-022 | Simpulan dan Ide Pokok | sedang
+Q: Perhatikan paragraf berikut.
+Sebuah survei di 50 sekolah menunjukkan bahwa sekolah yang memiliki taman baca mengalami kenaikan jumlah buku yang dipinjam siswa. Namun, kenaikan itu tidak tampak pada sekolah yang taman bacanya jarang dibuka.
+Simpulan yang paling tepat berdasarkan paragraf tersebut adalah ….
+A: Semua sekolah wajib memiliki taman baca.
+B: Taman baca yang aktif dibuka berkaitan dengan meningkatnya peminjaman buku.
+C: Siswa tidak menyukai buku di taman baca.
+D: Taman baca menyebabkan siswa pandai.
+E: Sekolah tanpa taman baca tidak memiliki perpustakaan.
+K: B
+P: Kenaikan peminjaman tampak pada sekolah dengan taman baca yang aktif, tetapi tidak pada yang jarang dibuka. Simpulan yang aman adalah adanya keterkaitan.
+
+## PBM-SIM-023 | Simpulan dan Ide Pokok | sedang
+Q: Perhatikan paragraf berikut.
+Pembaca yang baik tidak hanya menerima informasi, tetapi juga bertanya, "Siapa yang menulis ini? Apa buktinya?" Kebiasaan memeriksa sumber membuat kita tidak mudah termakan kabar bohong. Karena itu, sebelum membagikan sebuah pesan, periksalah dulu kebenarannya.
+Tujuan penulis paragraf tersebut adalah ….
+A: menjelaskan cara membuat kabar bohong
+B: menceritakan pengalaman membaca di perpustakaan
+C: mengajak pembaca memeriksa kebenaran informasi sebelum membagikannya
+D: mengkritik penulis yang menyebarkan kabar bohong
+E: memuji orang yang rajin membaca
+K: C
+P: Kalimat terakhir berisi ajakan untuk memeriksa kebenaran pesan sebelum dibagikan, sehingga tujuan penulis adalah mengajak pembaca.
+
+## PBM-SIM-024 | Simpulan dan Ide Pokok | mudah
+Q: Perhatikan paragraf berikut.
+Menanam sayuran di pekarangan sempit pun dimungkinkan dengan sistem vertikultur. Tanaman ditata bertingkat pada rak atau paralon sehingga hemat tempat. Hasil panennya dapat memenuhi kebutuhan dapur sehari-hari.
+Ide pokok paragraf tersebut adalah ….
+A: Rak dan paralon mahal harganya.
+B: Hasil panen harus dijual ke pasar.
+C: Sayuran hanya dapat ditanam di lahan luas.
+D: Vertikultur memungkinkan orang menanam sayuran di lahan sempit.
+E: Pekarangan sempit tidak berguna.
+K: D
+P: Kalimat pertama menyatakan gagasan utama (menanam di pekarangan sempit dengan vertikultur), kalimat berikutnya menjelaskan.
+
+## PBM-SIM-025 | Simpulan dan Ide Pokok | sulit
+Q: Perhatikan paragraf berikut.
+Jumlah pengguna sepeda listrik di Kota Meranti naik dua kali lipat dalam setahun. Pemerintah kota menyediakan jalur sepeda di tiga ruas jalan utama. Toko sepeda mencatat penjualan sepeda listrik meningkat.
+Pernyataan yang TIDAK dapat disimpulkan dari paragraf tersebut adalah ….
+A: Penggunaan sepeda listrik di Kota Meranti meningkat.
+B: Pemerintah kota memfasilitasi pesepeda dengan jalur khusus.
+C: Penjualan sepeda listrik di toko mengalami kenaikan.
+D: Peningkatan pengguna sepeda listrik sejalan dengan meningkatnya penjualan.
+E: Kemacetan di Kota Meranti berkurang drastis akibat sepeda listrik.
+K: E
+P: Paragraf tidak menyebut kemacetan. Pernyataan E tidak dapat disimpulkan. Pernyataan lainnya terdukung oleh informasi dalam paragraf.
+
+## PBM-EFE-001 | Kalimat Efektif | mudah
+Q: Kalimat yang efektif tentang kegiatan siswa di kelas adalah ….
+A: Para siswa-siswa sedang mengerjakan ujian di kelas.
+B: Ia naik ke atas panggung untuk menerima piala.
+C: Hadirin dimohon agar supaya tenang.
+D: Mereka saling tolong-menolong satu sama lain.
+E: Para siswa sedang mengerjakan ujian di kelas.
+K: E
+P: Kata para sudah menyatakan jamak sehingga tidak diulang (A). Naik ke atas (B), agar supaya (C), dan saling … satu sama lain (D) adalah pemborosan kata.
+
+## PBM-EFE-002 | Kalimat Efektif | mudah
+Q: Kalimat yang efektif tentang pembangunan jembatan adalah ….
+A: Pemerintah daerah akan membangun jembatan baru pada tahun depan.
+B: Pemerintah daerah akan membangun jembatan baru di mana akan selesai tahun depan.
+C: Jembatan baru akan membangun pemerintah daerah tahun depan.
+D: Bagi pemerintah daerah akan membangun jembatan baru tahun depan.
+E: Pemerintah daerah akan, membangun jembatan baru dengan tahun depan.
+K: A
+P: Kalimat A memiliki subjek, predikat, dan objek yang jelas. B memakai "di mana" yang tidak tepat, C salah struktur, D tidak bersubjek, E salah tanda baca dan kata depan.
+
+## PBM-EFE-003 | Kalimat Efektif | sedang
+Q: Kalimat yang memiliki subjek jelas di antara kalimat tentang peserta lomba berikut adalah ….
+A: Bagi para peserta lomba diwajibkan membawa kartu tanda pengenal.
+B: Dalam pertemuan itu membahas kenaikan harga bahan pokok.
+C: Para peserta lomba diwajibkan membawa kartu tanda pengenal.
+D: Untuk peserta lomba wajib membawa kartu tanda pengenal.
+E: Di dalam ruang rapat membicarakan tentang anggaran.
+K: C
+P: Subjek tidak boleh didahului kata depan. Hanya C yang bersubjek (para peserta lomba). A, B, D, dan E kehilangan subjek karena didahului kata depan.
+
+## PBM-EFE-004 | Kalimat Efektif | sedang
+Q: Kalimat yang memenuhi kaidah kesejajaran (paralelisme) adalah ….
+A: Kegiatan ekstrakurikuler bertujuan melatih disiplin, menumbuhkan kerja sama, dan kreativitas ditingkatkan.
+B: Hobinya adalah membaca, penulisan cerita, dan berenang.
+C: Tugas ketua kelas adalah memimpin rapat, pencatatan kehadiran, dan menjaga kebersihan.
+D: Tugas ketua kelas adalah memimpin rapat, mencatat kehadiran, dan menjaga kebersihan.
+E: Tugas ketua kelas adalah pemimpin rapat, mencatat kehadiran, serta kebersihan dijaga.
+K: D
+P: Unsur yang dirinci harus sejenis. Pada D ketiganya berupa kata kerja (memimpin, mencatat, menjaga). Pilihan lain mencampur kata kerja dan kata benda.
+
+## PBM-EFE-005 | Kalimat Efektif | mudah
+Q: Kalimat yang tidak mengandung pemborosan kata tentang pembelian buku tulis adalah ….
+A: Adik membeli sebuah buku tulis sebanyak tiga buah buku.
+B: Adik membeli tiga buku tulis di toko dekat rumah.
+C: Adik pergi membeli-beli buku tulis tiga buah banyaknya.
+D: Adik membeli buku tulis yang jumlahnya ada tiga buah banyaknya.
+E: Adik telah membeli buku tulis sebanyak tiga buah jumlahnya.
+K: B
+P: Kalimat B ringkas dan jelas. Kalimat lain mengulang makna jumlah ("sebanyak ... buah", "banyaknya", "jumlahnya").
+
+## PBM-EFE-006 | Kalimat Efektif | sedang
+Q: Kalimat majemuk berikut yang penggunaan konjungsinya tepat adalah ….
+A: Meskipun hujan deras, tetapi pertandingan tetap dilanjutkan.
+B: Karena hujan deras, maka pertandingan ditunda.
+C: Meskipun hujan deras, pertandingan tetap dilanjutkan.
+D: Hujan deras sehingga pertandingan tetap dilanjutkan.
+E: Walaupun hujan deras, namun pertandingan tetap dilanjutkan.
+K: C
+P: Konjungsi subordinatif (meskipun, walaupun, karena) tidak dipakai bersama konjungsi koordinatif (tetapi, namun, maka) dalam satu kalimat. D salah hubungan makna.
+
+## PBM-EFE-007 | Kalimat Efektif | sedang
+Q: Kalimat yang efektif dan tidak memakai kata "di mana" secara keliru adalah ….
+A: Sekolah di mana saya belajar memiliki banyak prestasi.
+B: Kota di mana ia lahir terletak di pesisir.
+C: Ini adalah buku yang di mana saya baca kemarin.
+D: Rumah yang di mana kami tinggal sudah tua.
+E: Sekolah tempat saya belajar memiliki banyak prestasi.
+K: E
+P: Kata "di mana" bukan penghubung anak kalimat pewatas dalam bahasa Indonesia baku. Penggantinya tempat atau yang. Kalimat E tepat.
+
+## PBM-EFE-008 | Kalimat Efektif | sedang
+Q: Kalimat yang menggunakan kata depan dengan tepat tentang bahan rumah adalah ….
+A: Rumah itu dibangun daripada kayu jati.
+B: Rumah itu dibangun dari kayu jati.
+C: Rumah itu dibangun oleh daripada kayu jati.
+D: Rumah itu dibangun pada kayu jati.
+E: Rumah itu dibangun akan kayu jati.
+K: B
+P: Daripada dipakai untuk membandingkan. Untuk menyatakan bahan dipakai kata depan dari.
+
+## PBM-EFE-009 | Kalimat Efektif | mudah
+Q: Kalimat yang efektif tentang tamu undangan adalah ….
+A: Para tamu undangan dipersilakan menempati kursi yang tersedia.
+B: Para tamu-tamu undangan dipersilakan menempati kursi yang tersedia.
+C: Para tamu undangan-undangan dipersilakan menempati kursi-kursi yang tersedia.
+D: Beberapa para tamu undangan dipersilakan menempati kursi yang tersedia.
+E: Banyak para tamu undangan dipersilakan menempati kursi yang tersedia.
+K: A
+P: Para sudah bermakna jamak, tidak boleh digabung dengan kata ulang, beberapa, atau banyak.
+
+## PBM-EFE-010 | Kalimat Efektif | sedang
+Q: Kalimat pasif yang benar strukturnya adalah ….
+A: Laporan itu disusun oleh ia semalaman.
+B: Laporan itu menyusun oleh dia semalaman.
+C: Laporan itu disusunnya oleh dia semalaman.
+D: Laporan itu disusun olehnya semalaman.
+E: Laporan itu dia disusun semalaman.
+K: D
+P: Kalimat pasif memakai di- dan pelaku didahului oleh. Pelaku orang ketiga ditulis olehnya atau dia (tanpa oleh, disusun dia). Pilihan lain keliru struktur.
+
+## PBM-EFE-011 | Kalimat Efektif | sedang
+Q: Kalimat yang efektif tentang pengumuman ujian adalah ….
+A: Kepala sekolah menyampaikan bahwa ujian akan dimulai pekan depan.
+B: Kepala sekolah menyampaikan tentang bahwa ujian akan dimulai pekan depan.
+C: Kepala sekolah menyampaikan, bahwa, ujian akan dimulai pekan depan.
+D: Kepala sekolah menyampaikan kepada bahwa ujian akan dimulai pekan depan.
+E: Kepala sekolah menyampaikan akan bahwa ujian akan dimulai pekan depan.
+K: A
+P: Setelah menyampaikan, anak kalimat diawali bahwa tanpa kata depan tambahan dan tanpa tanda baca yang memisahkannya.
+
+## PBM-EFE-012 | Kalimat Efektif | sulit
+Q: Kalimat "Pemerintah berupaya meningkatkan lebih tinggi lagi kualitas layanan kesehatan" dapat diperbaiki dengan ….
+A: mengganti berupaya dengan berusaha
+B: menghilangkan kata pemerintah
+C: menghilangkan kata kualitas
+D: menghilangkan frasa lebih tinggi lagi
+E: menambahkan kata agar sebelum meningkatkan
+K: D
+P: Meningkatkan sudah bermakna menaikkan ke tingkat yang lebih tinggi, sehingga lebih tinggi lagi adalah pemborosan.
+
+## PBM-EFE-013 | Kalimat Efektif | sedang
+Q: Kalimat yang menggunakan konjungsi dan tanda baca secara tepat adalah ….
+A: Ia belajar giat, sehingga, lulus ujian dengan nilai terbaik.
+B: Ia belajar giat sehingga, lulus ujian dengan nilai terbaik.
+C: Ia belajar giat, sehingga ia lulus ujian dengan nilai terbaik, tetapi juga.
+D: Ia belajar giat, jadi sehingga lulus ujian dengan nilai terbaik.
+E: Ia belajar giat sehingga lulus ujian dengan nilai terbaik.
+K: E
+P: Sebelum konjungsi sehingga tidak diberi koma dan sesudahnya langsung diikuti predikat tanpa tanda baca.
+
+## PBM-EFE-014 | Kalimat Efektif | sedang
+Q: Kalimat yang mengandung pleonasme (pemborosan makna) adalah ….
+A: Siswa itu menerima piala dari kepala sekolah.
+B: Banjir merendam sebagian besar desa itu.
+C: Ia maju ke depan untuk membacakan puisi.
+D: Pelatih menetapkan jadwal latihan baru.
+E: Panitia membagikan konsumsi kepada peserta.
+K: C
+P: Maju sudah bermakna bergerak ke depan, sehingga maju ke depan adalah pleonasme.
+
+## PBM-EFE-015 | Kalimat Efektif | sedang
+Q: Perbaikan yang tepat untuk kalimat "Dengan membaca buku dapat menambah wawasan" adalah ….
+A: Dengan membaca buku, dapat menambah wawasan.
+B: Membaca buku dapat menambah wawasan.
+C: Dengan membaca buku maka dapat menambah wawasan.
+D: Bagi membaca buku dapat menambah wawasan.
+E: Dengan membaca buku yang dapat menambah wawasan.
+K: B
+P: Kalimat asli tidak bersubjek karena subjek didahului kata depan dengan. Perbaikannya menghilangkan kata depan: Membaca buku dapat menambah wawasan.
+
+## PBM-EFE-016 | Kalimat Efektif | sulit
+Q: Dua kalimat berikut akan digabung.
+(1) Penduduk desa itu bergotong royong membersihkan sungai.
+(2) Sungai itu tercemar sampah plastik.
+Penggabungan yang paling efektif adalah ….
+A: Penduduk desa itu bergotong royong membersihkan sungai dan sungai itu tercemar sampah plastik.
+B: Penduduk desa itu bergotong royong membersihkan sungai, di mana sungai itu tercemar sampah plastik.
+C: Penduduk desa itu bergotong royong membersihkan sungai yang di mana tercemar sampah plastik.
+D: Penduduk desa itu bergotong royong membersihkan sungai yang tercemar sampah plastik.
+E: Sungai itu tercemar sampah plastik penduduk desa itu bergotong royong membersihkannya.
+K: D
+P: Keterangan tentang sungai digabung dengan kata penghubung yang, tanpa mengulang kata sungai dan tanpa "di mana".
+
+## PBM-EFE-017 | Kalimat Efektif | sedang
+Q: Kalimat yang efektif dengan menggunakan hubungan sebab adalah ….
+A: Karena sakit maka Rudi tidak masuk sekolah.
+B: Karena sakit, Rudi tidak masuk sekolah.
+C: Rudi tidak masuk sekolah, karena sakit karena.
+D: Oleh karena sakit, sehingga Rudi tidak masuk sekolah.
+E: Rudi sakit karena itu tidak masuk karena sekolah.
+K: B
+P: Kata karena tidak dipasangkan dengan maka atau sehingga dalam satu kalimat. Pilihan B ringkas dan logis.
+
+## PBM-EFE-018 | Kalimat Efektif | sedang
+Q: Kalimat pasif yang efektif tentang peresmian gedung adalah ….
+A: Gedung baru perpustakaan itu diresmikan oleh wali kota kemarin.
+B: Gedung baru perpustakaan itu meresmikan wali kota kemarin.
+C: Gedung baru perpustakaan itu diresmikan wali kota oleh kemarin.
+D: Oleh gedung baru perpustakaan itu diresmikan wali kota kemarin.
+E: Gedung baru perpustakaan, diresmikan, oleh wali kota kemarin.
+K: A
+P: Kalimat pasif: subjek (gedung), predikat (diresmikan), pelaku (oleh wali kota), keterangan waktu (kemarin). Pilihan lain salah struktur atau tanda baca.
+
+## PBM-EFE-019 | Kalimat Efektif | sulit
+Q: Kalimat yang menggunakan konjungsi korelatif secara tepat adalah ….
+A: Ia tidak hanya pandai matematika, tetapi dan bahasa Inggris.
+B: Ia tidak hanya pandai matematika, juga bahasa Inggris tetapi.
+C: Ia bukan hanya pandai matematika, melainkan bahasa Inggris juga tetapi.
+D: Ia tidak hanya pandai matematika tetapi bahasa Inggris pandai.
+E: Ia tidak hanya pandai matematika, tetapi juga pandai bahasa Inggris.
+K: E
+P: Pasangan korelatif yang tepat adalah tidak hanya ... tetapi juga ..., dengan unsur yang sejajar (pandai ... pandai ...).
+
+## PBM-EFE-020 | Kalimat Efektif | sulit
+Q: Kalimat yang berpotensi bermakna ganda (ambigu) adalah ….
+A: Rina membaca buku di perpustakaan.
+B: Para siswa mengerjakan soal ujian.
+C: Istri dan anak Pak Camat yang baru pindah itu menghadiri acara.
+D: Ayah membeli sepeda baru.
+E: Pelari itu memenangkan lomba.
+K: C
+P: Pada C, frasa yang baru pindah dapat menerangkan Pak Camat atau istri dan anaknya, sehingga maknanya ganda.
+
+## PBM-EFE-021 | Kalimat Efektif | mudah
+Q: Kalimat yang menggunakan kata baku dengan tepat adalah ….
+A: Ia merubah resep itu supaya lebih enak.
+B: Ia mengubah resep itu supaya lebih enak.
+C: Ia merobah resep itu supaya lebih enak.
+D: Ia mengobah resep itu supaya lebih enak.
+E: Ia merubahkan resep itu supaya lebih enak.
+K: B
+P: Kata dasar ubah diberi awalan me- menjadi mengubah. Bentuk merubah tidak baku.
+
+## PBM-EFE-022 | Kalimat Efektif | sedang
+Q: Kalimat yang tidak boros kata tentang pengolahan data penjualan adalah ….
+A: Data penjualan itu diolah dalam rangka untuk menentukan strategi pemasaran.
+B: Data penjualan diolah guna untuk menentukan strategi pemasaran.
+C: Data penjualan diolah untuk menentukan strategi pemasaran.
+D: Data penjualan diolah sebagai tujuan agar supaya menentukan strategi pemasaran.
+E: Data penjualan diolah, dalam hal untuk menentukan strategi pemasaran.
+K: C
+P: Cukup satu kata penghubung tujuan (untuk). Pilihan lain memakai dua kata bermakna sama (dalam rangka untuk, guna untuk, agar supaya).
+
+## PBM-EFE-023 | Kalimat Efektif | sedang
+Q: Kata yang tepat untuk melengkapi kalimat "Kebijakan baru itu ... kontroversi di masyarakat" adalah ….
+A: mengadakan
+B: membuat-buat
+C: menyelenggarakan
+D: menimbulkan
+E: mengerjakan
+K: D
+P: Kontroversi bukan sesuatu yang diadakan atau diselenggarakan. Kata kerja yang tepat adalah menimbulkan (menyebabkan terjadi).
+
+## PBM-EFE-024 | Kalimat Efektif | mudah
+Q: Kalimat yang efektif tentang gunung adalah ….
+A: Gunung itu merupakan gunung tertinggi di pulau ini.
+B: Gunung itu merupakan gunung yang paling tertinggi di pulau ini.
+C: Gunung itu paling tinggi sekali di pulau ini.
+D: Gunung itu adalah gunung yang amat paling tinggi di pulau ini.
+E: Gunung itu sangat paling tertinggi di pulau ini.
+K: A
+P: Tertinggi sudah bermakna paling tinggi, sehingga tidak boleh ditambah paling, sangat, sekali, atau amat.
+
+## PBM-EFE-025 | Kalimat Efektif | sulit
+Q: Dua kalimat berikut akan digabung.
+(1) Nelayan tidak melaut selama sepekan.
+(2) Cuaca buruk melanda perairan tersebut.
+Penggabungan yang paling logis dan efektif adalah ….
+A: Nelayan tidak melaut selama sepekan, sehingga cuaca buruk melanda perairan tersebut.
+B: Cuaca buruk melanda perairan tersebut, di mana nelayan tidak melaut selama sepekan.
+C: Cuaca buruk melanda perairan tersebut karena nelayan tidak melaut selama sepekan.
+D: Nelayan tidak melaut selama sepekan walaupun cuaca buruk melanda perairan tersebut.
+E: Nelayan tidak melaut selama sepekan karena cuaca buruk melanda perairan tersebut.
+K: E
+P: Cuaca buruk adalah sebab dan nelayan tidak melaut adalah akibat. Penggabungan E memakai karena dengan hubungan sebab yang tepat.
+
+## PBM-EJA-001 | Ejaan dan Konjungsi | mudah
+Q: Penulisan huruf kapital yang tepat terdapat pada kalimat ….
+A: Ayah pergi ke Pasar Baru naik Kereta Api.
+B: Dia adalah Dosen di Universitas Gadjah Mada.
+C: Kami berlibur ke danau toba pada bulan juli.
+D: Adik berasal dari Bandung, Jawa Barat.
+E: Kakak Membeli Buku Matematika di toko Buku.
+K: D
+P: Nama kota dan provinsi diawali huruf kapital. Pada pilihan lain: kereta api, dosen, danau Toba harus Danau Toba, bulan Juli harus Juli, dan kata-kata umum tidak diawali kapital.
+
+## PBM-EJA-002 | Ejaan dan Konjungsi | mudah
+Q: Penulisan kata depan yang benar terdapat pada kalimat ….
+A: Ibu pergi kepasar membeli sayur.
+B: Ia menaruh tasnya di atas kursi.
+C: Dia tinggal disini sejak lama.
+D: Mereka bermain diluar rumah.
+E: Anak itu berasal dari kota disebelah.
+K: B
+P: Kata depan di ditulis terpisah dari kata yang mengikutinya (di atas, di sini, di luar, di sebelah). Hanya B yang benar.
+
+## PBM-EJA-003 | Ejaan dan Konjungsi | sedang
+Q: Penggunaan tanda koma yang tepat terdapat pada kalimat ….
+A: Ibu membeli apel jeruk, dan mangga.
+B: Meskipun lelah ia tetap berlatih.
+C: Saya akan datang, jika tidak hujan.
+D: Adik, yang sedang sakit tidak masuk sekolah.
+E: Jika tidak hujan, saya akan datang.
+K: E
+P: Anak kalimat yang mendahului induk kalimat diikuti koma. Pada A koma harus di antara apel dan jeruk, pada C koma tidak dipakai sebelum anak kalimat di belakang, pada B koma diperlukan setelah lelah, dan pada D pewatas yang bersifat menerangkan diapit koma.
+
+## PBM-EJA-004 | Ejaan dan Konjungsi | sedang
+Q: Penggunaan tanda titik dua yang tepat terdapat pada kalimat ….
+A: Kami membutuhkan tiga hal berikut: palu, paku, dan gergaji.
+B: Kami membutuhkan: palu, paku, dan gergaji.
+C: Kami membutuhkan tiga hal berikut, : palu, paku, dan gergaji.
+D: Kami membutuhkan tiga hal berikut; palu, paku, dan gergaji.
+E: Kami membutuhkan tiga hal: berikut palu, paku, dan gergaji.
+K: A
+P: Tanda titik dua dipakai setelah pernyataan lengkap yang diikuti rincian. Titik dua tidak dipakai di tengah rincian yang merupakan pelengkap (B).
+
+## PBM-EJA-005 | Ejaan dan Konjungsi | mudah
+Q: Penulisan bilangan yang tepat dalam teks terdapat pada kalimat ….
+A: Ada 3 orang siswa yang terlambat.
+B: 30 siswa mengikuti lomba itu.
+C: Ada tiga orang siswa yang terlambat.
+D: Ia membeli 2 buah buku dan 4 buah pensil.
+E: Rapat dimulai pada pukul 07.00 wib.
+K: C
+P: Bilangan yang dapat dinyatakan dengan satu atau dua kata ditulis dengan huruf dalam teks. Bilangan di awal kalimat ditulis dengan huruf. Singkatan WIB ditulis dengan huruf kapital.
+
+## PBM-EJA-006 | Ejaan dan Konjungsi | sedang
+Q: Penulisan judul karya dan nama pengarang yang tepat terdapat pada kalimat ….
+A: Ia membaca novel Laskar Pelangi karya Andrea Hirata.
+B: Ia membaca Novel laskar pelangi karya andrea hirata.
+C: Ia membaca novel Laskar pelangi Karya Andrea Hirata.
+D: Ia membaca novel laskar Pelangi karya Andrea hirata.
+E: Ia Membaca Novel Laskar Pelangi Karya Andrea Hirata.
+K: A
+P: Huruf kapital dipakai pada unsur judul (kecuali kata tugas) dan nama orang, bukan pada kata umum seperti novel dan karya.
+
+## PBM-EJA-007 | Ejaan dan Konjungsi | sedang
+Q: Penulisan kutipan langsung yang tepat adalah ….
+A: Ibu berkata, "Jangan lupa membawa payung".
+B: Ibu berkata "jangan lupa membawa payung."
+C: Ibu berkata, "Jangan lupa membawa payung."
+D: Ibu berkata: "jangan lupa membawa payung".
+E: Ibu berkata, "Jangan lupa membawa payung!".
+K: C
+P: Kutipan langsung didahului koma, diawali huruf kapital, dan tanda baca akhir ditulis di dalam tanda petik.
+
+## PBM-EJA-008 | Ejaan dan Konjungsi | mudah
+Q: Konjungsi antarkalimat yang tepat untuk melengkapi "Hujan turun sejak pagi. [....], upacara dipindahkan ke dalam aula." adalah ….
+A: Namun
+B: Oleh karena itu
+C: Sebaliknya
+D: Misalnya
+E: Selain itu
+K: B
+P: Hujan menjadi sebab upacara dipindahkan, sehingga konjungsi yang tepat menyatakan sebab-akibat: oleh karena itu.
+
+## PBM-EJA-009 | Ejaan dan Konjungsi | sedang
+Q: Konjungsi yang tepat untuk melengkapi "Ia tidak membawa payung [....] pulang kehujanan" adalah ….
+A: sedangkan
+B: meskipun
+C: agar
+D: tetapi
+E: sehingga
+K: E
+P: Pulang kehujanan adalah akibat dari tidak membawa payung, sehingga konjungsi yang tepat adalah sehingga.
+
+## PBM-EJA-010 | Ejaan dan Konjungsi | sedang
+Q: Konjungsi yang tepat untuk melengkapi "Kakak suka membaca novel, [....] adik lebih suka membaca komik" adalah ….
+A: karena
+B: sehingga
+C: agar
+D: sedangkan
+E: supaya
+K: D
+P: Kedua klausa menyatakan hal yang berlawanan atau berbeda (novel dan komik), sehingga konjungsinya sedangkan.
+
+## PBM-EJA-011 | Ejaan dan Konjungsi | sedang
+Q: Penggunaan kata bahwa yang tepat terdapat pada kalimat ….
+A: Ia bahwa tidak mengetahui rapat itu.
+B: Bahwa dia sedang sakit.
+C: Pak Lurah menyatakan bahwa kerja bakti akan dilaksanakan pekan depan.
+D: Pak Lurah menyatakan, bahwa kerja bakti akan dilaksanakan pekan depan.
+E: Saya berharap bahwa, semoga ia segera sembuh.
+K: C
+P: Bahwa menghubungkan induk kalimat dengan anak kalimat pengisi, tanpa koma sebelumnya. Pada D koma tidak diperlukan, pada A, B, dan E posisi bahwa tidak tepat.
+
+## PBM-EJA-012 | Ejaan dan Konjungsi | sedang
+Q: Kalimat yang seluruhnya menggunakan kata baku adalah ….
+A: Atlit itu berlatih setiap sore di lapangan.
+B: Ia membeli obat di apotik dekat rumah.
+C: Hasil analisa data itu diumumkan kemarin.
+D: Atlet itu berlatih di lapangan setiap sore.
+E: Nasehat guru itu sangat bermanfaat.
+K: D
+P: Bentuk baku: atlet, apotek, analisis, dan nasihat. Hanya D yang memakai kata baku.
+
+## PBM-EJA-013 | Ejaan dan Konjungsi | sedang
+Q: Penulisan kata ulang yang tepat terdapat pada kalimat ….
+A: Anak-anak itu bermain bola di lapangan.
+B: Anak2 itu bermain bola di lapangan.
+C: Anak anak itu bermain bola di lapangan.
+D: Anak - anak itu bermain bola di lapangan.
+E: Anak-anak itu bermain-main bola di lapangan-lapangan.
+K: A
+P: Kata ulang ditulis lengkap dengan tanda hubung tanpa spasi (anak-anak). Pilihan B, C, D salah, dan E memuat pengulangan yang tidak tepat.
+
+## PBM-EJA-014 | Ejaan dan Konjungsi | sedang
+Q: Penulisan partikel -kah yang tepat terdapat pada kalimat ….
+A: Siapa kah yang akan menjadi ketua kelas?
+B: Siapakah yang akan menjadi ketua kelas?
+C: Siapa-kah yang akan menjadi ketua kelas?
+D: Siapa kah, yang akan menjadi ketua kelas?
+E: Siapakah, yang akan menjadi ketua kelas?
+K: B
+P: Partikel -kah ditulis serangkai dengan kata di depannya tanpa spasi atau tanda hubung, dan tidak diikuti koma di tengah kalimat tanya ini.
+
+## PBM-EJA-015 | Ejaan dan Konjungsi | mudah
+Q: Penulisan tanggal yang tepat terdapat pada kalimat ….
+A: Rapat diadakan pada tanggal 17-8-2025.
+B: Rapat diadakan pada tgl. 17 Agustus 2025.
+C: Rapat diadakan pada tanggal 17 agustus 2025.
+D: Rapat diadakan pada 17 Agustus, 2025.
+E: Rapat diadakan pada tanggal 17 Agustus 2025.
+K: E
+P: Nama bulan diawali huruf kapital, dan tanggal ditulis tanpa koma di antara bulan dan tahun.
+
+## PBM-EJA-016 | Ejaan dan Konjungsi | mudah
+Q: Penulisan kata gabungan yang tepat terdapat pada kalimat ….
+A: Mereka bekerjasama dalam proyek itu.
+B: Mereka bekerja sama dalam proyek itu.
+C: Mereka bekerja-sama dalam proyek itu.
+D: Mereka bekerja sama-sama dalam proyek itu.
+E: Mereka berkerja sama dalam proyek itu.
+K: B
+P: Kata kerja sama ditulis terpisah. Bentuk berimbuhan dari kata dasar kerja adalah bekerja (bukan berkerja).
+
+## PBM-EJA-017 | Ejaan dan Konjungsi | sedang
+Q: Penggunaan konjungsi yang tepat terdapat pada kalimat ….
+A: Ia belajar keras agar supaya lulus ujian.
+B: Ia belajar keras walaupun lulus ujian.
+C: Ia belajar keras sehingga agar lulus.
+D: Ia belajar keras oleh karena lulus ujian.
+E: Ia belajar keras agar lulus ujian.
+K: E
+P: Hubungan tujuan dinyatakan dengan agar atau supaya, tidak digabung keduanya. Pilihan lain melanggar hubungan makna.
+
+## PBM-EJA-018 | Ejaan dan Konjungsi | sedang
+Q: Penggunaan kata depan yang tepat terdapat pada kalimat ….
+A: Ia memberikan hadiah di adiknya.
+B: Surat itu dikirim ke Pak Lurah.
+C: Ia memberikan hadiah kepada adiknya.
+D: Ia memberikan hadiah untuk kepada adiknya.
+E: Ia memberikan hadiah terhadap adiknya.
+K: C
+P: Kata depan yang dipakai di depan orang yang menerima sesuatu adalah kepada.
+
+## PBM-EJA-019 | Ejaan dan Konjungsi | sulit
+Q: Penggunaan tanda hubung yang tepat terdapat pada kalimat ….
+A: Ia membeli sepatu ber-warna merah.
+B: Ia mengikuti ujian se Jawa Barat.
+C: Ia mengikuti ujian se Jawa-Barat.
+D: Ia mengikuti ujian se-Jawa Barat.
+E: Ia mengikuti ujian seJawa Barat.
+K: D
+P: Tanda hubung dipakai di antara se- dan kata yang berawal huruf kapital (nama diri), seperti se-Jawa Barat.
+
+## PBM-EJA-020 | Ejaan dan Konjungsi | sulit
+Q: Penulisan singkatan nama badan usaha yang tepat terdapat pada kalimat ….
+A: Pak Ahmad bekerja di PT Maju Jaya, Jakarta.
+B: Pak Ahmad bekerja di P.T. Maju Jaya, Jakarta.
+C: Pak Ahmad bekerja di pt. Maju Jaya, Jakarta.
+D: Pak Ahmad bekerja di PT. Maju Jaya, Jakarta.
+E: Pak Ahmad bekerja di Pt Maju Jaya, Jakarta.
+K: A
+P: Singkatan nama lembaga atau badan usaha yang terdiri atas huruf awal kapital ditulis tanpa titik: PT.
+
+## PBM-EJA-021 | Ejaan dan Konjungsi | sedang
+Q: Penulisan nilai uang yang tepat terdapat pada kalimat ….
+A: Harga baju itu Rp. 150.000,-.
+B: Harga baju itu Rp 150.000,-
+C: Harga baju itu Rp150.000,00 rupiah.
+D: Harga baju itu 150.000 Rp.
+E: Harga baju itu Rp150.000,00.
+K: E
+P: Lambang Rp ditulis serangkai dengan angka tanpa titik dan tanpa kata rupiah lagi (C pemborosan).
+
+## PBM-EJA-022 | Ejaan dan Konjungsi | sulit
+Q: Penggunaan tanda koma pada kalimat majemuk setara yang tepat adalah ….
+A: Hari sudah malam, tetapi mereka masih belajar.
+B: Hari sudah malam tetapi, mereka masih belajar.
+C: Hari sudah malam tetapi mereka, masih belajar.
+D: Hari sudah, malam tetapi mereka masih belajar.
+E: Hari sudah malam, tetapi, mereka masih belajar.
+K: A
+P: Koma ditempatkan sebelum konjungsi tetapi pada kalimat majemuk setara, bukan sesudahnya atau di tengah klausa.
+
+## PBM-EJA-023 | Ejaan dan Konjungsi | sulit
+Q: Penulisan huruf kapital pada nama jabatan yang tepat terdapat pada kalimat ….
+A: Kemarin bupati Sleman meresmikan jembatan baru.
+B: Ayah saya seorang Bupati di Jawa Tengah.
+C: Seorang Gubernur harus melayani rakyatnya.
+D: Kemarin Bupati Sleman meresmikan jembatan baru.
+E: Pak Camat menyapa Warga desa.
+K: D
+P: Nama jabatan yang diikuti nama tempat atau nama orang diawali huruf kapital (Bupati Sleman). Jabatan yang bersifat umum tidak dikapitalkan.
+
+## PBM-EJA-024 | Ejaan dan Konjungsi | mudah
+Q: Penggunaan tanda baca akhir yang tepat terdapat pada kalimat ….
+A: Mengapa kamu terlambat.
+B: Mengapa kamu terlambat!?
+C: Mengapa kamu terlambat?
+D: Mengapa kamu terlambat?.
+E: Mengapa kamu terlambat?!!
+K: C
+P: Kalimat tanya diakhiri satu tanda tanya.
+
+## PBM-EJA-025 | Ejaan dan Konjungsi | sulit
+Q: Penggunaan tanda koma pada keterangan tambahan (apositif) yang tepat adalah ….
+A: Pak Rudi, yang rumahnya dekat sekolah selalu datang pagi.
+B: Pak Rudi, yang rumahnya dekat sekolah, selalu datang pagi.
+C: Pak Rudi yang rumahnya dekat sekolah, selalu datang pagi.
+D: Pak Rudi, yang rumahnya dekat, sekolah selalu datang pagi.
+E: Pak Rudi yang, rumahnya dekat sekolah selalu datang pagi.
+K: B
+P: Keterangan tambahan yang tidak membatasi acuan diapit tanda koma di awal dan di akhir.
+
+
+## PBM-KEP-001 | Kepaduan Wacana | mudah
+Q: Konjungsi antarkalimat yang tepat untuk melengkapi rumpang pada paragraf berikut adalah ….
+(1) Hujan turun dengan deras sejak pagi. (2) …., banyak siswa terlambat tiba di sekolah.
+A: Meskipun demikian
+B: Sebaliknya
+C: Akibatnya
+D: Selain itu
+E: Misalnya
+K: C
+P: Kalimat (2) merupakan akibat dari hujan deras pada kalimat (1), sehingga konjungsi yang tepat adalah "akibatnya".
+
+## PBM-KEP-002 | Kepaduan Wacana | mudah
+Q: Konjungsi antarkalimat yang tepat untuk mengisi bagian rumpang paragraf berikut adalah ….
+(1) Kami berencana berwisata ke pantai pada akhir pekan ini. (2) …., ramalan cuaca menyebutkan akan terjadi badai di perairan tersebut.
+A: Namun
+B: Oleh karena itu
+C: Selanjutnya
+D: Dengan demikian
+E: Contohnya
+K: A
+P: Rencana berwisata dan ramalan badai bertentangan, sehingga diperlukan konjungsi pertentangan, yaitu "namun".
+
+## PBM-KEP-003 | Kepaduan Wacana | mudah
+Q: Perhatikan paragraf berikut.
+(1) Membaca buku setiap hari melatih konsentrasi. (2) Kosakata yang dimiliki seseorang pun bertambah. (3) Pengetahuan yang luas membuat seseorang lebih percaya diri saat berbicara. (4) Harga buku di toko daring sering lebih murah daripada di toko fisik. (5) Dengan demikian, kebiasaan membaca bermanfaat bagi perkembangan diri.
+Kalimat yang tidak padu dengan gagasan paragraf tersebut adalah ….
+A: kalimat (1)
+B: kalimat (2)
+C: kalimat (3)
+D: kalimat (4)
+E: kalimat (5)
+K: D
+P: Paragraf membahas manfaat membaca. Kalimat (4) membahas perbandingan harga buku sehingga tidak berkaitan dengan gagasan tersebut.
+
+## PBM-KEP-004 | Kepaduan Wacana | mudah
+Q: Susunan kalimat acak berikut yang membentuk paragraf padu adalah ….
+(1) Setelah matang, nasi diaduk lalu didiamkan sebentar.
+(2) Mula-mula, beras dicuci hingga bersih.
+(3) Beras tersebut kemudian dimasak dengan air secukupnya.
+(4) Nasi pun siap disajikan.
+A: (1)–(2)–(3)–(4)
+B: (2)–(3)–(1)–(4)
+C: (2)–(1)–(3)–(4)
+D: (3)–(2)–(1)–(4)
+E: (4)–(2)–(3)–(1)
+K: B
+P: Urutan prosesnya: mencuci beras (2), memasaknya (3), mengaduk setelah matang (1), lalu menyajikan (4). Penanda "mula-mula" menunjukkan kalimat (2) berada di awal.
+
+## PBM-KEP-005 | Kepaduan Wacana | mudah
+Q: Kalimat penutup yang paling tepat untuk paragraf berikut adalah ….
+(1) Sampah plastik yang dibuang sembarangan dapat menyumbat saluran air. (2) Plastik yang terbawa ke laut membahayakan penyu dan ikan yang memakannya. (3) Plastik juga memerlukan ratusan tahun untuk terurai di dalam tanah. (4) …..
+A: Penyu merupakan hewan yang dilindungi di Indonesia.
+B: Banyak toko menjual kantong plastik dengan harga murah.
+C: Namun, plastik tetap diminati karena ringan.
+D: Saluran air di kota biasanya dibersihkan setiap bulan.
+E: Oleh karena itu, kita perlu mengurangi pemakaian plastik sekali pakai.
+K: E
+P: Kalimat penutup harus menyimpulkan dampak buruk plastik pada kalimat (1)–(3) dengan ajakan mengurangi pemakaian plastik sekali pakai.
+
+## PBM-KEP-006 | Kepaduan Wacana | sedang
+Q: Konjungsi antarkalimat yang tepat untuk melengkapi paragraf berikut adalah ….
+(1) Pemerintah daerah telah memperbaiki jalan rusak di pusat kota. (2) …., jalan di kawasan pinggiran kota masih banyak yang berlubang.
+A: Oleh karena itu
+B: Sementara itu
+C: Dengan demikian
+D: Misalnya
+E: Sesudah itu
+K: B
+P: Kalimat (2) menunjukkan keadaan lain yang berlangsung pada saat yang sama dan berlawanan dengan kalimat (1). Konjungsi "sementara itu" paling sesuai.
+
+## PBM-KEP-007 | Kepaduan Wacana | sedang
+Q: Susunan kalimat acak berikut yang membentuk paragraf padu adalah ….
+(1) Setelah dua hingga tiga minggu, sampah berubah menjadi kompos yang siap dipakai.
+(2) Sampah organik dapat diolah menjadi pupuk kompos di rumah.
+(3) Pertama, kumpulkan sisa sayur dan daun kering dalam wadah berlubang.
+(4) Selama penyimpanan, isi wadah diaduk seminggu sekali agar mendapat udara.
+(5) Setelah itu, tutup wadah dan simpan di tempat teduh.
+A: (2)–(3)–(4)–(5)–(1)
+B: (3)–(2)–(5)–(4)–(1)
+C: (2)–(5)–(3)–(4)–(1)
+D: (2)–(3)–(5)–(4)–(1)
+E: (2)–(3)–(5)–(1)–(4)
+K: D
+P: Kalimat umum (2) mengawali paragraf, disusul langkah "pertama" (3), lalu "setelah itu" (5), kegiatan selama penyimpanan (4), dan hasil akhir (1).
+
+## PBM-KEP-008 | Kepaduan Wacana | sedang
+Q: Kalimat pembuka yang paling tepat untuk paragraf berikut adalah ….
+(1) …. (2) Sinyalnya hanya terjangkau di titik-titik tertentu. (3) Siswa harus berjalan ke bukit untuk mengunduh tugas. (4) Akibatnya, pembelajaran daring sering terhambat.
+A: Siswa di kota memiliki gawai yang canggih.
+B: Pembelajaran daring dimulai sejak masa pandemi.
+C: Bukit sering menjadi tempat wisata warga.
+D: Tugas daring sebaiknya diberikan dalam jumlah sedikit.
+E: Akses internet di desa terpencil masih sangat terbatas.
+K: E
+P: Kata "sinyalnya" pada kalimat (2) mengacu pada internet yang disebut di kalimat pembuka. Kalimat E juga menjadi pokok yang dirinci oleh kalimat berikutnya.
+
+## PBM-KEP-009 | Kepaduan Wacana | sedang
+Q: Kalimat yang paling tepat untuk mengisi bagian rumpang paragraf berikut adalah ….
+(1) Pemuda karang taruna di desa itu membuka kelas membaca untuk anak-anak. (2) …. (3) Anak-anak pun mulai gemar membaca setelah beberapa bulan.
+A: Balai desa itu dibangun pada tahun 1980.
+B: Karang taruna adalah organisasi kepemudaan di tingkat desa.
+C: Kelas tersebut diadakan setiap sore di balai desa dengan buku sumbangan warga.
+D: Anak-anak di kota lebih suka bermain gim daripada membaca.
+E: Harga buku cerita cukup mahal bagi banyak keluarga.
+K: C
+P: Kalimat (2) harus menjelaskan pelaksanaan kelas membaca pada kalimat (1) dan mengarah pada hasil di kalimat (3). Hanya pilihan C yang memenuhi hal itu.
+
+## PBM-KEP-010 | Kepaduan Wacana | sedang
+Q: Penghubung antarkalimat yang tepat untuk melengkapi paragraf berikut adalah ….
+(1) Persediaan air bersih di kampung itu menipis selama musim kemarau. (2) …., warga membangun sumur resapan secara bergotong royong.
+A: Oleh karena itu
+B: Sebaliknya
+C: Misalnya
+D: Selain itu
+E: Meskipun demikian
+K: A
+P: Pembangunan sumur resapan merupakan tindakan yang diambil karena air bersih menipis. Hubungan sebab-akibat ini diwakili "oleh karena itu".
+
+## PBM-KEP-011 | Kepaduan Wacana | sedang
+Q: Kalimat pembuka yang paling tepat untuk paragraf berikut adalah ….
+(1) …. (2) Misalnya, ilmu kedokteran memanfaatkan kecerdasan buatan untuk membaca hasil pemindaian. (3) Di bidang pertanian, pesawat nirawak dipakai untuk memantau kesehatan tanaman.
+A: Dokter harus belajar pemrograman komputer.
+B: Pesawat nirawak dilarang terbang di dekat bandara.
+C: Pertanian memerlukan lahan yang sangat luas.
+D: Pemindaian dilakukan setiap tahun di rumah sakit.
+E: Teknologi modern kini dimanfaatkan di berbagai bidang kehidupan.
+K: E
+P: Kalimat (2) dan (3) berisi contoh pemanfaatan teknologi di bidang kedokteran dan pertanian. Kalimat pembuka yang tepat adalah gagasan umum yang dicontohkan, yaitu pilihan E.
+
+## PBM-KEP-012 | Kepaduan Wacana | sedang
+Q: Susunan kalimat acak berikut yang membentuk paragraf padu adalah ….
+(1) Candi itu dibangun pada abad ke-8 oleh para penguasa Dinasti Syailendra.
+(2) Borobudur merupakan candi Buddha terbesar di dunia yang terletak di Magelang.
+(3) Setelah ditemukan kembali pada abad ke-19, candi ini dipugar beberapa kali.
+(4) Kini, Borobudur menjadi salah satu tujuan wisata budaya utama di Indonesia.
+(5) Beberapa abad kemudian, candi ini terbengkalai karena tertutup abu vulkanik dan semak belukar.
+A: (1)–(2)–(5)–(3)–(4)
+B: (2)–(1)–(5)–(3)–(4)
+C: (2)–(1)–(3)–(5)–(4)
+D: (2)–(5)–(1)–(3)–(4)
+E: (1)–(5)–(2)–(3)–(4)
+K: B
+P: Kalimat (2) memperkenalkan Borobudur sehingga "candi itu" pada (1) harus mengikutinya. Urutan berikutnya mengikuti kronologi: dibangun (1), terbengkalai (5), ditemukan dan dipugar (3), lalu keadaan kini (4).
+
+## PBM-KEP-013 | Kepaduan Wacana | sedang
+Q: Kalimat penutup yang paling tepat untuk paragraf berikut adalah ….
+(1) Berolahraga secara teratur menjaga kebugaran jantung. (2) Latihan beban membantu menguatkan otot dan tulang. (3) Aktivitas fisik juga dapat mengurangi stres. (4) …..
+A: Dengan demikian, olahraga teratur bermanfaat bagi kesehatan jasmani dan rohani.
+B: Jantung manusia berdetak sekitar seratus ribu kali dalam sehari.
+C: Olahraga yang mahal memerlukan peralatan khusus.
+D: Namun, stres sebaiknya dihindari dengan cara tidur sepanjang hari.
+E: Atlet profesional berlatih delapan jam setiap hari.
+K: A
+P: Kalimat penutup menyimpulkan manfaat olahraga bagi jantung, otot, tulang, dan pikiran seperti dirinci pada kalimat (1)–(3).
+
+## PBM-KEP-014 | Kepaduan Wacana | sedang
+Q: Pasangan penghubung antarkalimat yang tepat untuk melengkapi paragraf berikut adalah ….
+(1) Kemacetan di kota besar semakin parah. (2) …., banyak warga memilih naik kereta komuter. (3) …., tarif kereta relatif murah dan jadwalnya tepat waktu.
+A: Namun – Padahal
+B: Akibatnya – Sebaliknya
+C: Selain itu – Akibatnya
+D: Akibatnya – Selain itu
+E: Oleh karena itu – Namun
+K: D
+P: Kalimat (2) adalah akibat dari kemacetan ("akibatnya"). Kalimat (3) menambahkan alasan lain memilih kereta komuter ("selain itu").
+
+## PBM-KEP-015 | Kepaduan Wacana | sedang
+Q: Susunan kalimat acak berikut yang membentuk paragraf padu adalah ….
+(1) Hasilnya menunjukkan bahwa siswa yang sarapan memiliki tingkat konsentrasi lebih tinggi.
+(2) Peneliti membandingkan dua kelompok siswa sekolah dasar selama satu semester.
+(3) Sebuah penelitian dilakukan untuk mengetahui pengaruh sarapan terhadap konsentrasi belajar.
+(4) Satu kelompok diwajibkan sarapan, sedangkan kelompok lain dibiarkan seperti biasa.
+(5) Berdasarkan hasil itu, sekolah disarankan menyediakan program sarapan bersama.
+A: (2)–(3)–(4)–(1)–(5)
+B: (3)–(4)–(2)–(1)–(5)
+C: (3)–(2)–(4)–(1)–(5)
+D: (3)–(2)–(1)–(4)–(5)
+E: (3)–(1)–(2)–(4)–(5)
+K: C
+P: Urutan: tujuan penelitian (3), metode umum (2), rincian metode (4), hasil (1), lalu saran berdasarkan hasil (5).
+
+## PBM-KEP-016 | Kepaduan Wacana | sulit
+Q: Kalimat yang paling tepat untuk mengisi bagian rumpang paragraf berikut adalah ….
+(1) Banyak toko swalayan kini tidak lagi menyediakan kantong plastik gratis. (2) …. (3) Akan tetapi, sebagian pelanggan masih lupa membawa kantong sendiri sehingga harus membeli kantong berbayar.
+A: Kebijakan ini bertujuan mendorong pembeli membawa kantong belanja sendiri.
+B: Plastik merupakan bahan yang mudah terbakar.
+C: Pelanggan senang karena kantong plastik dibagikan tanpa biaya.
+D: Toko swalayan buka dari pagi hingga malam hari.
+E: Kantong kain lebih mahal daripada kantong plastik.
+K: A
+P: Kalimat (3) diawali "akan tetapi" dan membahas pelanggan yang lupa membawa kantong sendiri. Kalimat (2) yang tepat adalah tujuan kebijakan, yaitu mendorong pembeli membawa kantong sendiri. Pilihan E tidak menjembatani kalimat (1) dan (3).
+
+## PBM-KEP-017 | Kepaduan Wacana | mudah
+Q: Perhatikan paragraf berikut.
+(1) Kucing merupakan hewan peliharaan yang banyak disukai orang. (2) Hewan ini cenderung bersih karena rajin menjilat bulunya. (3) Harimau yang hidup di hutan hujan tropis tergolong hewan terancam punah. (4) Kucing juga mudah dilatih membuang kotoran di tempat khusus. (5) Karena sifat-sifat itu, kucing cocok dipelihara di rumah yang sempit.
+Kalimat yang tidak padu dalam paragraf tersebut adalah ….
+A: kalimat (1)
+B: kalimat (2)
+C: kalimat (3)
+D: kalimat (4)
+E: kalimat (5)
+K: C
+P: Paragraf membahas kucing sebagai hewan peliharaan. Kalimat (3) membahas harimau sehingga menyimpang dari gagasan paragraf.
+
+## PBM-KEP-018 | Kepaduan Wacana | sulit
+Q: Perhatikan paragraf berikut.
+(1) Banjir di kota-kota besar dipicu oleh saluran air yang tersumbat sampah. (2) Sebagian besar warga kota memilih tinggal di apartemen karena dekat dengan tempat kerja. (3) Penyempitan sungai akibat bangunan liar memperparah luapan air saat hujan deras. (4) Hilangnya daerah resapan akibat beton dan aspal membuat air hujan tidak terserap tanah. (5) Pemerintah perlu menertibkan bangunan di bantaran sungai dan memperbanyak sumur resapan.
+Kalimat yang tidak mendukung gagasan utama paragraf tersebut adalah ….
+A: kalimat (1)
+B: kalimat (2)
+C: kalimat (3)
+D: kalimat (4)
+E: kalimat (5)
+K: B
+P: Gagasan utama paragraf adalah penyebab dan penanggulangan banjir. Kalimat (2) tentang alasan warga tinggal di apartemen tidak berkaitan dengan banjir.
+
+## PBM-KEP-019 | Kepaduan Wacana | sedang
+Q: Kalimat pembuka yang paling tepat untuk paragraf berikut adalah ….
+(1) …. (2) Dengan sistem ini, penumpang cukup menempelkan kartu pada mesin pembaca. (3) Antrean di loket pun berkurang dan waktu perjalanan menjadi lebih efisien.
+A: Angkutan umum tidak diminati di kota kecil.
+B: Loket tiket dibangun di setiap stasiun.
+C: Jumlah penumpang kereta bertambah setiap tahun.
+D: Mesin pembaca kartu diproduksi di dalam negeri.
+E: Sejumlah kota besar mulai menerapkan sistem pembayaran nontunai pada angkutan umum.
+K: E
+P: Frasa "sistem ini" pada kalimat (2) mengacu pada sistem pembayaran nontunai. Penyebutan sistem itu harus ada pada kalimat pembuka.
+
+## PBM-KEP-020 | Kepaduan Wacana | mudah
+Q: Kelanjutan yang paling padu untuk kalimat kedua pada paragraf berikut adalah ….
+(1) Tim bulu tangkis sekolah kami kalah pada babak pertama kejuaraan antarsekolah. (2) Meskipun demikian, ….
+A: pelatih memberi hadiah karena mereka menang.
+B: mereka akan dikirim ke babak final minggu depan.
+C: lawan mereka tidak pernah berlatih sama sekali.
+D: para pemain tetap bersemangat berlatih untuk kejuaraan berikutnya.
+E: pertandingan itu dimenangkan dengan skor telak.
+K: D
+P: "Meskipun demikian" menyatakan pertentangan terhadap kekalahan. Sikap tetap bersemangat berlatih merupakan kelanjutan yang logis.
+
+## PBM-KEP-021 | Kepaduan Wacana | sedang
+Q: Susunan kalimat acak berikut yang membentuk paragraf padu adalah ….
+(1) Setelah itu, kain direbus untuk melepaskan lilin.
+(2) Batik tulis dibuat dengan melukis pola pada kain menggunakan canting dan lilin panas.
+(3) Kain yang telah dilukis kemudian dicelup ke dalam larutan pewarna.
+(4) Proses ini diulang sesuai dengan jumlah warna yang diinginkan.
+(5) Hasilnya adalah selembar kain batik bermotif rumit dan bernilai seni tinggi.
+A: (2)–(1)–(3)–(4)–(5)
+B: (2)–(3)–(1)–(4)–(5)
+C: (3)–(2)–(4)–(1)–(5)
+D: (2)–(3)–(4)–(1)–(5)
+E: (2)–(4)–(3)–(1)–(5)
+K: D
+P: Urutan: pembuatan pola (2), pencelupan (3), pengulangan pencelupan (4), perebusan untuk melepas lilin (1), dan hasil akhir (5). Frasa "proses ini" pada (4) mengacu pada pencelupan di (3).
+
+## PBM-KEP-022 | Kepaduan Wacana | sulit
+Q: Kalimat yang paling tepat untuk menjembatani kalimat (1) dan (3) pada paragraf berikut adalah ….
+(1) Banyak siswa menunda belajar hingga menjelang ujian. (2) …. (3) Akibatnya, materi yang dipelajari tidak sempat dipahami dan cepat terlupakan.
+A: Sebagian siswa menunda belajar karena merasa materinya sudah dipahami.
+B: Guru sering mengingatkan siswa agar mencicil belajar setiap hari.
+C: Menjelang ujian, perpustakaan sekolah biasanya lebih ramai dikunjungi.
+D: Menunda pekerjaan juga sering dilakukan oleh orang dewasa.
+E: Kebiasaan ini membuat seluruh materi harus dipelajari dalam waktu yang sangat singkat.
+K: E
+P: Kata "akibatnya" pada kalimat (3) menuntut kalimat (2) yang menjadi sebab langsung, yaitu seluruh materi dipelajari dalam waktu singkat. Pilihan lain berkaitan dengan topik, tetapi tidak menghubungkan sebab dan akibat.
+
+## PBM-KEP-023 | Kepaduan Wacana | sulit
+Q: Perhatikan paragraf berikut.
+(1) Koperasi sekolah melatih siswa berwirausaha sejak dini. (2) Siswa belajar mengelola stok barang, mencatat penjualan, dan melayani pembeli. (3) Pengurus koperasi sekolah dipilih melalui rapat anggota setiap dua tahun sekali. (4) Keuntungan yang diperoleh kemudian digunakan untuk mendanai kegiatan sekolah. (5) Dengan begitu, siswa memahami hubungan antara kerja keras dan hasil usaha.
+Kalimat yang tidak mendukung gagasan utama paragraf tersebut adalah ….
+A: kalimat (1)
+B: kalimat (2)
+C: kalimat (3)
+D: kalimat (4)
+E: kalimat (5)
+K: C
+P: Gagasan utama adalah koperasi sekolah sebagai sarana latihan berwirausaha. Kalimat (3) tentang pemilihan pengurus tidak mendukung gagasan itu dan memutus alur dari kegiatan usaha (2) ke keuntungan (4).
+
+## PBM-KEP-024 | Kepaduan Wacana | sedang
+Q: Kalimat simpulan yang paling tepat untuk paragraf berikut adalah ….
+(1) Sepeda motor listrik tidak menghasilkan emisi gas buang saat dikendarai. (2) Biaya perawatannya pun lebih rendah karena komponen mesinnya lebih sedikit. (3) Namun, harga belinya masih tinggi dan stasiun pengisian daya belum banyak tersedia. (4) …..
+A: Dengan demikian, sepeda motor listrik menguntungkan, tetapi masih memerlukan dukungan harga dan infrastruktur.
+B: Dengan demikian, sepeda motor listrik lebih baik daripada mobil listrik dalam segala hal.
+C: Oleh karena itu, pemerintah wajib melarang sepeda motor berbahan bakar bensin.
+D: Dengan demikian, sepeda motor listrik tidak layak dikembangkan.
+E: Sebaliknya, sepeda motor listrik hanya cocok dipakai oleh pengendara muda.
+K: A
+P: Simpulan harus mencakup keuntungan (1)–(2) sekaligus kendala (3). Hanya pilihan A yang memuat keduanya tanpa menambahkan gagasan baru.
+
+## PBM-KEP-025 | Kepaduan Wacana | sulit
+Q: Susunan kalimat acak berikut yang membentuk paragraf padu adalah ….
+(1) Peristiwa ini terjadi ketika Bulan berada tepat di antara Matahari dan Bumi.
+(2) Karena itu, cahaya Matahari terhalang dan sebagian wilayah Bumi menjadi gelap sesaat.
+(3) Gerhana Matahari adalah peristiwa astronomi yang menarik perhatian banyak orang.
+(4) Oleh karena itu, pengamat disarankan memakai kacamata khusus.
+(5) Meskipun hanya berlangsung beberapa menit, gerhana dapat merusak mata jika diamati tanpa pelindung.
+A: (3)–(2)–(1)–(5)–(4)
+B: (3)–(1)–(2)–(5)–(4)
+C: (1)–(3)–(2)–(5)–(4)
+D: (3)–(1)–(2)–(4)–(5)
+E: (2)–(1)–(3)–(5)–(4)
+K: B
+P: Kalimat (3) memperkenalkan topik sehingga "peristiwa ini" pada (1) mengikutinya. Kalimat (2) berisi akibat dari (1). Kalimat (5) menyebut bahaya, dan (4) merupakan saran yang menjadi akibat dari bahaya tersebut.

@@ -1,0 +1,1110 @@
+# SUBTES: Penalaran Umum
+
+## PU-IND-001 | Penalaran Induktif | mudah
+Q: Setiap kali hujan deras turun, selokan di depan SMP Harapan meluap dan menggenangi halaman sekolah. Selokan itu sudah tiga tahun tidak dikeruk. Di sekolah lain pada kawasan yang sama, selokan dikeruk setiap enam bulan dan halaman mereka tidak pernah tergenang.
+Manakah pernyataan yang PALING MUNGKIN menjelaskan genangan di SMP Harapan?
+A: Curah hujan di sekitar SMP Harapan jauh lebih tinggi daripada di sekolah lain.
+B: Halaman SMP Harapan dibangun lebih tinggi daripada jalan di sekitarnya.
+C: Endapan di selokan yang lama tidak dikeruk menghambat aliran air hujan.
+D: Sekolah lain memiliki lebih banyak murid yang membantu membersihkan halaman.
+E: Selokan SMP Harapan terbuat dari bahan yang berbeda dari selokan sekolah lain.
+K: C
+P: Informasi yang dibandingkan hanyalah perawatan selokan: SMP Harapan tidak pernah mengeruk selama tiga tahun, sekolah lain mengeruk rutin dan tidak tergenang. Penjelasan paling mungkin adalah endapan yang menghambat aliran air. Pilihan lain tidak didukung informasi (curah hujan, bahan selokan, jumlah murid) atau justru akan mengurangi genangan (halaman lebih tinggi).
+
+## PU-IND-002 | Penalaran Induktif | sedang
+Q: Seorang peneliti menyatakan bahwa siswa yang sarapan sebelum berangkat ke sekolah lebih mampu berkonsentrasi pada jam pelajaran pertama.
+Manakah pernyataan yang, jika benar, PALING MEMPERKUAT pernyataan peneliti tersebut?
+A: Banyak siswa sarapan di kantin sekolah.
+B: Sarapan yang bergizi harganya relatif terjangkau.
+C: Siswa yang sarapan umumnya berangkat ke sekolah lebih pagi.
+D: Jam pelajaran pertama biasanya diisi mata pelajaran yang sulit.
+E: Dalam sebuah percobaan, siswa yang sama lebih fokus pada hari ketika mereka sarapan daripada pada hari ketika mereka tidak sarapan.
+K: E
+P: Pernyataan peneliti menghubungkan sarapan dengan konsentrasi. Percobaan pada siswa yang sama membandingkan hari sarapan dan hari tidak sarapan, sehingga faktor lain relatif terkendali dan hubungan sebab-akibatnya semakin kuat. Pilihan lain tidak membahas hubungan sarapan dengan konsentrasi.
+
+## PU-IND-003 | Penalaran Induktif | sedang
+Q: Dinas Pariwisata menyatakan bahwa kenaikan jumlah wisatawan ke Pantai Karang tahun ini disebabkan oleh pembangunan jalan baru menuju pantai tersebut.
+Manakah pernyataan yang, jika benar, PALING MEMPERLEMAH pernyataan Dinas Pariwisata?
+A: Pada tahun yang sama, sebuah film populer memakai Pantai Karang sebagai lokasi syuting sehingga pantai itu ramai dibicarakan di media sosial.
+B: Jalan baru tersebut dibuka pada awal tahun.
+C: Jalan baru tersebut memperpendek waktu tempuh dari pusat kota.
+D: Sebagian besar wisatawan datang menggunakan kendaraan pribadi.
+E: Pantai Karang memiliki pasir putih dan ombak yang tenang sejak dahulu.
+K: A
+P: Untuk memperlemah klaim sebab-akibat, perlu ada penyebab lain yang masuk akal. Film populer yang membuat pantai viral adalah penjelasan alternatif atas kenaikan wisatawan. B dan C justru mendukung klaim, D dan E tidak berkaitan dengan penyebab kenaikan tahun ini.
+
+## PU-IND-004 | Penalaran Induktif | mudah
+Q: Penjahit : jarum = petani : ….
+A: sawah
+B: padi
+C: beras
+D: cangkul
+E: lumbung
+K: D
+P: Hubungan yang dibangun adalah pekerja dengan alat kerja utamanya: penjahit memakai jarum, petani memakai cangkul. Sawah dan lumbung adalah tempat, padi dan beras adalah hasil.
+
+## PU-IND-005 | Penalaran Induktif | sedang
+Q: Dari 50 toko kelontong yang disurvei secara acak di seluruh kelurahan di Kecamatan Sukamaju, 46 toko menerima pembayaran dengan kode QR.
+Simpulan yang PALING KUAT berdasarkan survei tersebut adalah ….
+A: Seluruh toko kelontong di Indonesia menerima pembayaran kode QR.
+B: Sebagian besar toko kelontong di Kecamatan Sukamaju menerima pembayaran kode QR.
+C: Semua toko kelontong di Kecamatan Sukamaju menerima pembayaran kode QR.
+D: Toko kelontong di kecamatan lain tidak menerima pembayaran kode QR.
+E: Pembeli di Kecamatan Sukamaju lebih suka membayar dengan kode QR daripada tunai.
+K: B
+P: Sampel acak 50 toko dari kecamatan itu, 46 di antaranya (92%) menerima kode QR. Simpulan yang aman hanya untuk kecamatan yang sama dan bersifat "sebagian besar", bukan "semua" (C) atau meluas ke seluruh Indonesia (A). D dan E tidak dibahas dalam survei.
+
+## PU-IND-006 | Penalaran Induktif | sedang
+Q: Sebuah kafe mencatat penjualan kopi dingin naik 40% pada bulan Maret dibandingkan Februari. Pada bulan Maret kafe itu juga memberi diskon 20% untuk semua minuman dingin, dan suhu rata-rata kota naik 3°C.
+Simpulan yang PALING TEPAT adalah ….
+A: Kenaikan penjualan pasti seluruhnya disebabkan oleh diskon.
+B: Kenaikan penjualan mungkin dipengaruhi diskon dan kenaikan suhu, sehingga pengaruh masing-masing belum dapat dipastikan.
+C: Kenaikan penjualan pasti seluruhnya disebabkan oleh kenaikan suhu.
+D: Diskon tidak berpengaruh terhadap penjualan kopi dingin.
+E: Penjualan kopi panas pasti turun sebesar 40%.
+K: B
+P: Ada dua faktor yang berubah bersamaan (diskon dan suhu), sehingga pengaruh masing-masing tidak bisa dipisahkan dari data tersebut. A, C, dan D menyimpulkan terlalu pasti, E tidak ada dasarnya.
+
+## PU-IND-007 | Penalaran Induktif | sulit
+Q: Sebuah sekolah melarang siswa membawa ponsel ke kelas. Setelah satu semester, rata-rata nilai ulangan siswa naik 6 poin. Kepala sekolah menyimpulkan bahwa kenaikan nilai tersebut disebabkan oleh larangan ponsel.
+Manakah pernyataan yang, jika benar, PALING MEMPERLEMAH kesimpulan kepala sekolah?
+A: Sebagian siswa mengaku lebih tenang belajar tanpa ponsel.
+B: Sekolah menyediakan loker untuk menyimpan ponsel siswa.
+C: Larangan serupa juga diterapkan di beberapa sekolah lain di kota itu.
+D: Pada semester yang sama sekolah menambah jam les dan mengganti separuh guru dengan guru yang lebih berpengalaman.
+E: Rata-rata nilai ulangan pada semester sebelumnya cukup stabil.
+K: D
+P: Klaim sebab-akibat melemah jika ada perubahan lain pada periode yang sama yang dapat menjelaskan kenaikan nilai. Tambahan jam les dan guru yang lebih berpengalaman adalah penyebab alternatif. A dan E justru mendukung, B dan C tidak memengaruhi hubungan sebab-akibat.
+
+## PU-IND-008 | Penalaran Induktif | mudah
+Q: Jalan Merpati selalu macet pada pukul 07.00–08.00 setiap hari sekolah. Pada hari libur sekolah, jalan itu lancar pada jam yang sama.
+Manakah simpulan yang PALING MUNGKIN BENAR?
+A: Kemacetan di Jalan Merpati pada pagi hari kemungkinan berkaitan dengan aktivitas sekolah.
+B: Semua kemacetan di kota tersebut disebabkan oleh sekolah.
+C: Jalan Merpati lancar sepanjang hari pada hari libur.
+D: Pengendara motor tidak berkontribusi pada kemacetan.
+E: Jalan Merpati akan macet sepanjang hari pada hari sekolah.
+K: A
+P: Pola yang teramati: macet pada jam berangkat sekolah di hari sekolah, lancar pada jam yang sama di hari libur sekolah. Dugaan yang paling wajar adalah kemacetan berkaitan dengan aktivitas sekolah. Pilihan lain melampaui informasi.
+
+## PU-IND-009 | Penalaran Induktif | sedang
+Q: Warung Bu Sari selalu ramai pada tahun pertama dibuka. Pada tahun kedua pendapatannya turun walaupun harga dan rasa masakan tidak berubah.
+Manakah pernyataan yang PALING MUNGKIN menjelaskan penurunan pendapatan tersebut?
+A: Bu Sari menaikkan harga semua menu.
+B: Rasa masakan di warung Bu Sari menurun.
+C: Warung Bu Sari buka lebih pagi setiap hari.
+D: Warung Bu Sari memiliki banyak pelanggan tetap.
+E: Di sekitar warung dibuka tiga warung makan baru dengan menu serupa.
+K: E
+P: Harga dan rasa tetap, sehingga penyebabnya harus faktor lain. Munculnya pesaing dengan menu serupa dapat mengurangi pembeli. A dan B bertentangan dengan informasi, C dan D justru cenderung menaikkan pendapatan.
+
+## PU-IND-010 | Penalaran Induktif | mudah
+Q: Sepatu : kaki = topi : ….
+A: rambut
+B: wajah
+C: kepala
+D: leher
+E: tubuh
+K: C
+P: Sepatu dipakai pada kaki, topi dipakai pada kepala.
+
+## PU-IND-011 | Penalaran Induktif | sedang
+Q: Hujan : banjir = kemarau : ….
+A: panas
+B: matahari
+C: musim
+D: kekeringan
+E: air
+K: D
+P: Hubungan sebab-akibat: hujan lebat dapat menyebabkan banjir, kemarau panjang dapat menyebabkan kekeringan.
+
+## PU-IND-012 | Penalaran Induktif | mudah
+Q: Para peneliti mengamati bahwa tanaman cabai yang diberi pupuk kompos tumbuh lebih tinggi daripada tanaman cabai yang tidak diberi pupuk, padahal keduanya ditanam di tanah yang sama, mendapat cahaya matahari yang sama, dan disiram dengan jumlah air yang sama.
+Simpulan yang PALING KUAT adalah ….
+A: Pupuk kompos berpengaruh positif terhadap tinggi tanaman cabai pada kondisi tersebut.
+B: Semua jenis pupuk lebih baik daripada tidak diberi pupuk.
+C: Pupuk kompos membuat buah cabai lebih pedas.
+D: Tanaman cabai tidak membutuhkan sinar matahari.
+E: Semua tanaman akan tumbuh lebih tinggi bila diberi kompos.
+K: A
+P: Kondisi lain sama, hanya pupuk yang berbeda, sehingga simpulan yang sah terbatas pada pengaruh kompos terhadap tinggi tanaman cabai. B dan E terlalu umum, C dan D tidak dibahas.
+
+## PU-IND-013 | Penalaran Induktif | sulit
+Q: Setelah mewawancarai lima siswa dari satu kelas XII yang gemar sepak bola, seorang peneliti menyimpulkan bahwa sebagian besar siswa SMA di Indonesia gemar sepak bola.
+Manakah pernyataan yang PALING TEPAT menggambarkan kualitas simpulan tersebut?
+A: Kuat, karena siswa kelas XII mewakili semua siswa SMA.
+B: Kuat, karena sepak bola adalah olahraga yang paling populer.
+C: Lemah, karena sampel terlalu sedikit dan tidak mewakili seluruh siswa SMA di Indonesia.
+D: Lemah, karena siswa kelas XII tidak menyukai olahraga.
+E: Tidak dapat dinilai, karena sepak bola bukan topik penelitian.
+K: C
+P: Simpulan tentang populasi besar (siswa SMA se-Indonesia) ditarik dari lima orang di satu kelas yang bahkan dipilih karena sudah gemar sepak bola. Sampel kecil dan bias sehingga simpulannya lemah.
+
+## PU-IND-014 | Penalaran Induktif | sedang
+Q: Toko buku daring Bacaria menambahkan fitur ulasan pembaca di setiap halaman produk agar penjualannya naik.
+Manakah yang PALING MUNGKIN menjadi dasar (asumsi) langkah tersebut?
+A: Semua pembaca bersedia menulis ulasan.
+B: Calon pembeli mempertimbangkan ulasan pembaca lain saat memutuskan membeli buku.
+C: Ulasan di halaman produk selalu bernada positif.
+D: Toko buku fisik akan segera tutup.
+E: Penjualan buku hanya dipengaruhi oleh ulasan pembaca.
+K: B
+P: Langkah tersebut hanya masuk akal jika ulasan memengaruhi keputusan membeli. A, C, dan E terlalu mutlak dan tidak diperlukan, D tidak berkaitan.
+
+## PU-IND-015 | Penalaran Induktif | sedang
+Q: Seorang petani menyatakan bahwa hasil panen jagungnya tahun ini turun karena serangan ulat grayak.
+Manakah pernyataan yang, jika benar, PALING MEMPERKUAT pernyataan petani tersebut?
+A: Curah hujan tahun ini jauh di bawah rata-rata sehingga tanaman jagung layu di seluruh daerah.
+B: Harga jagung tahun ini lebih tinggi daripada tahun lalu.
+C: Ulat grayak dikenal sebagai salah satu hama tanaman jagung.
+D: Petani menanam varietas jagung yang sama dengan tahun lalu.
+E: Di ladangnya banyak ditemukan daun jagung berlubang dengan ulat grayak di dalamnya, sedangkan ladang lain yang bebas hama tidak mengalami penurunan hasil.
+K: E
+P: E menunjukkan bukti langsung adanya hama di ladang yang hasilnya turun dan pembanding tanpa hama yang tidak turun, sehingga klaim sebab-akibat menguat. A menawarkan penyebab lain, B dan D tidak relevan, C hanya fakta umum yang tidak membuktikan kasus ini.
+
+## PU-IND-016 | Penalaran Induktif | mudah
+Q: Bilangan berikutnya dari pola 3, 6, 12, 24, … adalah ….
+A: 48
+B: 36
+C: 30
+D: 42
+E: 54
+K: A
+V: 24*2
+P: Setiap suku dikalikan 2: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, sehingga suku berikutnya 24 × 2 = 48.
+
+## PU-IND-017 | Penalaran Induktif | sedang
+Q: Bilangan berikutnya dari pola 2, 5, 10, 17, 26, … adalah ….
+A: 33
+B: 34
+C: 35
+D: 36
+E: 37
+K: E
+V: 6**2+1
+P: Suku-sukunya berbentuk n² + 1: 1²+1 = 2, 2²+1 = 5, 3²+1 = 10, 4²+1 = 17, 5²+1 = 26. Suku ke-6 adalah 6² + 1 = 37. (Selisihnya 3, 5, 7, 9, 11.)
+
+## PU-IND-018 | Penalaran Induktif | sulit
+Q: Huruf berikutnya dari pola B, D, G, K, … adalah ….
+A: O
+B: P
+C: Q
+D: R
+E: S
+K: B
+P: Urutan alfabet B = 2, D = 4, G = 7, K = 11. Selisihnya 2, 3, 4 sehingga selisih berikutnya 5. 11 + 5 = 16, yaitu huruf P.
+
+## PU-IND-019 | Penalaran Induktif | sedang
+Q: Setiap kali Rani mengganti air akuarium ikan koki dengan air keran langsung tanpa diendapkan, beberapa ikannya mati dalam sehari. Rani menduga kaporit (zat pembunuh kuman) pada air keran adalah penyebabnya.
+Manakah pernyataan yang, jika benar, PALING MEMPERKUAT dugaan Rani?
+A: Air keran di rumah Rani tidak berbau.
+B: Rani memberi makan ikannya dua kali sehari.
+C: Rani membeli ikan koki dari toko hewan peliharaan.
+D: Ikan Rani tidak mati ketika air keran diendapkan semalam sebelum dipakai, sehingga kaporitnya sempat menguap.
+E: Akuarium Rani diletakkan dekat jendela.
+K: D
+P: Jika ikan tidak mati setelah kaporit dibiarkan menguap lewat pengendapan, itu mendukung dugaan bahwa kaporit penyebabnya. Pilihan lain tidak berhubungan dengan kaporit.
+
+## PU-IND-020 | Penalaran Induktif | sulit
+Q: Tingkat kematian pasien di Rumah Sakit A adalah 4%, sedangkan di Rumah Sakit B adalah 1%. Seorang pengamat menyimpulkan bahwa Rumah Sakit B memberikan perawatan yang lebih baik.
+Manakah pernyataan yang, jika benar, PALING MEMPERLEMAH simpulan pengamat?
+A: Rumah Sakit B memiliki lebih banyak ruang rawat inap.
+B: Rumah Sakit A berdiri lebih dahulu daripada Rumah Sakit B.
+C: Rumah Sakit A adalah rumah sakit rujukan yang menerima pasien dalam kondisi kritis, sedangkan Rumah Sakit B hanya menerima pasien dengan penyakit ringan.
+D: Biaya perawatan di Rumah Sakit B lebih murah daripada di Rumah Sakit A.
+E: Dokter di kedua rumah sakit lulus dari universitas yang sama.
+K: C
+P: Perbandingan angka kematian hanya adil jika pasiennya sebanding. Jika Rumah Sakit A menerima pasien kritis, angka kematian yang lebih tinggi bisa disebabkan kondisi pasien, bukan mutu perawatan. Pilihan lain tidak memengaruhi perbandingan tersebut.
+
+## PU-IND-021 | Penalaran Induktif | sedang
+Q: Hasil survei menyatakan bahwa 80% pengguna aplikasi Zeta puas dengan aplikasi tersebut, sehingga disimpulkan bahwa sebagian besar pengguna Zeta puas. Survei hanya dikirim melalui surel kepada pengguna yang berlangganan paket premium.
+Manakah yang PALING MELEMAHKAN simpulan tersebut?
+A: Survei dikirim lewat surel, bukan lewat telepon.
+B: Angka 80% terlalu kecil untuk disebut sebagian besar.
+C: Responden hanya berasal dari pelanggan premium sehingga belum mewakili seluruh pengguna aplikasi.
+D: Pengguna aplikasi Zeta lebih banyak laki-laki.
+E: Aplikasi Zeta baru diluncurkan tahun ini.
+K: C
+P: Simpulan tentang seluruh pengguna ditarik dari kelompok khusus (pelanggan premium) yang mungkin lebih puas daripada pengguna gratis. Sampel tidak mewakili populasi. B salah karena 80% jelas sebagian besar; lainnya tidak relevan.
+
+## PU-IND-022 | Penalaran Induktif | mudah
+Q: Tiga kali Dewi menuju bandara lewat jalan tol dan selalu tiba dalam sekitar 40 menit. Tiga kali ia lewat jalan biasa dan selalu tiba dalam sekitar 75 menit.
+Manakah simpulan yang PALING MUNGKIN BENAR?
+A: Rute tol cenderung lebih cepat daripada jalan biasa untuk menuju bandara.
+B: Rute tol pasti selalu lebih cepat dalam kondisi apa pun.
+C: Jalan tol bebas macet setiap hari.
+D: Bandara terletak persis di ujung jalan tol.
+E: Dewi tidak menyukai jalan biasa.
+K: A
+P: Enam percobaan menunjukkan kecenderungan tol lebih cepat. Kata "cenderung" sesuai dengan sifat simpulan induktif, sedangkan "pasti selalu" (B) dan "bebas macet setiap hari" (C) terlalu mutlak.
+
+## PU-IND-023 | Penalaran Induktif | sedang
+Q: Jumlah peminjam buku di perpustakaan sekolah dalam empat bulan berturut-turut adalah 120, 135, 150, dan 165 orang. Jika pola kenaikan ini berlanjut, jumlah peminjam pada bulan kelima adalah ... orang.
+A: 150
+B: 165
+C: 170
+D: 180
+E: 195
+K: D
+V: 165+15
+P: Kenaikan tiap bulan tetap 15 orang (135 − 120 = 15, dan seterusnya), sehingga bulan kelima = 165 + 15 = 180.
+
+## PU-IND-024 | Penalaran Induktif | sedang
+Q: Pak Anto sering terlambat tiba di kantor pada hari Senin. Rekan-rekannya menduga bahwa jalan menuju kantor lebih macet pada hari Senin.
+Manakah pernyataan yang, jika benar, PALING MEMPERKUAT dugaan rekan-rekan Pak Anto?
+A: Pak Anto sering tidur larut malam pada akhir pekan.
+B: Kantor Pak Anto mulai bekerja pukul 08.00.
+C: Pak Anto naik kendaraan umum pada hari lain.
+D: Rekan-rekan lain yang melewati jalan yang sama juga tepat waktu pada hari Senin.
+E: Data lalu lintas menunjukkan waktu tempuh menuju kantor pada hari Senin rata-rata 30 menit lebih lama daripada hari lain.
+K: E
+P: Data waktu tempuh yang lebih lama pada hari Senin langsung mendukung dugaan jalan lebih macet. A menawarkan penyebab lain, D melemahkan dugaan, B dan C tidak relevan.
+
+## PU-IND-025 | Penalaran Induktif | sulit
+Q: Seorang pedagang berkata, "Setiap kali saya menurunkan harga jus jeruk, penjualannya naik. Jadi menurunkan harga pasti menaikkan keuntungan saya."
+Manakah pernyataan yang PALING TEPAT menunjukkan kelemahan penalaran pedagang tersebut?
+A: Pedagang tidak menyebutkan jenis jeruk yang dipakai.
+B: Kenaikan penjualan belum tentu menaikkan keuntungan karena keuntungan per gelas ikut menurun.
+C: Penjualan seharusnya tidak boleh naik ketika harga turun.
+D: Jus jeruk bukan produk utama pedagang tersebut.
+E: Harga tidak berhubungan dengan penjualan.
+K: B
+P: Keuntungan = jumlah terjual × laba per unit. Harga turun menaikkan penjualan tetapi menurunkan laba per unit, sehingga keuntungan total belum tentu naik. Pedagang menyamakan kenaikan penjualan dengan kenaikan keuntungan.
+
+## PU-IND-026 | Penalaran Induktif | mudah
+Q: Buku : perpustakaan = lukisan : ….
+A: kuas
+B: kanvas
+C: pelukis
+D: cat
+E: galeri
+K: E
+P: Buku disimpan dan dipajang di perpustakaan, lukisan dipajang di galeri. Kuas, kanvas, dan cat adalah alat atau bahan, pelukis adalah pembuatnya.
+
+## PU-IND-027 | Penalaran Induktif | sulit
+Q: Bilangan berikutnya dari pola 3, 5, 9, 17, 33, … adalah ….
+A: 49
+B: 57
+C: 65
+D: 66
+E: 81
+K: C
+V: 33*2-1
+P: Selisih antarsuku 2, 4, 8, 16 sehingga selisih berikutnya 32. Suku berikutnya = 33 + 32 = 65 (setara dengan 2n − 1: 2 × 33 − 1 = 65).
+
+## PU-IND-028 | Penalaran Induktif | sedang
+Q: Dalam sepuluh hari terakhir, setiap hari ketika langit pagi mendung, sore harinya turun hujan di Kota Kenanga. Pagi ini langit Kota Kenanga mendung.
+Manakah simpulan yang PALING TEPAT?
+A: Sore ini kemungkinan besar turun hujan di Kota Kenanga.
+B: Sore ini pasti turun hujan di Kota Kenanga.
+C: Sore ini tidak akan turun hujan di Kota Kenanga.
+D: Hujan hanya turun jika langit pagi mendung.
+E: Jika langit pagi tidak mendung, sore tidak akan hujan.
+K: A
+P: Pola 10 hari memberi dasar untuk memperkirakan, bukan memastikan. Simpulan induktif yang tepat menggunakan kata "kemungkinan besar". B terlalu pasti, D dan E menarik kesimpulan tentang hari tidak mendung yang tidak diamati.
+
+## PU-IND-029 | Penalaran Induktif | sedang
+Q: Tiga merek baterai diuji pada senter yang sama dalam kondisi yang sama. Baterai P menyala selama 12 jam, baterai Q selama 18 jam, dan baterai R selama 15 jam.
+Manakah simpulan yang PALING TEPAT?
+A: Baterai Q selalu paling awet pada semua perangkat.
+B: Pada pengujian senter tersebut, baterai Q bertahan paling lama.
+C: Baterai R lebih murah daripada baterai Q.
+D: Baterai P tidak layak dijual.
+E: Ketahanan baterai berbanding lurus dengan harganya.
+K: B
+P: Data hanya menunjukkan lama menyala pada senter yang diuji. Simpulan yang sah dibatasi pada pengujian itu. A menggeneralisasi ke semua perangkat, C, D, dan E membahas harga atau kelayakan jual yang tidak ada datanya.
+
+## PU-IND-030 | Penalaran Induktif | sulit
+Q: Anak-anak di Desa Lembah yang rutin dibacakan dongeng sebelum tidur memiliki kosakata lebih banyak daripada anak-anak yang tidak. Seorang pakar menyimpulkan bahwa dongeng sebelum tidur memperkaya kosakata anak.
+Manakah pernyataan yang, jika benar, PALING MEMPERLEMAH simpulan pakar?
+A: Dongeng yang dibacakan mengandung banyak kata baru bagi anak.
+B: Desa Lembah tidak memiliki siaran televisi.
+C: Sebagian anak tidak menyukai dongeng.
+D: Keluarga yang rutin membacakan dongeng umumnya juga sering mengajak anak mengobrol dan membaca buku sepanjang hari.
+E: Dongeng biasanya dibacakan sekitar pukul 20.00.
+K: D
+P: Jika keluarga pembaca dongeng juga melakukan kegiatan lain yang memperkaya bahasa, selisih kosakata bisa berasal dari kegiatan itu, bukan dari dongeng. Hubungan sebab-akibat yang diklaim pakar menjadi lemah. A mendukung, B, C, dan E tidak relevan.
+
+## PU-IND-031 | Penalaran Induktif | mudah
+Q: Setiap musim kemarau, debit air Sungai Tirta menurun dan sawah di sekitarnya kekurangan air.
+Manakah simpulan yang PALING MUNGKIN BENAR?
+A: Musim kemarau memengaruhi pasokan air pertanian di sekitar Sungai Tirta.
+B: Sawah di sekitar Sungai Tirta tidak dapat ditanami sepanjang tahun.
+C: Sungai Tirta mengering sepenuhnya setiap kemarau.
+D: Petani di sekitar Sungai Tirta berpindah profesi saat kemarau.
+E: Di semua daerah, kemarau membuat sawah kekurangan air.
+K: A
+P: Pola berulang: kemarau, debit sungai turun, sawah kekurangan air. Hanya A yang tidak melampaui informasi. Pilihan lain terlalu jauh (tidak dapat ditanami sepanjang tahun, mengering sepenuhnya, berpindah profesi, semua daerah).
+
+## PU-IND-032 | Penalaran Induktif | sedang
+Q: Harga tiket kereta api naik 10%, tetapi jumlah penumpang pada bulan berikutnya hanya turun 2%.
+Manakah pernyataan yang PALING MUNGKIN menjelaskan penurunan penumpang yang sangat kecil tersebut?
+A: Penumpang lebih memilih naik pesawat.
+B: Harga bahan bakar kendaraan pribadi turun drastis.
+C: Perjalanan kereta menjadi jauh lebih lambat.
+D: Banyak penumpang tidak memiliki alternatif transportasi lain yang secepat dan semurah kereta.
+E: Jumlah perjalanan kereta dikurangi separuhnya.
+K: D
+P: Penurunan penumpang kecil artinya banyak orang tetap naik kereta meskipun harga naik, yang masuk akal bila alternatifnya sedikit. A, B, C, dan E akan mendorong penurunan penumpang yang lebih besar.
+
+## PU-IND-033 | Penalaran Induktif | sedang
+Q: Produsen sampo Helai mengiklankan bahwa sampo tersebut mengurangi kerontokan rambut dalam empat minggu.
+Manakah pernyataan yang, jika benar, PALING MEMPERKUAT iklan tersebut?
+A: Sampo Helai memiliki aroma yang harum.
+B: Harga sampo Helai lebih murah daripada sampo lain.
+C: Dalam uji coba terhadap 200 orang, kelompok yang memakai sampo Helai mengalami kerontokan lebih sedikit daripada kelompok pembanding yang memakai sampo tanpa zat aktif.
+D: Banyak selebritas memakai sampo Helai.
+E: Sampo Helai dijual di toko daring.
+K: C
+P: Uji coba dengan kelompok pembanding memberi bukti langsung bahwa sampo mengurangi kerontokan. Pilihan lain tidak berkaitan dengan efektivitas.
+
+## PU-IND-034 | Penalaran Induktif | mudah
+Q: Gelas : air = dompet : ….
+A: kulit
+B: saku
+C: toko
+D: tas
+E: uang
+K: E
+P: Gelas berfungsi menampung air, dompet berfungsi menampung uang. Kulit adalah bahan, saku dan tas adalah tempat menyimpan dompet, toko adalah tempat membeli.
+
+## PU-IND-035 | Penalaran Induktif | sulit
+Q: Dari 20 pasien yang mengikuti terapi relaksasi, 15 melaporkan tidur lebih nyenyak. Dari 20 pasien lain yang hanya diberi minum air hangat, 14 melaporkan tidur lebih nyenyak. Peneliti menyimpulkan bahwa terapi relaksasi efektif meningkatkan kualitas tidur.
+Manakah pernyataan yang PALING TEPAT menilai simpulan tersebut?
+A: Kuat, karena 15 dari 20 pasien lebih dari separuh.
+B: Lemah, karena selisih kedua kelompok sangat kecil (15 dan 14 dari 20) sehingga terapi belum terbukti lebih efektif.
+C: Kuat, karena terdapat dua kelompok pasien.
+D: Lemah, karena kelompok kedua tidak mengikuti terapi apa pun.
+E: Tidak relevan, karena air hangat tidak berkaitan dengan tidur.
+K: B
+P: Hampir sama banyak pasien yang merasa tidur lebih nyenyak di kelompok pembanding (14 dari 20) dibanding kelompok terapi (15 dari 20). Selisih satu orang tidak cukup untuk menyimpulkan terapi lebih efektif.
+
+## PU-DED-001 | Penalaran Deduktif | mudah
+Q: Semua siswa kelas XII wajib mengikuti bimbingan UTBK. Sebagian siswa kelas XII adalah anggota OSIS.
+Berdasarkan informasi tersebut, manakah simpulan yang PASTI BENAR?
+A: Semua anggota OSIS wajib mengikuti bimbingan UTBK.
+B: Sebagian anggota OSIS wajib mengikuti bimbingan UTBK.
+C: Semua siswa yang wajib mengikuti bimbingan UTBK adalah anggota OSIS.
+D: Sebagian siswa kelas XII tidak wajib mengikuti bimbingan UTBK.
+E: Tidak ada anggota OSIS yang wajib mengikuti bimbingan UTBK.
+K: B
+P: Anggota OSIS yang berasal dari kelas XII pasti wajib mengikuti bimbingan UTBK, sehingga sebagian anggota OSIS wajib mengikutinya. Belum tentu semua anggota OSIS berasal dari kelas XII (A salah). Pilihan C, D, E bertentangan atau melampaui informasi.
+
+## PU-DED-002 | Penalaran Deduktif | mudah
+Q: Jika lampu lalu lintas menyala merah, maka semua kendaraan berhenti. Saat ini lampu lalu lintas di perempatan Jalan Mawar menyala merah.
+Manakah simpulan yang BENAR?
+A: Sebagian kendaraan tetap berjalan.
+B: Lampu lalu lintas akan segera menyala hijau.
+C: Tidak ada kendaraan yang melintas di perempatan itu.
+D: Semua kendaraan di perempatan itu berhenti.
+E: Lampu kuning ikut menyala.
+K: D
+P: Premis kedua membenarkan syarat "lampu merah", sehingga akibatnya pasti terjadi: semua kendaraan berhenti.
+
+## PU-DED-003 | Penalaran Deduktif | sedang
+Q: Jika Budi lulus seleksi, maka Budi mendapat beasiswa. Budi tidak mendapat beasiswa.
+Manakah simpulan yang BENAR?
+A: Budi tidak lulus seleksi.
+B: Budi lulus seleksi tetapi mendapat bantuan lain.
+C: Budi mendapat beasiswa dari sumber lain.
+D: Budi tidak mengikuti seleksi.
+E: Budi mengundurkan diri dari seleksi.
+K: A
+P: Kontraposisi dari "lulus → mendapat beasiswa" adalah "tidak mendapat beasiswa → tidak lulus". Karena Budi tidak mendapat beasiswa, ia pasti tidak lulus seleksi. Alasan ia tidak lulus (D, E) tidak diketahui.
+
+## PU-DED-004 | Penalaran Deduktif | sedang
+Q: Jika sebuah pohon mangga berbuah, maka daunnya berwarna hijau. Pohon mangga di halaman Pak Ali berdaun hijau.
+Manakah simpulan yang PALING TEPAT?
+A: Pohon mangga Pak Ali pasti berbuah.
+B: Pohon mangga Pak Ali pasti tidak berbuah.
+C: Semua pohon berdaun hijau pasti berbuah.
+D: Pohon di halaman Pak Ali bukan pohon mangga.
+E: Belum dapat dipastikan apakah pohon mangga Pak Ali berbuah.
+K: E
+P: Premis hanya menyatakan berbuah → daun hijau. Daun hijau tidak mengharuskan berbuah (menegaskan akibat bukan penarikan yang sah). Jadi belum dapat dipastikan pohon itu berbuah.
+
+## PU-DED-005 | Penalaran Deduktif | sedang
+Q: Sepulang sekolah, Rina akan pergi ke toko buku atau ke perpustakaan. Sore ini Rina tidak pergi ke perpustakaan.
+Manakah simpulan yang BENAR?
+A: Rina langsung pulang ke rumah.
+B: Rina pergi ke toko buku dan perpustakaan.
+C: Rina pergi ke toko buku.
+D: Rina tidak pergi ke toko buku.
+E: Rina pergi ke perpustakaan besok.
+K: C
+P: Dari "A atau B" dan "bukan B" diperoleh A. Karena Rina tidak ke perpustakaan, ia pasti ke toko buku.
+
+## PU-DED-006 | Penalaran Deduktif | sedang
+Q: Jika harga cabai naik, maka harga sambal botolan naik. Jika harga sambal botolan naik, maka omzet warung makan turun. Pekan ini harga cabai naik.
+Manakah simpulan yang BENAR?
+A: Warung makan akan tutup.
+B: Harga sambal botolan turun.
+C: Omzet warung makan naik.
+D: Harga cabai turun pada pekan depan.
+E: Omzet warung makan turun.
+K: E
+P: Harga cabai naik → harga sambal naik → omzet turun. Rantai implikasi menghasilkan omzet warung makan turun.
+
+## PU-DED-007 | Penalaran Deduktif | sedang
+Q: Semua atlet renang berlatih setiap pagi. Tidak ada orang yang berlatih setiap pagi terlambat masuk kelas.
+Manakah simpulan yang PASTI BENAR?
+A: Tidak ada atlet renang yang terlambat masuk kelas.
+B: Semua orang yang tidak terlambat masuk kelas adalah atlet renang.
+C: Sebagian atlet renang terlambat masuk kelas.
+D: Semua orang yang berlatih setiap pagi adalah atlet renang.
+E: Semua orang yang terlambat masuk kelas berlatih setiap pagi.
+K: A
+P: Atlet renang → berlatih setiap pagi → tidak terlambat. Maka tidak ada atlet renang yang terlambat. B dan D membalik arah premis sehingga tidak sah.
+
+## PU-DED-008 | Penalaran Deduktif | sulit
+Q: Pernyataan "Semua peserta lomba memperoleh sertifikat" ternyata SALAH.
+Manakah pernyataan berikut yang PASTI BENAR?
+A: Tidak ada peserta lomba yang memperoleh sertifikat.
+B: Sebagian besar peserta lomba tidak memperoleh sertifikat.
+C: Sedikitnya satu peserta lomba tidak memperoleh sertifikat.
+D: Semua peserta lomba tidak memperoleh sertifikat.
+E: Sedikitnya satu peserta lomba memperoleh sertifikat.
+K: C
+P: Negasi dari "semua P adalah Q" adalah "sedikitnya satu P bukan Q". Jadi hanya dipastikan ada minimal satu peserta tanpa sertifikat; banyaknya (A, B, D) dan adanya yang memperoleh sertifikat (E) tidak dapat dipastikan.
+
+## PU-DED-009 | Penalaran Deduktif | sedang
+Q: Jika sebuah bilangan habis dibagi 6, maka bilangan itu habis dibagi 3. Bilangan N tidak habis dibagi 3.
+Manakah simpulan yang BENAR?
+A: N habis dibagi 6.
+B: N tidak habis dibagi 6.
+C: N habis dibagi 2.
+D: N tidak habis dibagi 2.
+E: N adalah bilangan ganjil.
+K: B
+P: Kontraposisi: tidak habis dibagi 3 → tidak habis dibagi 6. Habis dibagi 2 atau ganjil tidak dapat disimpulkan (misalnya N = 4 atau N = 5).
+
+## PU-DED-010 | Penalaran Deduktif | sulit
+Q: Seorang pelamar diterima hanya jika ia lulus tes tertulis dan lulus wawancara. Andi diterima.
+Manakah simpulan yang PASTI BENAR?
+A: Andi hanya lulus tes tertulis.
+B: Andi hanya lulus wawancara.
+C: Semua pelamar yang lulus tes tertulis dan wawancara pasti diterima.
+D: Andi lulus tes tertulis dan lulus wawancara.
+E: Andi tidak lulus tes tertulis tetapi lulus wawancara.
+K: D
+P: "Diterima hanya jika (lulus tulis dan lulus wawancara)" berarti diterima → lulus keduanya. Karena Andi diterima, ia pasti lulus keduanya. C membalik arah premis sehingga tidak pasti.
+
+## PU-DED-011 | Penalaran Deduktif | sedang
+Q: Semua pegawai bagian keuangan dapat mengoperasikan aplikasi akuntansi. Sebagian pegawai yang dapat mengoperasikan aplikasi akuntansi adalah lulusan ekonomi. Mira adalah pegawai bagian keuangan.
+Manakah pernyataan yang PASTI BENAR?
+A: Mira dapat mengoperasikan aplikasi akuntansi.
+B: Mira lulusan ekonomi.
+C: Mira bukan lulusan ekonomi.
+D: Semua pegawai bagian keuangan lulusan ekonomi.
+E: Hanya pegawai bagian keuangan yang dapat mengoperasikan aplikasi akuntansi.
+K: A
+P: Mira pegawai keuangan, dan semua pegawai keuangan dapat mengoperasikan aplikasi akuntansi. Latar belakang pendidikan Mira tidak dapat dipastikan.
+
+## PU-DED-012 | Penalaran Deduktif | sulit
+Q: Lima orang (D, A, B, C, dan E) mengantre membeli tiket. D berdiri tepat di depan A. B berdiri di belakang A. C berdiri tepat di belakang B. E berdiri paling belakang.
+Orang yang berdiri di urutan ketiga dari depan adalah ….
+A: A
+B: C
+C: B
+D: D
+E: E
+K: C
+P: E di urutan 5. D tepat di depan A membentuk blok "D A", sedangkan B diikuti C membentuk blok "B C", dan blok "D A" harus mendahului blok "B C". Urutan: D, A, B, C, E. Orang di urutan ketiga adalah B.
+
+## PU-DED-013 | Penalaran Deduktif | sedang
+Q: Jika Budi rajin belajar, maka ia lulus ujian. Jika Budi lulus ujian, maka ia mendapat sertifikat. Budi tidak mendapat sertifikat.
+Manakah simpulan yang PASTI BENAR?
+A: Budi lulus ujian tetapi tidak rajin belajar.
+B: Budi rajin belajar tetapi tidak lulus ujian.
+C: Budi lulus ujian dan mendapat sertifikat.
+D: Budi rajin belajar dan lulus ujian.
+E: Budi tidak lulus ujian dan tidak rajin belajar.
+K: E
+P: Tidak mendapat sertifikat → tidak lulus ujian (kontraposisi premis 2) → tidak rajin belajar (kontraposisi premis 1). Jadi Budi tidak lulus ujian dan tidak rajin belajar.
+
+## PU-DED-014 | Penalaran Deduktif | mudah
+Q: Semua kucing adalah mamalia. Semua mamalia bernapas dengan paru-paru.
+Manakah simpulan yang BENAR?
+A: Semua hewan yang bernapas dengan paru-paru adalah kucing.
+B: Semua kucing bernapas dengan paru-paru.
+C: Sebagian mamalia bukan kucing dan tidak bernapas dengan paru-paru.
+D: Sebagian kucing bukan mamalia.
+E: Tidak ada mamalia yang bukan kucing.
+K: B
+P: Silogisme: kucing ⊂ mamalia ⊂ hewan berparu-paru, sehingga semua kucing bernapas dengan paru-paru.
+
+## PU-DED-015 | Penalaran Deduktif | sedang
+Q: Semua dokter di Klinik Sehat mengenakan seragam putih saat bertugas. Rahma adalah dokter di Klinik Sehat dan saat ini sedang bertugas.
+Manakah pernyataan berikut yang PASTI SALAH?
+A: Rahma mengenakan seragam putih.
+B: Rahma bekerja di klinik lain juga.
+C: Rahma mengenakan jas dokter.
+D: Rahma tidak mengenakan seragam putih.
+E: Rahma sedang berbicara dengan pasien.
+K: D
+P: Rahma dokter di Klinik Sehat yang sedang bertugas, sehingga ia pasti berseragam putih. Pernyataan yang menyangkalnya (D) pasti salah. B, C, dan E tidak dapat ditentukan.
+
+## PU-DED-016 | Penalaran Deduktif | sedang
+Q: Sebagian pelari maraton adalah vegetarian. Tidak ada vegetarian yang makan daging merah.
+Manakah simpulan yang PASTI BENAR?
+A: Semua pelari maraton tidak makan daging merah.
+B: Tidak ada pelari maraton yang makan daging merah.
+C: Sebagian pelari maraton tidak makan daging merah.
+D: Sebagian vegetarian bukan pelari maraton.
+E: Semua pelari maraton adalah vegetarian.
+K: C
+P: Pelari maraton yang vegetarian pasti tidak makan daging merah, sehingga sebagian pelari maraton tidak makan daging merah. Pelari maraton lain tidak diketahui, sehingga A, B, dan E terlalu jauh.
+
+## PU-DED-017 | Penalaran Deduktif | sedang
+Q: Hanya anggota klub yang boleh masuk ke ruang latihan. Ratih boleh masuk ke ruang latihan.
+Manakah simpulan yang BENAR?
+A: Ratih adalah anggota klub.
+B: Semua anggota klub boleh masuk ke ruang latihan.
+C: Ratih adalah ketua klub.
+D: Ratih bukan anggota klub.
+E: Hanya Ratih yang anggota klub.
+K: A
+P: "Hanya anggota klub yang boleh masuk" berarti boleh masuk → anggota klub. Karena Ratih boleh masuk, ia anggota klub. B membalik arah premis sehingga tidak pasti.
+
+## PU-DED-018 | Penalaran Deduktif | sulit
+Q: Jika Ani datang, maka Beni datang. Jika Beni datang, maka Candra tidak datang. Candra datang.
+Manakah simpulan yang PASTI BENAR?
+A: Ani datang dan Beni datang.
+B: Ani datang tetapi Beni tidak datang.
+C: Ani tidak datang tetapi Beni datang.
+D: Beni datang tetapi Candra tidak datang.
+E: Ani dan Beni sama-sama tidak datang.
+K: E
+P: Candra datang → (kontraposisi premis 2) Beni tidak datang → (kontraposisi premis 1) Ani tidak datang. Jadi Ani dan Beni sama-sama tidak datang.
+
+## PU-DED-019 | Penalaran Deduktif | sedang
+Q: Pernyataan "Jika Sinta menabung, maka ia dapat membeli sepeda" ekuivalen dengan pernyataan ….
+A: Jika Sinta tidak menabung, maka ia tidak dapat membeli sepeda.
+B: Jika Sinta tidak dapat membeli sepeda, maka ia tidak menabung.
+C: Jika Sinta dapat membeli sepeda, maka ia menabung.
+D: Sinta menabung dan tidak dapat membeli sepeda.
+E: Sinta menabung atau tidak dapat membeli sepeda.
+K: B
+P: Pernyataan implikasi ekuivalen dengan kontraposisinya: "Jika tidak dapat membeli sepeda, maka tidak menabung". A adalah invers dan C adalah konvers, keduanya tidak ekuivalen.
+
+## PU-DED-020 | Penalaran Deduktif | sedang
+Q: Negasi dari pernyataan "Jika hujan deras, maka pertandingan ditunda" adalah ….
+A: Jika tidak hujan deras, maka pertandingan tidak ditunda.
+B: Tidak hujan deras dan pertandingan ditunda.
+C: Jika pertandingan tidak ditunda, maka tidak hujan deras.
+D: Hujan deras dan pertandingan tidak ditunda.
+E: Hujan deras atau pertandingan ditunda.
+K: D
+P: Implikasi "p → q" bernilai salah hanya ketika p benar dan q salah. Negasinya adalah "p dan bukan q": hujan deras dan pertandingan tidak ditunda.
+
+## PU-DED-021 | Penalaran Deduktif | sedang
+Q: Kartu diskon berlaku jika total belanja lebih dari Rp100.000 atau pembeli adalah anggota toko. Kartu diskon tidak berlaku untuk Tono.
+Manakah simpulan yang PASTI BENAR?
+A: Total belanja Tono tidak lebih dari Rp100.000 dan Tono bukan anggota toko.
+B: Total belanja Tono lebih dari Rp100.000 tetapi Tono bukan anggota toko.
+C: Total belanja Tono tidak lebih dari Rp100.000 atau Tono anggota toko.
+D: Tono anggota toko tetapi total belanjanya tidak lebih dari Rp100.000.
+E: Tono tidak berbelanja.
+K: A
+P: Jika salah satu syarat (belanja > Rp100.000 atau anggota) terpenuhi, kartu pasti berlaku. Karena kartu tidak berlaku, kedua syarat tidak terpenuhi: belanja tidak lebih dari Rp100.000 dan bukan anggota.
+
+## PU-DED-022 | Penalaran Deduktif | sedang
+Q: Empat rumah berjajar dari barat ke timur dan dicat merah, biru, hijau, serta kuning (masing-masing satu warna). Rumah hijau berada tepat di sebelah timur rumah biru. Rumah kuning berada paling timur. Rumah merah berada di sebelah barat rumah biru (tidak harus bersebelahan).
+Rumah yang berada paling barat berwarna ….
+A: biru
+B: hijau
+C: merah
+D: kuning
+E: tidak dapat ditentukan
+K: C
+P: Kuning di posisi 4. Pasangan biru–hijau (hijau tepat di timur biru) menempati posisi (1,2) atau (2,3). Merah harus di barat biru sehingga biru tidak boleh di posisi 1; maka biru di 2, hijau di 3, merah di 1. Urutan: merah, biru, hijau, kuning.
+
+## PU-DED-023 | Penalaran Deduktif | sedang
+Q: Peserta pelatihan dinyatakan lulus jika nilai tesnya paling sedikit 70 dan kehadirannya paling sedikit 80%. Sari tidak dinyatakan lulus, padahal nilai tesnya 75.
+Manakah simpulan yang PASTI BENAR?
+A: Sari tidak mengikuti tes.
+B: Nilai tes Sari kurang dari 70.
+C: Sari tidak pernah hadir.
+D: Kehadiran Sari tepat 80%.
+E: Kehadiran Sari kurang dari 80%.
+K: E
+P: Jika kedua syarat terpenuhi, peserta pasti lulus. Sari tidak lulus, jadi sedikitnya satu syarat tidak terpenuhi. Nilai 75 sudah memenuhi syarat nilai, sehingga syarat kehadiran yang tidak terpenuhi: kehadiran kurang dari 80%.
+
+## PU-DED-024 | Penalaran Deduktif | mudah
+Q: Semua bunga di taman kota berwarna merah atau kuning. Mawar di taman kota itu tidak berwarna merah.
+Manakah simpulan yang BENAR?
+A: Mawar itu berwarna putih.
+B: Mawar itu berwarna merah dan kuning.
+C: Mawar itu tidak berbunga.
+D: Mawar itu berwarna kuning.
+E: Mawar itu bukan bunga taman kota.
+K: D
+P: Semua bunga di taman itu merah atau kuning. Mawar tidak merah, maka ia kuning.
+
+## PU-DED-025 | Penalaran Deduktif | mudah
+Q: Perpustakaan Kota buka setiap hari kecuali hari Minggu dan hari libur nasional. Hari Peringatan Nusa jatuh pada hari Senin dan ditetapkan sebagai hari libur nasional.
+Manakah simpulan yang BENAR?
+A: Perpustakaan Kota buka pada Hari Peringatan Nusa karena hari itu hari Senin.
+B: Perpustakaan Kota tutup pada Hari Peringatan Nusa.
+C: Perpustakaan Kota tutup setiap hari Senin.
+D: Perpustakaan Kota buka setengah hari pada hari libur nasional.
+E: Perpustakaan Kota hanya buka pada hari Senin.
+K: B
+P: Pengecualian berlaku untuk hari Minggu dan hari libur nasional. Hari Peringatan Nusa adalah hari libur nasional, sehingga perpustakaan tutup.
+
+## PU-DED-026 | Penalaran Deduktif | sulit
+Q: Jika Eko membawa bekal, maka Fira tidak membawa bekal. Fira membawa bekal atau Gita membawa bekal. Gita tidak membawa bekal.
+Manakah simpulan yang PASTI BENAR?
+A: Fira membawa bekal dan Eko tidak membawa bekal.
+B: Eko dan Fira sama-sama membawa bekal.
+C: Eko membawa bekal dan Fira tidak membawa bekal.
+D: Tidak ada seorang pun yang membawa bekal.
+E: Gita membawa bekal tetapi Eko tidak.
+K: A
+P: Dari "Fira atau Gita membawa bekal" dan "Gita tidak membawa", Fira membawa bekal. Premis pertama: Eko membawa → Fira tidak membawa; karena Fira membawa, Eko tidak membawa (kontraposisi).
+
+## PU-DED-027 | Penalaran Deduktif | sedang
+Q: Tidak ada karyawan magang yang memiliki kartu akses penuh. Sebagian karyawan yang memiliki kartu akses penuh adalah manajer.
+Manakah simpulan yang PASTI BENAR?
+A: Semua manajer adalah karyawan magang.
+B: Sebagian karyawan magang adalah manajer.
+C: Sebagian manajer bukan karyawan magang.
+D: Semua manajer memiliki kartu akses penuh.
+E: Tidak ada manajer yang menjadi karyawan magang.
+K: C
+P: Manajer yang memiliki kartu akses penuh pasti bukan karyawan magang, sehingga sebagian manajer bukan karyawan magang. Tidak dapat dipastikan keadaan manajer lain (D, E), dan A serta B bertentangan dengan premis.
+
+## PU-DED-028 | Penalaran Deduktif | sedang
+Q: Pada hari Selasa, Dina tidak pergi bekerja jika hujan deras. Pada hari Selasa pekan lalu, Dina pergi bekerja.
+Manakah simpulan yang PASTI BENAR?
+A: Pada hari itu hujan deras.
+B: Pada hari itu Dina bekerja dari rumah.
+C: Pada hari itu hujan ringan.
+D: Pada hari itu libur nasional.
+E: Pada hari itu tidak hujan deras.
+K: E
+P: Hujan deras → Dina tidak bekerja. Kontraposisi: Dina bekerja → tidak hujan deras. Maka hari Selasa itu tidak hujan deras.
+
+## PU-DED-029 | Penalaran Deduktif | mudah
+Q: Rudi, Sinta, dan Tomi masing-masing memesan satu minuman yang berbeda, yaitu teh, kopi, atau jus. Rudi tidak memesan teh maupun kopi. Sinta tidak memesan kopi.
+Minuman yang dipesan Tomi adalah ….
+A: teh
+B: kopi
+C: jus
+D: teh atau jus
+E: tidak dapat ditentukan
+K: B
+P: Rudi tidak memesan teh dan kopi, maka Rudi memesan jus. Sinta tidak memesan kopi dan jus sudah diambil, maka Sinta memesan teh. Sisanya kopi untuk Tomi.
+
+## PU-DED-030 | Penalaran Deduktif | sulit
+Q: Jika Pak Dedi menjual ladang, maka ia membeli rumah. Pak Dedi membeli rumah hanya jika ia mendapat pinjaman. Pak Dedi tidak mendapat pinjaman.
+Manakah simpulan yang PASTI BENAR?
+A: Pak Dedi menjual ladang tetapi tidak membeli rumah.
+B: Pak Dedi membeli rumah dengan uang tunai.
+C: Pak Dedi menjual ladang dan membeli rumah.
+D: Pak Dedi tidak menjual ladang dan tidak membeli rumah.
+E: Pak Dedi tidak menjual ladang tetapi membeli rumah.
+K: D
+P: "Membeli rumah hanya jika mendapat pinjaman" berarti beli rumah → pinjaman. Tidak ada pinjaman → tidak membeli rumah. Kontraposisi premis pertama: tidak membeli rumah → tidak menjual ladang. Jadi ia tidak menjual ladang dan tidak membeli rumah.
+
+## PU-DED-031 | Penalaran Deduktif | mudah
+Q: Semua guru di SMA Cendana adalah lulusan sarjana. Pak Wira adalah guru di SMA Cendana.
+Manakah simpulan yang BENAR?
+A: Pak Wira lulusan sarjana.
+B: Pak Wira lulusan magister.
+C: Pak Wira mengajar semua mata pelajaran.
+D: Semua lulusan sarjana adalah guru di SMA Cendana.
+E: Pak Wira bukan lulusan sarjana.
+K: A
+P: Pak Wira termasuk guru di SMA Cendana, dan semua guru di sana lulusan sarjana. Jadi Pak Wira lulusan sarjana.
+
+## PU-DED-032 | Penalaran Deduktif | sedang
+Q: Semua obat yang dijual bebas aman dikonsumsi tanpa resep dokter. Tablet Zora aman dikonsumsi tanpa resep dokter.
+Manakah simpulan yang PALING TEPAT?
+A: Tablet Zora adalah obat yang dijual bebas.
+B: Tablet Zora bukan obat.
+C: Belum dapat dipastikan apakah Tablet Zora dijual bebas.
+D: Tablet Zora berbahaya jika dikonsumsi tanpa resep dokter.
+E: Tablet Zora tidak dijual di apotek.
+K: C
+P: Premis berbentuk "dijual bebas → aman tanpa resep". Tablet Zora memenuhi akibat (aman tanpa resep), tetapi itu tidak membuktikan syaratnya (dijual bebas). Bisa saja obat aman lain yang tidak dijual bebas.
+
+## PU-DED-033 | Penalaran Deduktif | sulit
+Q: Empat orang (P, Q, R, S) duduk berjajar pada kursi bernomor 1 sampai 4 dari kiri ke kanan. P tidak duduk di kursi 1. Q duduk tepat di sebelah kanan R. S duduk di salah satu ujung. P tidak duduk bersebelahan dengan S.
+Orang yang duduk di kursi 3 adalah ….
+A: P
+B: R
+C: S
+D: tidak dapat ditentukan
+E: Q
+K: E
+P: Q tepat di kanan R sehingga R dan Q bersebelahan (R lalu Q). S di kursi 1 atau 4. Kemungkinan tanpa syarat terakhir: S-P-R-Q, S-R-Q-P, atau R-Q-P-S. S-P-R-Q dan R-Q-P-S membuat P bersebelahan dengan S sehingga gugur. Tersisa S-R-Q-P, dan kursi 3 ditempati Q.
+
+## PU-KUA-001 | Penalaran Kuantitatif | mudah
+Q: Andi dapat menyelesaikan suatu pekerjaan dalam 12 hari, sedangkan Budi dapat menyelesaikan pekerjaan yang sama dalam 6 hari. Jika keduanya bekerja bersama, pekerjaan tersebut selesai dalam ... hari.
+A: 2
+B: 3
+C: 3,5
+D: 4
+E: 6
+K: D
+V: 1/(F(1,12)+F(1,6))
+P: Dalam 1 hari Andi mengerjakan 1/12 bagian dan Budi 1/6 bagian. Bersama: 1/12 + 2/12 = 3/12 = 1/4 bagian per hari, sehingga pekerjaan selesai dalam 4 hari.
+
+## PU-KUA-002 | Penalaran Kuantitatif | mudah
+Q: Harga sebuah buku Rp80.000. Buku tersebut mendapat diskon 25%, kemudian pembeli menggunakan voucher Rp5.000. Harga yang harus dibayar adalah ….
+A: Rp55.000
+B: Rp56.000
+C: Rp60.000
+D: Rp65.000
+E: Rp70.000
+K: A
+V: 80000*0.75-5000
+P: Harga setelah diskon = 75% × 80.000 = Rp60.000. Setelah voucher: 60.000 − 5.000 = Rp55.000.
+
+## PU-KUA-003 | Penalaran Kuantitatif | sedang
+Q: Umur ayah sekarang 4 kali umur Dani. Enam tahun lagi, umur ayah menjadi 3 kali umur Dani. Umur Dani sekarang adalah ... tahun.
+A: 6
+B: 8
+C: 9
+D: 10
+E: 12
+K: E
+V: 12
+P: Misalkan umur Dani d, ayah 4d. Enam tahun lagi: 4d + 6 = 3(d + 6) = 3d + 18, sehingga d = 12.
+
+## PU-KUA-004 | Penalaran Kuantitatif | sedang
+Q: Sebuah mobil menempuh 180 km dalam 3 jam pertama, kemudian 140 km dalam 2 jam berikutnya. Kecepatan rata-rata mobil selama seluruh perjalanan adalah ... km/jam.
+A: 60
+B: 62
+C: 64
+D: 65
+E: 66
+K: C
+V: 320/5
+P: Kecepatan rata-rata = jarak total : waktu total = (180 + 140) : (3 + 2) = 320 : 5 = 64 km/jam. (Rata-rata kedua kecepatan, yaitu (60 + 70) : 2 = 65, tidak tepat karena waktu tempuhnya berbeda.)
+
+## PU-KUA-005 | Penalaran Kuantitatif | sedang
+Q: Penjualan empat toko (dalam unit) pada bulan Januari dan Maret ditunjukkan pada tabel berikut.
+Toko | Januari | Maret
+A | 40 | 50
+B | 20 | 32
+C | 60 | 84
+D | 100 | 130
+Toko yang mengalami persentase kenaikan penjualan terbesar dari Januari ke Maret adalah ….
+A: Toko A
+B: Toko B
+C: Toko C
+D: Toko D
+E: Persentase kenaikan keempat toko sama
+K: B
+P: Kenaikan: A 10/40 = 25%, B 12/20 = 60%, C 24/60 = 40%, D 30/100 = 30%. Persentase terbesar dimiliki Toko B. (Toko D memiliki kenaikan jumlah terbesar, tetapi bukan persentase terbesar.)
+
+## PU-KUA-006 | Penalaran Kuantitatif | sedang
+Q: Rata-rata nilai 6 siswa adalah 70. Dua siswa dengan nilai 50 dan 60 keluar dari kelompok tersebut. Rata-rata nilai siswa yang tersisa adalah ….
+A: 72,5
+B: 75
+C: 76
+D: 77,5
+E: 80
+K: D
+V: (70*6-50-60)/4
+P: Jumlah nilai awal = 70 × 6 = 420. Setelah dua siswa keluar: 420 − 110 = 310 untuk 4 siswa. Rata-ratanya 310 : 4 = 77,5.
+
+## PU-KUA-007 | Penalaran Kuantitatif | mudah
+Q: Sebuah resep kue untuk 4 orang memerlukan 300 gram tepung. Jika kue dibuat untuk 10 orang dengan resep yang sama, tepung yang diperlukan adalah ... gram.
+A: 750
+B: 700
+C: 800
+D: 900
+E: 1.200
+K: A
+V: 300*10//4
+P: Banyak tepung sebanding dengan banyak orang: 300 × 10/4 = 750 gram.
+
+## PU-KUA-008 | Penalaran Kuantitatif | sedang
+Q: Rina menabung Rp2.000.000 di bank dengan bunga tunggal 6% per tahun. Setelah 9 bulan, jumlah tabungan Rina menjadi ….
+A: Rp2.060.000
+B: Rp2.080.000
+C: Rp2.090.000
+D: Rp2.120.000
+E: Rp2.180.000
+K: C
+V: 2000000*(1+0.06*9/12)
+P: Bunga 9 bulan = 2.000.000 × 6% × 9/12 = Rp90.000. Jumlah tabungan = Rp2.090.000.
+
+## PU-KUA-009 | Penalaran Kuantitatif | sedang
+Q: Dalam sebuah turnamen, setiap tim bertemu dengan tim lainnya tepat satu kali. Jika terdapat 8 tim, banyak pertandingan yang dimainkan adalah ….
+A: 14
+B: 16
+C: 24
+D: 26
+E: 28
+K: E
+V: 8*7//2
+P: Banyak pertandingan = C(8, 2) = (8 × 7) : 2 = 28.
+
+## PU-KUA-010 | Penalaran Kuantitatif | sulit
+Q: Kran A dapat mengisi sebuah bak hingga penuh dalam 6 jam, kran B dalam 4 jam, sedangkan lubang pembuangan dapat mengosongkan bak penuh dalam 12 jam. Jika kedua kran dan lubang pembuangan dibuka bersamaan dari keadaan bak kosong, bak penuh dalam ... jam.
+A: 2,5
+B: 3
+C: 3,5
+D: 4
+E: 5
+K: B
+V: 1/(F(1,6)+F(1,4)-F(1,12))
+P: Dalam 1 jam: 1/6 + 1/4 − 1/12 = 2/12 + 3/12 − 1/12 = 4/12 = 1/3 bagian bak. Maka bak penuh dalam 3 jam.
+
+## PU-KUA-011 | Penalaran Kuantitatif | sedang
+Q: Harga sebuah barang dinaikkan 20%, kemudian diturunkan 20% dari harga yang baru. Dibandingkan harga semula, harga akhir barang tersebut ….
+A: turun 4%
+B: tetap sama
+C: turun 2%
+D: naik 4%
+E: turun 10%
+K: A
+P: Misalkan harga semula 100. Setelah naik 20% menjadi 120. Turun 20% dari 120 adalah 24, sehingga harga akhir 96. Harga turun 4% dari harga semula.
+
+## PU-KUA-012 | Penalaran Kuantitatif | mudah
+Q: Sebuah mobil menghabiskan 1 liter bensin untuk menempuh 12 km. Harga bensin Rp12.000 per liter. Biaya bensin untuk perjalanan 150 km adalah ….
+A: Rp120.000
+B: Rp130.000
+C: Rp140.000
+D: Rp150.000
+E: Rp160.000
+K: D
+V: 150/12*12000
+P: Bensin yang diperlukan = 150 : 12 = 12,5 liter. Biayanya 12,5 × Rp12.000 = Rp150.000.
+
+## PU-KUA-013 | Penalaran Kuantitatif | sedang
+Q: Jumlah dua bilangan adalah 56 dan selisihnya 14. Bilangan yang lebih besar adalah ….
+A: 28
+B: 30
+C: 35
+D: 38
+E: 42
+K: C
+V: (56+14)//2
+P: Bilangan besar = (jumlah + selisih) : 2 = (56 + 14) : 2 = 35 dan bilangan kecil 21. Cek: 35 + 21 = 56 dan 35 − 21 = 14.
+
+## PU-KUA-014 | Penalaran Kuantitatif | sedang
+Q: Kereta A berangkat pukul 06.40 dan tiba pukul 09.15. Kereta B berangkat pukul 07.05 dan tiba pukul 09.30 pada hari yang sama.
+Pernyataan yang BENAR mengenai waktu tempuh kedua kereta adalah ….
+A: Kereta B lebih lama 5 menit daripada kereta A.
+B: Kereta A lebih lama 5 menit daripada kereta B.
+C: Kereta B lebih lama 10 menit daripada kereta A.
+D: Waktu tempuh kedua kereta sama.
+E: Kereta A lebih lama 10 menit daripada kereta B.
+K: E
+P: Waktu tempuh A = 06.40 sampai 09.15 = 2 jam 35 menit (155 menit). Waktu tempuh B = 07.05 sampai 09.30 = 2 jam 25 menit (145 menit). Kereta A lebih lama 10 menit.
+
+## PU-KUA-015 | Penalaran Kuantitatif | sulit
+Q: Sebanyak 200 ml larutan gula berkadar 10% dicampur dengan 300 ml larutan gula berkadar 20%. Kadar gula campuran tersebut adalah ... persen.
+A: 15
+B: 16
+C: 17
+D: 18
+E: 20
+K: B
+V: (200*0.1+300*0.2)/500*100
+P: Gula dalam larutan pertama = 10% × 200 = 20 ml dan larutan kedua = 20% × 300 = 60 ml. Total gula 80 ml dalam 500 ml, sehingga kadarnya 80/500 = 16%. (Rata-rata kadar 15% keliru karena volumenya berbeda.)
+
+## PU-KUA-016 | Penalaran Kuantitatif | sedang
+Q: Perbandingan banyak kelereng Adi dan Budi adalah 3 : 5 dengan jumlah 96 butir. Setelah Budi memberikan 12 butir kepada Adi, selisih kelereng mereka adalah ... butir.
+A: 0
+B: 6
+C: 12
+D: 24
+E: 36
+K: A
+V: 0
+P: Adi = 3/8 × 96 = 36 dan Budi = 5/8 × 96 = 60. Setelah Budi memberi 12 butir: Adi 48 dan Budi 48, sehingga selisihnya 0.
+
+## PU-KUA-017 | Penalaran Kuantitatif | sedang
+Q: Ani berenang setiap 3 hari sekali dan Beni berenang setiap 4 hari sekali. Pada tanggal 1 Maret mereka berenang bersama. Mereka akan berenang bersama lagi pada tanggal ... Maret.
+A: 7
+B: 10
+C: 12
+D: 13
+E: 25
+K: D
+V: 1+12
+P: Mereka berenang bersama setiap KPK(3, 4) = 12 hari. Setelah tanggal 1 Maret, berikutnya pada tanggal 1 + 12 = 13 Maret.
+
+## PU-KUA-018 | Penalaran Kuantitatif | sedang
+Q: Pengeluaran bulanan sebuah keluarga sebesar Rp4.000.000 dibagi sebagai berikut.
+Kategori | Persentase
+Makanan | 35%
+Transportasi | 20%
+Pendidikan | 25%
+Lain-lain | 20%
+Selisih pengeluaran untuk makanan dan transportasi adalah ….
+A: Rp400.000
+B: Rp500.000
+C: Rp600.000
+D: Rp800.000
+E: Rp1.000.000
+K: C
+V: 4000000*0.15
+P: Selisih persentase = 35% − 20% = 15%. Selisih pengeluaran = 15% × Rp4.000.000 = Rp600.000.
+
+## PU-KUA-019 | Penalaran Kuantitatif | sedang
+Q: Pak Hadi menabung Rp50.000 pada bulan pertama. Setiap bulan berikutnya, tabungannya bertambah Rp10.000 dari bulan sebelumnya. Total tabungan Pak Hadi setelah 6 bulan adalah ….
+A: Rp360.000
+B: Rp390.000
+C: Rp420.000
+D: Rp440.000
+E: Rp450.000
+K: E
+V: sum(50000+10000*i for i in range(6))
+P: Setoran tiap bulan: 50.000, 60.000, 70.000, 80.000, 90.000, 100.000. Jumlahnya Rp450.000. (Rumus deret aritmetika: 6/2 × (50.000 + 100.000) = 450.000.)
+
+## PU-KUA-020 | Penalaran Kuantitatif | sulit
+Q: Motor A berangkat dari kota P pukul 08.00 dengan kecepatan 40 km/jam. Motor B berangkat dari kota P pukul 09.00 dengan kecepatan 60 km/jam melalui jalan yang sama. Motor B menyusul motor A pada pukul ….
+A: 11.00
+B: 10.30
+C: 11.30
+D: 12.00
+E: 10.00
+K: A
+V: 9+40/20
+P: Pada pukul 09.00 motor A sudah menempuh 40 km. Motor B menyusul dengan selisih kecepatan 60 − 40 = 20 km/jam, sehingga waktu menyusul = 40 : 20 = 2 jam setelah pukul 09.00, yaitu pukul 11.00.
+
+## PU-KUA-021 | Penalaran Kuantitatif | sedang
+Q: Seorang pedagang membeli 40 kg jeruk dengan harga Rp15.000 per kg. Sebanyak 5 kg jeruk busuk dan dibuang, sisanya dijual Rp20.000 per kg. Keuntungan pedagang tersebut adalah ….
+A: Rp50.000
+B: Rp100.000
+C: Rp120.000
+D: Rp150.000
+E: Rp200.000
+K: B
+V: 35*20000-40*15000
+P: Modal = 40 × 15.000 = Rp600.000. Pendapatan = 35 × 20.000 = Rp700.000. Keuntungan = 700.000 − 600.000 = Rp100.000.
+
+## PU-KUA-022 | Penalaran Kuantitatif | mudah
+Q: Sebuah mesin cetak mencetak 240 lembar dalam 8 menit. Dengan kecepatan yang sama, dalam 20 menit mesin tersebut mencetak ... lembar.
+A: 480
+B: 500
+C: 560
+D: 600
+E: 640
+K: D
+V: 240*20//8
+P: Kecepatan = 240 : 8 = 30 lembar per menit. Dalam 20 menit: 30 × 20 = 600 lembar.
+
+## PU-KUA-023 | Penalaran Kuantitatif | sedang
+Q: Jumlah siswa baru di sebuah sekolah dalam empat tahun terakhir adalah sebagai berikut.
+Tahun | Siswa baru
+2021 | 120
+2022 | 150
+2023 | 180
+2024 | 144
+Persentase penurunan jumlah siswa baru dari tahun 2023 ke tahun 2024 adalah ... persen.
+A: 15
+B: 18
+C: 20
+D: 24
+E: 25
+K: C
+V: (180-144)/180*100
+P: Penurunan = 180 − 144 = 36 siswa. Persentase penurunan = 36/180 × 100% = 20%.
+
+## PU-KUA-024 | Penalaran Kuantitatif | mudah
+Q: Rata-rata tiga bilangan adalah 20. Jika dua di antara bilangan tersebut adalah 15 dan 18, bilangan ketiga adalah ….
+A: 22
+B: 24
+C: 25
+D: 26
+E: 27
+K: E
+V: 60-15-18
+P: Jumlah ketiga bilangan = 20 × 3 = 60. Bilangan ketiga = 60 − 15 − 18 = 27.
+
+## PU-KUA-025 | Penalaran Kuantitatif | mudah
+Q: Dalam sebuah kuis dengan 40 soal, jawaban benar diberi skor 4, jawaban salah dikurangi 1, dan soal yang tidak dijawab diberi skor 0. Rafi menjawab benar 28 soal dan salah 8 soal, sisanya tidak dijawab. Skor akhir Rafi adalah ….
+A: 104
+B: 112
+C: 96
+D: 108
+E: 100
+K: A
+V: 28*4-8
+P: Skor dari jawaban benar = 28 × 4 = 112. Pengurangan dari jawaban salah = 8 × 1 = 8. Soal yang tidak dijawab (4 soal) bernilai 0. Skor akhir = 112 − 8 = 104.
+
+## PU-KUA-026 | Penalaran Kuantitatif | sedang
+Q: Umur ayah 5 tahun lebih tua daripada umur ibu. Umur Ani adalah seperempat umur ibu. Jumlah umur ketiganya 95 tahun. Umur ayah adalah ... tahun.
+A: 40
+B: 45
+C: 48
+D: 50
+E: 55
+K: B
+V: 45
+P: Misalkan umur ibu x. Ayah x + 5 dan Ani x/4. Jumlah: x + (x + 5) + x/4 = 95, sehingga 2,25x = 90 dan x = 40. Umur ayah = 40 + 5 = 45 tahun.
+
+## PU-KUA-027 | Penalaran Kuantitatif | sedang
+Q: Sebuah bak mandi berbentuk balok dengan ukuran dalam 80 cm × 50 cm × 60 cm. Bak tersebut terisi air sebanyak 3/4 bagian. Volume air di dalam bak adalah ... liter.
+A: 120
+B: 150
+C: 160
+D: 180
+E: 240
+K: D
+V: 80*50*60*0.75/1000
+P: Volume bak = 80 × 50 × 60 = 240.000 cm³ = 240 liter. Terisi 3/4 bagian: 3/4 × 240 = 180 liter.
+
+## PU-KUA-028 | Penalaran Kuantitatif | sulit
+Q: Toko A menawarkan diskon 30% untuk sebuah televisi. Toko B menawarkan diskon 20% dan masih ditambah diskon 10% dari harga setelah diskon pertama. Harga televisi sebelum diskon di kedua toko Rp500.000.
+Pernyataan yang BENAR adalah ….
+A: Toko B lebih murah Rp10.000 daripada Toko A.
+B: Harga di kedua toko sama.
+C: Toko A lebih murah Rp10.000 daripada Toko B.
+D: Toko A lebih murah Rp20.000 daripada Toko B.
+E: Toko B lebih murah Rp15.000 daripada Toko A.
+K: C
+P: Harga Toko A = 70% × 500.000 = Rp350.000. Harga Toko B = 80% × 500.000 = 400.000, lalu 90% × 400.000 = Rp360.000. Toko A lebih murah Rp10.000. (Diskon 20% + 10% bertingkat bukan 30%.)
+
+## PU-KUA-029 | Penalaran Kuantitatif | sedang
+Q: Lima orang pekerja dapat menyelesaikan suatu proyek dalam 12 hari. Setelah bekerja 4 hari, ditambahkan 3 orang pekerja dengan kemampuan yang sama. Proyek selesai dalam total ... hari.
+A: 6
+B: 7
+C: 8
+D: 10
+E: 9
+K: E
+V: 4+(5*12-5*4)/8
+P: Total pekerjaan = 5 × 12 = 60 hari-orang. Dalam 4 hari pertama selesai 5 × 4 = 20 hari-orang, sisa 40. Dengan 8 pekerja, sisa selesai dalam 40 : 8 = 5 hari. Total 4 + 5 = 9 hari.
+
+## PU-KUA-030 | Penalaran Kuantitatif | mudah
+Q: Sebuah drum berisi 160 liter minyak. Pada hari pertama dipakai 25% isi drum. Pada hari kedua dipakai 25% dari sisa minyak setelah hari pertama. Sisa minyak di dalam drum adalah ... liter.
+A: 90
+B: 100
+C: 80
+D: 70
+E: 110
+K: A
+V: 160*0.75*0.75
+P: Hari pertama dipakai 40 liter, sisa 120 liter. Hari kedua dipakai 25% × 120 = 30 liter. Sisa = 120 − 30 = 90 liter.
+
+## PU-KUA-031 | Penalaran Kuantitatif | sulit
+Q: Sebuah bilangan terdiri dari dua angka dengan jumlah angka 11. Jika kedua angkanya ditukar, bilangan yang baru lebih besar 27 daripada bilangan semula. Bilangan semula adalah ….
+A: 38
+B: 47
+C: 56
+D: 29
+E: 74
+K: B
+V: 47
+P: Misalkan bilangan 10a + b dengan a + b = 11. Setelah ditukar: 10b + a. Selisihnya 9(b − a) = 27 sehingga b − a = 3. Dari a + b = 11 diperoleh a = 4 dan b = 7, jadi bilangan semula 47 (74 − 47 = 27).
+
+## PU-KUA-032 | Penalaran Kuantitatif | sedang
+Q: Harga 3 pensil dan 2 buku adalah Rp21.000, sedangkan harga 2 pensil dan 3 buku adalah Rp24.000. Harga 1 pensil dan 1 buku adalah ….
+A: Rp7.500
+B: Rp8.000
+C: Rp8.500
+D: Rp9.000
+E: Rp10.000
+K: D
+V: (21000+24000)/5
+P: Jumlahkan kedua persamaan: 5 pensil + 5 buku = Rp45.000, sehingga 1 pensil + 1 buku = 45.000 : 5 = Rp9.000. (Pensil Rp3.000 dan buku Rp6.000.)
+

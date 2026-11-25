@@ -1,0 +1,233 @@
+# SUBTES: Literasi dalam Bahasa Inggris
+
+@W w_honey
+Honey may look like a simple golden syrup, but making it is a team effort that takes thousands of trips. A worker bee begins by visiting flowers and sipping nectar with her long tongue. She stores the nectar in a special organ called the honey stomach, which is separate from the stomach she uses to digest food.
+
+Back at the hive, the forager passes the nectar to a younger bee, who chews it for a while. During this stage, enzymes from the bee's body begin to break the complex sugars in the nectar into simpler ones. The bee then spreads the liquid into a cell of the honeycomb. At this point the mixture is still thin and watery.
+
+To thicken it, other bees fan their wings over the open cells, causing much of the water to evaporate. When the honey is thick enough, the bees seal the cell with a thin layer of wax. Sealed in this way, honey can stay fresh for a very long time, serving as food for the colony during winter, when flowers are scarce.
+@END
+
+@W w_studynest
+Review: StudyNest, a Study-Planning App
+
+StudyNest promises to help students organize their schedules, and for the most part it delivers. The app's greatest strength is its simplicity. Within minutes of installing it, a user can enter school subjects, set deadlines, and receive reminders. The clean layout makes the app pleasant to use, even for people who are not comfortable with technology.
+
+However, the app is not without flaws. The free version limits users to five subjects, which is hardly enough for a student with a full timetable. Unlocking unlimited subjects requires a monthly subscription that seems expensive for what it offers. Moreover, the reminders occasionally arrive late, which defeats the purpose of a planner.
+
+Overall, StudyNest is a good starting point for students who want to build better habits. Until the developers fix the reminder problem and reconsider the price, though, I would recommend it only to those with lighter schedules.
+@END
+
+@W w_homework
+Homework has long been seen as an essential part of education, yet its value is often overstated. Supporters claim that practice at home helps students remember what they learn. This is true in moderation. A few well-designed exercises can strengthen understanding. But when assignments pile up from several subjects at once, the benefit quickly disappears.
+
+Excessive homework carries real costs. Students who spend their evenings finishing worksheets have less time for sleep, exercise, and family. Tired students are less able to concentrate the next day, which undermines the very learning that homework is meant to support.
+
+Therefore, schools should set clear limits. Teachers could coordinate so that students do not receive heavy assignments from every subject on the same night. They could also assign fewer, more meaningful tasks instead of long lists of repetitive problems. Education should be about understanding, not about how many hours a child can spend at a desk.
+@END
+
+@W w_lighthouse
+For thirty years, Mr. Hadi tended the lighthouse on the rocky northern coast. Every evening he climbed the winding stairs, polished the great lens, and lit the lamp whose beam guided fishing boats safely home. The work was lonely, and the sea around the lighthouse was treacherous, with hidden rocks that had wrecked many ships long before he arrived.
+
+When an automatic system replaced human keepers, Mr. Hadi was told he could retire. On his last night he stood on the balcony, watching the beam sweep across the dark water. Below, a small fishing boat appeared, its engine a faint hum against the wind. The fishermen waved up at the tower, as they had done every night for years. Mr. Hadi waved back, his weathered face breaking into a smile. He realized that, although a machine could now turn the light, no machine could ever replace the feeling of being watched over by someone who cared.
+@END
+
+## TO1-LBE-001 | Explanatory and Review Text | mudah | W=w_honey
+Q: Where does a worker bee carry the nectar while she flies back to the hive?
+A: In the stomach she uses for food
+B: In a cell of the honeycomb
+C: In a special organ called the honey stomach
+D: Under her wings
+E: On her long tongue
+K: C
+P: Paragraf pertama menyebut bahwa lebah menyimpan nektar di organ khusus bernama honey stomach, yang terpisah dari perut untuk mencerna makanan.
+
+## TO1-LBE-002 | Explanatory and Review Text | sedang | W=w_honey
+Q: Why do the bees fan their wings over the open cells?
+A: To make water evaporate so the honey becomes thicker
+B: To cool the hive during summer
+C: To call other bees to the flowers
+D: To mix wax into the honey
+E: To keep insects away from the hive
+K: A
+P: Paragraf ketiga menjelaskan bahwa kipasan sayap membuat banyak air menguap sehingga madu menjadi kental.
+
+## TO1-LBE-003 | Explanatory and Review Text | sulit | W=w_honey
+Q: Which sequence best describes how honey is made according to the passage?
+A: Nectar is sealed with wax, chewed by a young bee, spread in cells, and then collected from flowers.
+B: Nectar is collected, fanned by wings, chewed by a young bee, and then sealed with wax.
+C: Nectar is collected, spread in cells, chewed by a young bee, and then fanned by wings.
+D: Nectar is chewed by a young bee, collected from flowers, sealed with wax, and then fanned by wings.
+E: Nectar is collected, chewed by a young bee, spread in cells, fanned by wings, and then sealed with wax.
+K: E
+P: Urutan dalam teks: nektar dikumpulkan, dikunyah lebah muda, disebar ke sel sarang, dikipasi sayap agar mengental, lalu ditutup lilin.
+
+## TO1-LBE-004 | Contextual Meaning | mudah | W=w_honey
+Q: The word "scarce" in the last sentence is closest in meaning to ….
+A: abundant
+B: in short supply
+C: colourful
+D: harmful
+E: fragrant
+K: B
+P: Pada musim dingin bunga sulit ditemukan, sehingga "scarce" berarti jumlahnya sedikit atau langka (in short supply).
+
+## TO1-LBE-005 | Main Idea and Conclusion | sedang | W=w_honey
+Q: What is the main idea of the passage?
+A: Bees prefer some flowers over others.
+B: Honey is mainly eaten by people in winter.
+C: Worker bees live longer than other bees.
+D: Making honey is a multi-step process that depends on cooperation among bees.
+E: Wax is more important to bees than honey.
+K: D
+P: Teks menguraikan tahapan pembuatan madu yang melibatkan lebah pencari, lebah muda, dan lebah pengipas. Gagasan utamanya adalah proses bertahap yang bergantung pada kerja sama.
+
+## TO1-LBE-006 | Explanatory and Review Text | mudah | W=w_studynest
+Q: According to the review, what is the greatest strength of StudyNest?
+A: Its low price
+B: Its simplicity
+C: Its many features
+D: Its accurate reminders
+E: Its free version
+K: B
+P: Kalimat kedua paragraf pertama menyatakan "The app's greatest strength is its simplicity."
+
+## TO1-LBE-007 | Explanatory and Review Text | sedang | W=w_studynest
+Q: Which statement is NOT true about StudyNest according to the review?
+A: The free version allows only five subjects.
+B: Unlimited subjects require a monthly subscription.
+C: Reminders sometimes arrive late.
+D: The app is difficult for beginners to use.
+E: The price seems high for what the app offers.
+K: D
+P: Ulasan menyebut aplikasi ini nyaman dipakai bahkan oleh orang yang kurang akrab dengan teknologi, sehingga D bertentangan dengan teks. Pilihan lain disebutkan sebagai kekurangan.
+
+## TO1-LBE-008 | Contextual Meaning | sedang | W=w_studynest
+Q: The phrase "defeats the purpose" in the second paragraph means ….
+A: makes something fail to achieve its goal
+B: wins a competition against others
+C: changes the original plan
+D: makes something cheaper
+E: causes people to forget their homework
+K: A
+P: Pengingat yang terlambat membuat aplikasi perencana gagal melakukan tugas utamanya. Jadi "defeats the purpose" berarti membuat sesuatu gagal mencapai tujuannya.
+
+## TO1-LBE-009 | Main Idea and Conclusion | sedang | W=w_studynest
+Q: What is the reviewer's overall opinion of StudyNest?
+A: It is useless and should be avoided.
+B: It is perfect for every student.
+C: It is a decent starting point, but best for students with lighter schedules until its problems are fixed.
+D: It is more useful than any other planner.
+E: It is worth buying only in its subscription version.
+K: C
+P: Paragraf terakhir menyebut aplikasi ini titik awal yang baik, tetapi hanya direkomendasikan bagi siswa dengan jadwal ringan sampai masalah pengingat dan harga dibenahi.
+
+## TO1-LBE-010 | Argumentative Text | sulit | W=w_studynest
+Q: Which statement would the reviewer most likely agree with?
+A: A planner is useful even if it often forgets to remind its users.
+B: Students with heavy timetables will be happy with the free version.
+C: A high price is acceptable as long as an app looks attractive.
+D: Simplicity is less important than the number of features.
+E: A study planner is only helpful if its reminders are dependable.
+K: E
+P: Reviewer menilai pengingat yang terlambat "defeats the purpose of a planner", sehingga ia akan setuju bahwa perencana hanya berguna jika pengingatnya dapat diandalkan.
+
+## TO1-LBE-011 | Argumentative Text | mudah | W=w_homework
+Q: How can the author's attitude toward homework best be described?
+A: Fully in favor of homework
+B: Totally against all homework
+C: Uninterested in the topic
+D: Uncertain about his or her own opinion
+E: Critical of excessive homework but accepting that some is useful
+K: E
+P: Penulis mengakui latihan di rumah bermanfaat "in moderation" tetapi mengkritik tugas yang berlebihan.
+
+## TO1-LBE-012 | Argumentative Text | sedang | W=w_homework
+Q: What does the author mean by "This is true in moderation"?
+A: Supporters of homework are always right.
+B: Homework should be given every day.
+C: Practice at home helps only when it is not excessive.
+D: Students must finish their homework in a moderate amount of time.
+E: Teachers should moderate class discussions.
+K: C
+P: Kalimat berikutnya menyebut bahwa beberapa latihan yang dirancang baik memang membantu, tetapi manfaatnya hilang bila tugas menumpuk. Artinya, latihan di rumah bermanfaat selama tidak berlebihan.
+
+## TO1-LBE-013 | Argumentative Text | mudah | W=w_homework
+Q: Which of the following is a cost of excessive homework mentioned in the passage?
+A: Students lose interest in reading.
+B: Students have less time for sleep, exercise, and family.
+C: Teachers have to grade more papers.
+D: Schools must buy more books.
+E: Parents have to pay extra fees.
+K: B
+P: Paragraf kedua menyebut siswa kekurangan waktu untuk tidur, olahraga, dan keluarga.
+
+## TO1-LBE-014 | Argumentative Text | sulit | W=w_homework
+Q: Which statement would most strengthen the author's argument?
+A: Students who have no homework often forget their lessons.
+B: Teachers usually design homework very carefully.
+C: Many schools have longer holidays than before.
+D: A study shows that students who sleep enough perform better on tests than those who stay up late to finish homework.
+E: Some students enjoy doing worksheets at home.
+K: D
+P: Penulis berargumen bahwa tugas berlebihan mengurangi waktu tidur dan konsentrasi. Studi pada pilihan D mendukung klaim itu, sedangkan pilihan lain melemahkan atau tidak relevan.
+
+## TO1-LBE-015 | Main Idea and Conclusion | sedang | W=w_homework
+Q: The main idea of the passage is that ….
+A: schools should limit homework and make it more meaningful so that it supports real learning
+B: homework should be abolished completely
+C: students are naturally lazy about doing homework
+D: teachers rarely coordinate with parents
+E: education is only about the time spent at a desk
+K: A
+P: Penulis tidak menolak PR sepenuhnya, tetapi mengusulkan batasan yang jelas dan tugas yang lebih bermakna agar mendukung pemahaman.
+
+## TO1-LBE-016 | Contextual Meaning | mudah | W=w_lighthouse
+Q: The word "treacherous" in the first paragraph is closest in meaning to ….
+A: peaceful
+B: familiar
+C: distant
+D: dangerous
+E: shallow
+K: D
+P: Laut digambarkan penuh batu tersembunyi yang telah menghancurkan banyak kapal, jadi "treacherous" berarti berbahaya.
+
+## TO1-LBE-017 | Contextual Meaning | sedang | W=w_lighthouse
+Q: In the phrase "its engine a faint hum against the wind", the word "faint" means ….
+A: very loud
+B: barely noticeable
+C: extremely fast
+D: highly reliable
+E: quite old
+K: B
+P: Suara mesin perahu kecil yang terdengar di tengah angin hanya samar-samar. Jadi "faint" berarti nyaris tidak terdengar.
+
+## TO1-LBE-018 | Contextual Meaning | sulit | W=w_lighthouse
+Q: The phrase "weathered face" suggests that Mr. Hadi's face is ….
+A: pale and sick
+B: freshly washed
+C: marked by many years of exposure to sun, wind, and age
+D: covered with sea water
+E: hidden under a hat
+K: C
+P: "Weathered" menggambarkan wajah yang berubah karena bertahun-tahun terpapar cuaca. Konteksnya, Mr. Hadi bekerja tiga puluh tahun di tepi laut.
+
+## TO1-LBE-019 | Main Idea and Conclusion | sedang | W=w_lighthouse
+Q: What is the main idea of the first paragraph?
+A: Mr. Hadi spent many years doing lonely but important work to keep boats safe.
+B: Lighthouses are no longer needed on rocky coasts.
+C: Mr. Hadi was afraid of the sea.
+D: Hidden rocks are common in the northern region.
+E: Fishing boats were rare around the lighthouse.
+K: A
+P: Paragraf pertama menggambarkan pekerjaan Mr. Hadi yang sepi namun penting, yaitu menjaga kapal nelayan tiba dengan selamat.
+
+## TO1-LBE-020 | Main Idea and Conclusion | sulit | W=w_lighthouse
+Q: Which conclusion can be drawn from the passage as a whole?
+A: Automatic systems are always dangerous.
+B: Fishermen prefer machines to human keepers.
+C: Mr. Hadi regretted his career choice.
+D: Lighthouses should be replaced as soon as possible.
+E: Human care has a value that technology cannot completely replace.
+K: E
+P: Kalimat terakhir teks menyatakan bahwa mesin dapat menyalakan lampu tetapi tidak dapat menggantikan perasaan diawasi oleh seseorang yang peduli.

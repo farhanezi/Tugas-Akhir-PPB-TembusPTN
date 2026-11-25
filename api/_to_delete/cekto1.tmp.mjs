@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import { createClient } from '@supabase/supabase-js';
+const ANON = fs.readFileSync(process.env.HOME + '/mnt/TA/web/.env', 'utf8').split(/\r?\n/).find((l) => l.startsWith('VITE_SUPABASE_ANON_KEY=')).split('=').slice(1).join('=').replace(/"/g, '').trim();
+const anon = createClient(process.env.SUPABASE_URL, ANON, { auth: { persistSession: false } });
+const { data } = await anon.auth.signInWithPassword({ email: process.env.UJI_EMAIL, password: process.env.UJI_PASSWORD });
+const get = (p) => fetch('http://localhost:3000/api' + p, { headers: { Authorization: `Bearer ${data.session.access_token}` } }).then((r) => r.json());
+const daftar = await get('/try-out');
+console.log('Daftar try out:', daftar.map((t) => `${t.id}: ${t.judul} | ${t.total_soal ?? t.jumlah_soal} soal | ${t.total_menit ?? t.total_durasi_menit ?? '?'} menit | ${t.status}`).join('\n               '));
+const t1 = daftar.find((t) => t.judul === 'Try Out 1');
+const d = await get(`/try-out/${t1.id}`);
+console.log(JSON.stringify(d).slice(0, 900));

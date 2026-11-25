@@ -1,0 +1,10 @@
+import { createClient } from '@supabase/supabase-js';
+const sb = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY, { auth: { persistSession: false } });
+const { data: to } = await sb.from('try_out').select('*');
+console.log('try_out:', JSON.stringify(to, null, 1));
+const { data: sj } = await sb.from('soal').select('id, kode, try_out_id, nomor, materi_id').not('try_out_id', 'is', null);
+console.log('soal ber-try_out_id:', sj.length, sj.map((x) => `${x.kode}#${x.nomor}`).join(', '));
+const { data: v } = await sb.from('v_try_out_subtes').select('*');
+console.log('v_try_out_subtes:', JSON.stringify(v));
+const { data: lst } = await sb.auth.admin.listUsers({ perPage: 200 });
+console.log('pengguna:', lst.users.map((u) => u.email).join(', '));

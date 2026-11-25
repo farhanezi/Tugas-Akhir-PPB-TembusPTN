@@ -1,0 +1,1085 @@
+# SUBTES: Pengetahuan dan Pemahaman Umum
+
+@W w_bs
+(1) Bank sampah kini menjadi salah satu solusi untuk mengurangi timbunan limbah rumah tangga di perkotaan. (2) Warga memilah sampah anorganik, seperti botol plastik, kardus, dan kaleng, lalu menyetorkannya kepada pengelola. (3) Setiap setoran ditimbang dan dicatat sebagai tabungan atas nama penyetor. (4) Saldo tabungan tersebut dapat ditukar dengan uang tunai atau kebutuhan pokok. (5) Selain mengurangi beban tempat pembuangan akhir, program ini menumbuhkan kebiasaan memilah sampah sejak dari rumah. (6) Namun, keberhasilan bank sampah sangat bergantung pada konsistensi warga dan ketekunan pengelola. (7) Tanpa pendampingan yang berkelanjutan, semangat awal biasanya meredup dalam beberapa bulan. (8) Karena itu, banyak kelurahan mulai menggandeng sekolah dan komunitas pemuda untuk menjaga kesinambungan program.
+@END
+
+@W w_mg
+(1) Hutan mangrove berperan penting sebagai benteng alami di wilayah pesisir. (2) Akar-akarnya yang kokoh dan rapat meredam hantaman ombak sehingga abrasi dapat ditekan. (3) Selain itu, kawasan mangrove menjadi tempat berkembang biak berbagai biota laut, seperti ikan, udang, dan kepiting. (4) Nelayan di sekitarnya pun memperoleh tangkapan yang lebih stabil. (5) Sayangnya, luas hutan mangrove terus menyusut karena alih fungsi lahan menjadi tambak dan permukiman. (6) Penebangan liar yang masih terjadi di beberapa daerah memperparah keadaan. (7) Upaya rehabilitasi dengan menanam bibit baru memang gencar dilakukan. (8) Akan tetapi, tanpa pengawasan yang ketat, bibit-bibit tersebut sulit tumbuh menjadi hutan yang lestari.
+@END
+
+@W w_ak
+(1) Angklung adalah alat musik tradisional dari bambu yang berasal dari tanah Sunda. (2) Setiap angklung hanya menghasilkan satu nada sehingga sebuah lagu baru dapat dimainkan jika banyak pemain bekerja sama. (3) Tidak ada pemain yang menonjol sendiri; semuanya harus tunduk pada irama bersama. (4) Karena itu, bermain angklung dinilai melatih kekompakan dan kedisiplinan. (5) Pada tahun 2010, UNESCO menetapkan angklung sebagai Warisan Budaya Takbenda dari Indonesia. (6) Pengakuan itu mendorong banyak sekolah memasukkan angklung ke dalam kegiatan ekstrakurikuler. (7) Di sejumlah negara, kelompok angklung dibentuk oleh komunitas perantau dan penggemar budaya Indonesia. (8) Dengan demikian, alat musik sederhana ini berfungsi pula sebagai duta budaya bangsa.
+@END
+
+@W w_td
+(1) Banyak remaja menganggap tidur larut malam sebagai hal yang biasa. (2) Padahal, kurang tidur secara terus-menerus dapat mengganggu daya ingat dan konsentrasi. (3) Para ahli menyarankan remaja tidur delapan hingga sepuluh jam setiap malam. (4) Sayangnya, gawai yang dibawa ke tempat tidur sering kali merampas waktu istirahat tersebut. (5) Cahaya layar yang terang menghambat tubuh memproduksi hormon yang memicu rasa kantuk. (6) Akibatnya, remaja baru dapat terlelap setelah lewat tengah malam. (7) Untuk memulihkan pola tidur, mereka perlu menjauhkan gawai setidaknya satu jam sebelum tidur. (8) Kebiasaan sederhana ini terbukti membantu tubuh beristirahat lebih nyenyak.
+@END
+
+@W w_ps
+(1) Pasar tradisional tetap bertahan di tengah menjamurnya toko modern dan belanja daring. (2) Pedagang dan pembeli di sana saling mengenal sehingga tawar-menawar terasa akrab. (3) Barang dagangan, terutama sayur dan ikan, umumnya lebih segar karena dipasok langsung dari petani dan nelayan sekitar. (4) Namun, kondisi pasar sering kali becek, sumpek, dan kurang tertata. (5) Pengelola pasar di beberapa kota mulai membenahi saluran air dan menata lapak pedagang berdasarkan jenis dagangan. (6) Penataan ini diharapkan menarik kembali pembeli muda yang cenderung enggan berbelanja di tempat yang kumuh. (7) Selain itu, pedagang dilatih menerima pembayaran nontunai agar tidak ketinggalan zaman. (8) Jika upaya ini berhasil, pasar tradisional akan tetap menjadi urat nadi ekonomi rakyat.
+@END
+
+## PPU-SIN-001 | Sinonim dan Makna Kata | mudah | W=w_bs
+Q: Kata timbunan pada kalimat (1) bersinonim dengan ….
+A: kantong
+B: gudang
+C: tumpukan
+D: sebaran
+E: angka
+K: C
+P: Timbunan berarti sesuatu yang ditumpuk dalam jumlah banyak, sinonimnya tumpukan.
+
+## PPU-SIN-002 | Sinonim dan Makna Kata | mudah | W=w_bs
+Q: Antonim kata anorganik pada kalimat (2) adalah ….
+A: organik
+B: alami
+C: hayati
+D: nabati
+E: kimiawi
+K: A
+P: Anorganik adalah bahan yang tidak berasal dari makhluk hidup atau tidak dapat terurai alami; lawan katanya organik.
+
+## PPU-SIN-003 | Sinonim dan Makna Kata | sedang | W=w_bs
+Q: Makna kata meredup pada kalimat (7) paling dekat dengan ….
+A: menghilang seketika
+B: membesar
+C: berubah arah
+D: memanas
+E: melemah
+K: E
+P: Dalam konteks "semangat awal meredup", maknanya berkurang atau melemah secara bertahap.
+
+## PPU-SIN-004 | Sinonim dan Makna Kata | sedang | W=w_bs
+Q: Kata menggandeng pada kalimat (8) dalam konteks bacaan bermakna ….
+A: memegang tangan
+B: mengikuti
+C: menuntun
+D: mengajak bekerja sama
+E: mengawasi
+K: D
+P: Kelurahan yang "menggandeng sekolah dan komunitas pemuda" berarti mengajak keduanya bekerja sama, bukan memegang tangan secara harfiah.
+
+## PPU-SIN-005 | Sinonim dan Makna Kata | mudah | W=w_mg
+Q: Antonim kata kokoh pada kalimat (2) adalah ….
+A: rapat
+B: rapuh
+C: keras
+D: besar
+E: tebal
+K: B
+P: Kokoh berarti kuat dan tidak mudah rusak, lawan katanya rapuh.
+
+## PPU-SIN-006 | Sinonim dan Makna Kata | sedang | W=w_mg
+Q: Kata gencar pada kalimat (7) bermakna ….
+A: giat dan terus-menerus
+B: terpaksa
+C: sesekali
+D: diam-diam
+E: tertunda
+K: A
+P: Gencar berarti giat, bersemangat, dan intens. Upaya rehabilitasi "gencar dilakukan" berarti dilakukan dengan giat.
+
+## PPU-SIN-007 | Sinonim dan Makna Kata | sedang | W=w_mg
+Q: Kata biota pada kalimat (3) bermakna paling dekat dengan ….
+A: tumbuhan darat
+B: sumber daya
+C: benda mati
+D: makhluk hidup
+E: jenis makanan
+K: D
+P: Biota berarti keseluruhan makhluk hidup (flora dan fauna) di suatu wilayah. Contoh pada kalimat: ikan, udang, kepiting.
+
+## PPU-SIN-008 | Sinonim dan Makna Kata | sedang | W=w_mg
+Q: Kata yang dipakai dengan makna kiasan dalam bacaan tersebut adalah ….
+A: akar (kalimat 2)
+B: benteng (kalimat 1)
+C: berkembang biak (kalimat 3)
+D: nelayan (kalimat 4)
+E: bibit (kalimat 7)
+K: B
+P: Hutan mangrove tentu bukan benteng sebenarnya; kata benteng dipakai sebagai kiasan untuk pelindung wilayah pesisir. Kata lain dipakai dengan makna sebenarnya.
+
+## PPU-SIN-009 | Sinonim dan Makna Kata | mudah | W=w_ak
+Q: Kata menonjol pada kalimat (3) bersinonim dengan ….
+A: menyendiri
+B: tenggelam
+C: berbunyi
+D: memimpin
+E: mencolok
+K: E
+P: Menonjol berarti tampak lebih dibandingkan yang lain, sinonimnya mencolok.
+
+## PPU-SIN-010 | Sinonim dan Makna Kata | sedang | W=w_ak
+Q: Kata tunduk pada kalimat (3) dalam konteks bacaan paling dekat maknanya dengan ….
+A: menunduk
+B: takut
+C: menaati
+D: menyerah
+E: membungkuk
+K: C
+P: Pemain "tunduk pada irama bersama" berarti menaati atau mengikuti irama itu, bukan menundukkan kepala.
+
+## PPU-SIN-011 | Sinonim dan Makna Kata | sulit | W=w_ak
+Q: Kata duta pada kalimat (8) dalam bacaan tersebut dipakai dengan makna ….
+A: pejabat pemerintah
+B: penerjemah
+C: pedagang
+D: penghibur
+E: perwakilan yang memperkenalkan
+K: E
+P: Alat musik tidak dapat menjadi duta sebenarnya. Kata duta dipakai kiasan: angklung mewakili dan memperkenalkan budaya bangsa.
+
+## PPU-SIN-012 | Sinonim dan Makna Kata | mudah | W=w_ak
+Q: Antonim kata sederhana pada kalimat (8) adalah ….
+A: mudah
+B: rumit
+C: kecil
+D: murah
+E: biasa
+K: B
+P: Sederhana berarti tidak rumit; lawan katanya rumit.
+
+## PPU-SIN-013 | Sinonim dan Makna Kata | sedang | W=w_td
+Q: Makna kata merampas pada kalimat (4) dalam konteks bacaan adalah ….
+A: mengambil secara paksa
+B: memberikan
+C: meminjam
+D: menyimpan
+E: menawarkan
+K: A
+P: Gawai yang "merampas waktu istirahat" berarti menyita atau mengambil waktu itu secara paksa.
+
+## PPU-SIN-014 | Sinonim dan Makna Kata | mudah | W=w_td
+Q: Kata terlelap pada kalimat (6) bermakna ….
+A: terbangun
+B: berbaring
+C: tertidur
+D: bermimpi
+E: mengantuk
+K: C
+P: Terlelap berarti tertidur, biasanya dengan nyenyak.
+
+## PPU-SIN-015 | Sinonim dan Makna Kata | sedang | W=w_td
+Q: Antonim kata nyenyak pada kalimat (8) adalah ….
+A: lelap
+B: tenang
+C: singkat
+D: gelisah
+E: dalam
+K: D
+P: Nyenyak berarti tidur dengan tenang dan tidak terganggu, lawan katanya gelisah (tidak tenang).
+
+## PPU-SIN-016 | Sinonim dan Makna Kata | mudah | W=w_td
+Q: Kata gawai pada kalimat (4) bersinonim dengan ….
+A: televisi
+B: peranti elektronik
+C: kamera
+D: kabel
+E: kasur
+K: B
+P: Gawai adalah padanan kata gadget, yaitu peranti elektronik kecil seperti ponsel dan tablet.
+
+## PPU-SIN-017 | Sinonim dan Makna Kata | sedang | W=w_ps
+Q: Makna kata menjamurnya pada kalimat (1) adalah ….
+A: tumbuh di tempat lembap
+B: membusuk
+C: bertambah banyak dengan cepat
+D: berkurang
+E: dibangun di pasar
+K: C
+P: Menjamur bermakna kiasan: bertambah banyak dan menyebar dengan cepat seperti jamur pada musim hujan.
+
+## PPU-SIN-018 | Sinonim dan Makna Kata | sedang | W=w_ps
+Q: Kata sumpek pada kalimat (4) bermakna ….
+A: luas
+B: sepi
+C: gelap
+D: kotor
+E: sesak dan pengap
+K: E
+P: Sumpek berarti sesak dan kurang udara, sering dipakai untuk ruangan yang penuh dan pengap.
+
+## PPU-SIN-019 | Sinonim dan Makna Kata | mudah | W=w_ps
+Q: Kata kumuh pada kalimat (6) bersinonim dengan ….
+A: kotor
+B: rapi
+C: ramai
+D: sempit
+E: gelap
+K: A
+P: Kumuh berarti kotor dan tidak terawat.
+
+## PPU-SIN-020 | Sinonim dan Makna Kata | sulit | W=w_ps
+Q: Ungkapan urat nadi pada kalimat (8) bermakna ….
+A: pembuluh darah
+B: bagian kecil
+C: jalur transportasi
+D: penopang utama
+E: pekerja pasar
+K: D
+P: Urat nadi dalam kalimat dipakai kiasan: bagian yang sangat penting dan menopang kehidupan ekonomi rakyat.
+
+## PPU-SIN-021 | Sinonim dan Makna Kata | mudah
+Q: Kata yang bersinonim dengan gigih adalah ….
+A: malas
+B: mudah menyerah
+C: ragu-ragu
+D: ulet
+E: sombong
+K: D
+P: Gigih berarti keras dan tekun dalam berusaha, sinonimnya ulet.
+
+## PPU-SIN-022 | Sinonim dan Makna Kata | sedang
+Q: Antonim kata fasih adalah ….
+A: terbata-bata
+B: lancar
+C: cakap
+D: mahir
+E: runtut
+K: A
+P: Fasih berarti lancar dan jelas dalam berbicara, lawannya terbata-bata (tersendat-sendat).
+
+## PPU-SIN-023 | Sinonim dan Makna Kata | sulit
+Q: Dalam kalimat "Kebijakan baru itu menuai kritik tajam dari para pengamat", kata menuai bermakna ….
+A: memotong padi
+B: memperoleh (sebagai akibat)
+C: menanam
+D: mencabut
+E: membagikan
+K: B
+P: Menuai di sini dipakai kiasan: memperoleh sesuatu sebagai hasil atau akibat dari tindakan, yaitu kritik tajam.
+
+## PPU-SIN-024 | Sinonim dan Makna Kata | mudah
+Q: Kata yang maknanya lebih luas daripada mawar adalah ….
+A: merah
+B: harum
+C: bunga
+D: taman
+E: duri
+K: C
+P: Mawar adalah salah satu jenis bunga, sehingga bunga bermakna lebih luas (hiponim mawar).
+
+## PPU-SIN-025 | Sinonim dan Makna Kata | sedang
+Q: Pasangan kata berikut yang BERSINONIM adalah ….
+A: pandai – bodoh
+B: rajin – malas
+C: cantik – buruk
+D: besar – kecil
+E: tangkas – cekatan
+K: E
+P: Tangkas dan cekatan sama-sama bermakna gesit. Pasangan lain berlawanan makna (antonim).
+
+## PPU-BEN-001 | Bentuk Kata | mudah
+Q: Kata berimbuhan yang penulisannya BAKU adalah ….
+A: mempengaruhi
+B: memengaruhi
+C: memperngaruhi
+D: memengaruhkan
+E: mempengarui
+K: B
+P: Bentuk dasar pengaruh berawal huruf p. Dengan awalan me-, huruf p luluh sehingga menjadi memengaruhi.
+
+## PPU-BEN-002 | Bentuk Kata | mudah
+Q: Bentuk kata yang tepat dari awalan me- dan kata dasar sapu adalah ….
+A: mensapu
+B: mengsapu
+C: memsapu
+D: menyapu
+E: mesapu
+K: D
+P: Awalan me- bertemu huruf s, huruf s luluh dan menjadi ny-: menyapu.
+
+## PPU-BEN-003 | Bentuk Kata | mudah
+Q: Bentuk kata yang tepat dari awalan me- dan kata dasar cat (bersuku satu) adalah ….
+A: mengecat
+B: mencat
+C: mengcat
+D: menyecat
+E: memcat
+K: A
+P: Kata dasar bersuku satu diberi awalan me- menjadi menge-: mengecat.
+
+## PPU-BEN-004 | Bentuk Kata | sedang
+Q: Pelaku yang menerjemahkan teks dari satu bahasa ke bahasa lain disebut ….
+A: pemterjemah
+B: penterjemah
+C: pengterjemah
+D: petrejemah
+E: penerjemah
+K: E
+P: Awalan pe- bertemu kata dasar terjemah (huruf t), huruf t luluh dan menjadi pen-: penerjemah.
+
+## PPU-BEN-005 | Bentuk Kata | sedang
+Q: Makna imbuhan ter- pada kata terjatuh dalam kalimat "Adik terjatuh saat berlari di halaman" adalah ….
+A: paling
+B: sudah dalam keadaan
+C: tidak sengaja
+D: dapat atau mampu
+E: sedang
+K: C
+P: Terjatuh berarti jatuh tanpa disengaja. Imbuhan ter- di sini menyatakan perbuatan yang tidak disengaja.
+
+## PPU-BEN-006 | Bentuk Kata | sedang
+Q: Imbuhan ber- yang bermakna "memakai" terdapat pada kalimat ….
+A: Para siswa berlari mengelilingi lapangan.
+B: Kakak berbicara dengan nada pelan.
+C: Ayah berkebun setiap hari Minggu.
+D: Ibu berkerudung biru saat menghadiri pesta.
+E: Kami berdiskusi hingga larut malam.
+K: D
+P: Berkerudung berarti memakai kerudung. Pada pilihan lain, ber- bermakna melakukan (berlari, berbicara, berkebun, berdiskusi).
+
+## PPU-BEN-007 | Bentuk Kata | sedang
+Q: Imbuhan ke-an yang bermakna "mengalami atau tertimpa sesuatu" terdapat pada kalimat ….
+A: Kesehatan masyarakat perlu dijaga.
+B: Para penumpang kedinginan karena pendingin ruangan terlalu rendah.
+C: Ketekunan siswa itu patut dicontoh.
+D: Kebersihan kelas dinilai setiap pekan.
+E: Keindahan alam Raja Ampat mendunia.
+K: B
+P: Kedinginan berarti terkena atau mengalami dingin, seperti kehujanan. Pada pilihan lain, ke-an membentuk kata benda abstrak (kesehatan, ketekunan, kebersihan, keindahan).
+
+## PPU-BEN-008 | Bentuk Kata | sedang
+Q: Bentuk ulang yang bermakna "menyerupai" terdapat pada kalimat ….
+A: Anak-anak bermain di taman.
+B: Ibu membeli buah-buahan di pasar.
+C: Mereka berjalan bolak-balik.
+D: Para tamu duduk berdekat-dekatan.
+E: Adik bermain kuda-kudaan di halaman.
+K: E
+P: Kuda-kudaan berarti mainan yang menyerupai kuda. Anak-anak bermakna jamak, buah-buahan bermakna aneka buah, bolak-balik bermakna berulang, dan berdekat-dekatan bermakna saling berdekatan.
+
+## PPU-BEN-009 | Bentuk Kata | sedang
+Q: Bentuk kata yang tepat dari awalan me- dan kata dasar prediksi adalah ….
+A: memprediksi
+B: memrediksi
+C: memediksi
+D: menprediksi
+E: mempredisi
+K: A
+P: Huruf p pada kata dasar yang berawal gugus konsonan (pr-) tidak luluh, sehingga menjadi memprediksi.
+
+## PPU-BEN-010 | Bentuk Kata | mudah
+Q: Kata berimbuhan berikut yang menyatakan PELAKU adalah ….
+A: pelatihan
+B: pemandangan
+C: penulis
+D: pengertian
+E: penghargaan
+K: C
+P: Penulis berarti orang yang menulis (pelaku). Kata lain menyatakan proses atau hasil (pelatihan, pengertian, penghargaan) dan hal yang dipandang (pemandangan).
+
+## PPU-BEN-011 | Bentuk Kata | sulit
+Q: Pasangan kata dasar dan bentuk berawalan me- yang TIDAK tepat adalah ….
+A: gigit – menggigit
+B: pukul – memukul
+C: tangkap – menangkap
+D: kupas – mengupas
+E: bom – membom
+K: E
+P: Kata dasar bersuku satu mendapat awalan menge-, sehingga bentuk yang tepat mengebom, bukan membom.
+
+## PPU-BEN-012 | Bentuk Kata | mudah
+Q: Kata yang termasuk kata majemuk adalah ….
+A: kereta api
+B: makan-makan
+C: pengertian
+D: berlari
+E: kehujanan
+K: A
+P: Kereta api terbentuk dari dua kata yang bersama-sama membentuk satu makna baru (kata majemuk). Pilihan lain adalah kata ulang atau kata berimbuhan.
+
+## PPU-BEN-013 | Bentuk Kata | sedang
+Q: Imbuhan memper- pada kata memperpanjang dalam kalimat "Panitia memperpanjang masa pendaftaran" bermakna ….
+A: melakukan
+B: menyerupai
+C: membuat menjadi lebih
+D: menjadi
+E: memiliki
+K: C
+P: Memperpanjang berarti membuat sesuatu menjadi lebih panjang. Awalan memper- sering bermakna membuat menjadi lebih (memperbesar, memperkuat).
+
+## PPU-BEN-014 | Bentuk Kata | sulit
+Q: Penulisan kata gabungan berimbuhan yang tepat adalah ….
+A: di pertanggungjawabkan
+B: dipertanggungjawabkan
+C: dipertanggung jawabkan
+D: di-pertanggungjawabkan
+E: dipertanggung-jawabkan
+K: B
+P: Kata gabungan yang mendapat awalan sekaligus akhiran ditulis serangkai: dipertanggungjawabkan.
+
+## PPU-BEN-015 | Bentuk Kata | sedang
+Q: Bentuk ulang sayur-mayur tergolong reduplikasi ….
+A: dwipurwa (suku awal diulang)
+B: dwilingga murni
+C: berimbuhan
+D: dwilingga salin suara (berubah bunyi)
+E: dwiwasana (suku akhir diulang)
+K: D
+P: Sayur-mayur mengulang seluruh kata dengan perubahan bunyi vokal pada bagian ulang (sayur → mayur), sehingga tergolong dwilingga salin suara.
+
+## PPU-BEN-016 | Bentuk Kata | mudah
+Q: Bentuk baku untuk melengkapi kalimat "Warga di pegunungan itu ... air dari sumber mata air alami" adalah ….
+A: mengkonsumsi
+B: memkonsumsi
+C: mengonsumsi
+D: menkonsumsi
+E: mengkonsumsikan
+K: C
+P: Kata dasar konsumsi berawal huruf k. Dalam bentuk baku, huruf k luluh: mengonsumsi.
+
+## PPU-BEN-017 | Bentuk Kata | sulit
+Q: Imbuhan se- yang bermakna "seluruh" terdapat pada kalimat ….
+A: Kami duduk sekelas dengan juara olimpiade matematika.
+B: Ia membeli sebuah buku di toko itu.
+C: Mereka bertemu sesekali di perpustakaan.
+D: Pelari itu berlari secepat kilat.
+E: Seisi kampung ikut bergotong royong.
+K: E
+P: Seisi kampung berarti seluruh isi kampung. Sekelas berarti satu kelas, sebuah berarti satu buah, sesekali berarti kadang-kadang, secepat kilat berarti sama cepatnya dengan kilat.
+
+## PPU-BEN-018 | Bentuk Kata | sedang
+Q: Penulisan di- yang benar terdapat pada kalimat ….
+A: Buku itu diatas meja.
+B: Buku itu diletakkan di atas meja.
+C: Buku itu di letakkan diatas meja.
+D: Buku itu diletakkan diatas meja.
+E: Buku itu di letakkan di atas meja.
+K: B
+P: Di- sebagai awalan ditulis serangkai dengan kata kerja (diletakkan), sedangkan di sebagai kata depan ditulis terpisah dari kata yang mengikutinya (di atas).
+
+## PPU-BEN-019 | Bentuk Kata | sedang
+Q: Dalam kalimat "Dialah siswa terbaik di sekolah ini", kata terbaik termasuk kelas kata ….
+A: kata kerja
+B: kata benda
+C: kata ganti
+D: kata sifat
+E: kata bilangan
+K: D
+P: Terbaik terbentuk dari ter- + baik dan menyatakan tingkat paling. Kata ini menerangkan sifat siswa sehingga tergolong kata sifat (adjektiva).
+
+## PPU-BEN-020 | Bentuk Kata | sedang
+Q: Kata dasar dari penyelenggaraan adalah ….
+A: selenggara
+B: enggara
+C: lenggara
+D: selenggaraan
+E: penyelenggara
+K: A
+P: Penyelenggaraan = pe-an + selenggara. Huruf s pada selenggara luluh menjadi ny- (penyelenggara-an).
+
+## PPU-BEN-021 | Bentuk Kata | sedang
+Q: Kata berimbuhan pe-an yang bermakna "tempat" adalah ….
+A: pelatihan
+B: pelabuhan
+C: penulisan
+D: pengamatan
+E: perubahan
+K: B
+P: Pelabuhan berarti tempat kapal berlabuh. Pelatihan, penulisan, dan pengamatan menyatakan proses; perubahan menyatakan hasil atau hal berubah.
+
+## PPU-BEN-022 | Bentuk Kata | sedang
+Q: Imbuhan me-kan yang bermakna "melakukan sesuatu untuk orang lain" terdapat pada kalimat ….
+A: Pak Guru menjelaskan rumus itu kepada siswa.
+B: Dia memperbaiki sepeda motornya sendiri.
+C: Ia menjatuhkan gelas di dapur.
+D: Andi menyelesaikan tugasnya.
+E: Ibu membelikan adik sepasang sepatu baru.
+K: E
+P: Membelikan berarti membeli sesuatu untuk orang lain (adik). Imbuhan me-kan pada kata lain bermakna menyebabkan atau menjadikan.
+
+## PPU-BEN-023 | Bentuk Kata | sulit
+Q: Bentuk ulang yang bermakna "saling" terdapat pada kalimat ….
+A: Warga desa bergotong royong dan tolong-menolong membangun jembatan.
+B: Anak-anak berlari-lari di halaman.
+C: Ia membeli buku-buku baru.
+D: Dia memukul-mukul meja dengan kesal.
+E: Mereka menanam bunga-bungaan di taman.
+K: A
+P: Tolong-menolong berarti saling menolong. Berlari-lari dan memukul-mukul bermakna perbuatan berulang, buku-buku bermakna jamak, dan bunga-bungaan bermakna aneka bunga.
+
+## PPU-BEN-024 | Bentuk Kata | mudah
+Q: Penulisan bentuk ulang yang benar adalah ….
+A: hati2
+B: berjalan jalan
+C: tanda tanda
+D: anak-anak
+E: anak - anak
+K: D
+P: Bentuk ulang ditulis lengkap dengan tanda hubung tanpa spasi: anak-anak. Angka 2 tidak dipakai pada tulisan resmi.
+
+## PPU-BEN-025 | Bentuk Kata | sulit
+Q: Perbedaan makna antara penjual dan penjualan adalah ….
+A: keduanya bermakna pelaku
+B: penjual bermakna proses, penjualan bermakna pelaku
+C: penjual bermakna pelaku, penjualan bermakna proses atau hal menjual
+D: keduanya bermakna proses
+E: penjual bermakna tempat, penjualan bermakna alat
+K: C
+P: Penjual (pe- + jual) bermakna orang yang menjual. Penjualan (pe-an + jual) bermakna proses atau hal menjual.
+
+@W w_sr
+Paragraf 1: (1) Pemasangan panel surya di atap rumah semakin diminati oleh rumah tangga perkotaan. (2) Listrik yang dihasilkan panel dapat dipakai langsung untuk kebutuhan rumah sehingga tagihan listrik bulanan menurun. (3) Kelebihan daya pada siang hari bahkan dapat disimpan dalam baterai untuk dipakai pada malam hari. (4) Dengan demikian, pemilik rumah tidak lagi sepenuhnya bergantung pada jaringan listrik negara.
+Paragraf 2: (5) Meskipun demikian, biaya awal pemasangan panel surya masih tergolong tinggi bagi sebagian besar keluarga. (6) Harga panel, inverter, dan baterai harus dibayar di muka, sedangkan penghematan baru terasa setelah beberapa tahun. (7) Karena itu, sejumlah penyedia jasa menawarkan skema cicilan untuk meringankan beban pemasang. (8) Tanpa dukungan kebijakan yang tepat, pemanfaatan energi surya di rumah tangga akan sulit berkembang secara luas.
+@END
+
+@W w_ku
+Paragraf 1: (1) Literasi keuangan penting dimiliki sejak usia remaja. (2) Remaja yang memahami cara mengatur uang saku cenderung lebih bijak dalam menentukan prioritas pengeluaran. (3) Mereka juga lebih mudah menyisihkan sebagian uang untuk ditabung. (4) Kebiasaan baik ini akan terbawa hingga dewasa.
+Paragraf 2: (5) Sayangnya, tidak semua remaja memperoleh pendidikan keuangan di sekolah. (6) Kurikulum umumnya lebih menitikberatkan pada pengetahuan akademik. (7) Akibatnya, banyak remaja belajar mengelola uang secara otodidak dan rentan tergoda belanja daring. (8) Oleh sebab itu, sekolah perlu menyisipkan materi pengelolaan keuangan ke dalam kegiatan belajar.
+@END
+
+@W w_dw
+Paragraf 1: (1) Desa wisata menjadi cara baru bagi masyarakat desa untuk memperoleh penghasilan tambahan. (2) Wisatawan diajak menginap di rumah warga, mencicipi masakan lokal, dan mengikuti kegiatan bertani atau membuat kerajinan. (3) Pengalaman langsung semacam ini sulit ditemukan di tempat wisata komersial. (4) Warga pun mendapat ruang untuk memperkenalkan budaya dan hasil bumi mereka.
+Paragraf 2: (5) Di sisi lain, kehadiran wisatawan yang terlalu banyak dapat mengubah kehidupan desa. (6) Sampah meningkat, jalan desa menjadi macet, dan kegiatan adat kadang dijadikan tontonan semata. (7) Beberapa desa mengatasinya dengan membatasi jumlah pengunjung setiap hari. (8) Pembatasan ini terbukti menjaga kenyamanan warga sekaligus kelestarian lingkungan.
+@END
+
+@W w_tu
+Paragraf 1: (1) Penggunaan transportasi umum perlu terus didorong di kota-kota besar. (2) Satu bus yang terisi penuh dapat menggantikan puluhan kendaraan pribadi di jalan. (3) Dengan berkurangnya kendaraan pribadi, kemacetan dan polusi udara dapat ditekan. (4) Warga juga dapat menghemat biaya perjalanan harian.
+Paragraf 2: (5) Namun, minat masyarakat untuk beralih ke transportasi umum belum tinggi. (6) Banyak yang menilai jadwal kedatangan kendaraan tidak pasti. (7) Sebagian lainnya mengeluhkan jarak halte yang jauh dari permukiman. (8) Pemerintah kota perlu memperbaiki ketepatan waktu dan memperluas jangkauan layanan agar masyarakat mau beralih.
+@END
+
+@W w_um
+Paragraf 1: (1) Pelaku usaha mikro kini memanfaatkan media sosial untuk memasarkan produknya. (2) Foto produk yang menarik dan ulasan pelanggan dapat meningkatkan kepercayaan calon pembeli. (3) Pesanan pun datang dari luar kota tanpa pelaku usaha harus membuka toko baru. (4) Kemudahan ini membuat banyak usaha rumahan mampu bertahan, bahkan berkembang.
+Paragraf 2: (5) Meski begitu, persaingan di media sosial sangat ketat. (6) Produk yang sama dijual oleh banyak penjual dengan harga yang saling menekan. (7) Pelaku usaha yang hanya mengandalkan harga murah akan kesulitan menjaga keuntungan. (8) Karena itu, diferensiasi produk dan pelayanan yang baik menjadi kunci untuk menang dalam persaingan.
+@END
+
+## PPU-IDE-001 | Ide Pokok dan Hubungan Antarparagraf | mudah | W=w_sr
+Q: Ide pokok paragraf pertama bacaan tersebut adalah ….
+A: Panel surya hanya cocok dipasang pada rumah berukuran besar.
+B: Listrik dari panel surya selalu lebih murah daripada listrik negara.
+C: Baterai merupakan komponen terpenting pada panel surya.
+D: Penghuni rumah perkotaan wajib memasang panel surya.
+E: Panel surya atap diminati karena menekan tagihan listrik dan mengurangi ketergantungan pada jaringan listrik negara.
+K: E
+P: Paragraf pertama menjelaskan peminatan panel surya atap beserta manfaatnya (tagihan turun, daya dapat disimpan, tidak sepenuhnya bergantung pada jaringan listrik). Pilihan lain terlalu sempit atau tidak disebut dalam bacaan.
+
+## PPU-IDE-002 | Ide Pokok dan Hubungan Antarparagraf | mudah | W=w_sr
+Q: Kalimat utama paragraf kedua terdapat pada kalimat ….
+A: (4)
+B: (5)
+C: (6)
+D: (7)
+E: (8)
+K: B
+P: Kalimat (5) memuat gagasan utama paragraf kedua, yaitu biaya awal yang tinggi. Kalimat (6) sampai (8) menjelaskan dan menindaklanjutinya. Kalimat (4) milik paragraf pertama.
+
+## PPU-IDE-003 | Ide Pokok dan Hubungan Antarparagraf | sedang | W=w_sr
+Q: Hubungan antara paragraf pertama dan paragraf kedua pada bacaan tersebut adalah ….
+A: sebab-akibat
+B: persamaan
+C: urutan waktu
+D: pertentangan antara manfaat dan kendala
+E: perincian
+K: D
+P: Paragraf pertama menyampaikan manfaat panel surya, paragraf kedua menyampaikan kendala biaya yang diawali "Meskipun demikian". Hubungan keduanya adalah pertentangan.
+
+## PPU-IDE-004 | Ide Pokok dan Hubungan Antarparagraf | sulit | W=w_sr
+Q: Simpulan yang paling tepat dari bacaan tersebut adalah ….
+A: Panel surya atap menjanjikan penghematan, tetapi biaya awal yang tinggi dan dukungan kebijakan menjadi tantangan pemanfaatannya.
+B: Panel surya sebaiknya tidak dipasang karena biaya awalnya terlalu mahal.
+C: Skema cicilan sepenuhnya menyelesaikan masalah biaya panel surya.
+D: Pemerintah wajib menanggung seluruh biaya pemasangan panel surya.
+E: Rumah tangga perkotaan sudah tidak memerlukan jaringan listrik negara.
+K: A
+P: Bacaan memuat manfaat (paragraf 1) dan tantangan biaya serta kebijakan (paragraf 2). Pilihan A merangkum keduanya. Pilihan lain berlebihan atau tidak sesuai bacaan.
+
+## PPU-IDE-005 | Ide Pokok dan Hubungan Antarparagraf | mudah | W=w_ku
+Q: Kalimat utama paragraf pertama terdapat pada kalimat ….
+A: (4)
+B: (3)
+C: (1)
+D: (2)
+E: tidak ada kalimat utama
+K: C
+P: Kalimat (1) menyatakan gagasan umum: literasi keuangan penting sejak remaja. Kalimat (2) sampai (4) menjelaskan alasannya.
+
+## PPU-IDE-006 | Ide Pokok dan Hubungan Antarparagraf | sedang | W=w_ku
+Q: Gagasan utama paragraf kedua adalah ….
+A: Kurikulum sekolah terlalu menekankan pelajaran akademik sehingga siswa kewalahan.
+B: Banyak remaja tidak memperoleh pendidikan keuangan di sekolah sehingga sekolah perlu menyisipkannya dalam pembelajaran.
+C: Belanja daring merupakan penyebab utama remaja boros.
+D: Remaja lebih baik belajar mengelola uang secara otodidak.
+E: Pendidikan keuangan sudah tersedia di sebagian besar sekolah.
+K: B
+P: Paragraf kedua menyatakan masalah (tidak semua remaja mendapat pendidikan keuangan), akibatnya, dan saran agar sekolah menyisipkan materinya.
+
+## PPU-IDE-007 | Ide Pokok dan Hubungan Antarparagraf | sedang | W=w_ku
+Q: Hubungan antara kalimat (6) dan kalimat (7) adalah ….
+A: pertentangan
+B: perbandingan
+C: contoh
+D: syarat
+E: sebab-akibat
+K: E
+P: Kurikulum yang lebih menitikberatkan pelajaran akademik (6) menyebabkan remaja belajar mengelola uang secara otodidak (7). Kata "Akibatnya" menandai hubungan sebab-akibat.
+
+## PPU-IDE-008 | Ide Pokok dan Hubungan Antarparagraf | sedang | W=w_ku
+Q: Kata sayangnya pada kalimat (5) menandai hubungan antarparagraf berupa ….
+A: pertentangan antara kondisi ideal dan kenyataan
+B: penambahan informasi sejenis
+C: urutan waktu
+D: pemberian contoh
+E: simpulan
+K: A
+P: Paragraf pertama berisi kondisi ideal (pentingnya literasi keuangan), sedangkan paragraf kedua menyatakan kenyataan yang tidak sesuai harapan. Kata sayangnya menandai pertentangan itu.
+
+## PPU-IDE-009 | Ide Pokok dan Hubungan Antarparagraf | mudah | W=w_dw
+Q: Ide pokok paragraf pertama bacaan mengenai desa wisata tersebut adalah ….
+A: Wisatawan lebih menyukai desa daripada kota.
+B: Warga desa wajib menyediakan penginapan.
+C: Kerajinan desa lebih bagus daripada produk pabrik.
+D: Desa wisata menjadi sumber penghasilan tambahan dan sarana memperkenalkan budaya warga.
+E: Tempat wisata komersial akan segera ditutup.
+K: D
+P: Paragraf pertama menjelaskan desa wisata sebagai sumber penghasilan tambahan beserta kegiatan dan manfaat budayanya.
+
+## PPU-IDE-010 | Ide Pokok dan Hubungan Antarparagraf | mudah | W=w_dw
+Q: Kalimat penjelas yang berisi contoh kegiatan wisatawan di desa terdapat pada kalimat ….
+A: (1)
+B: (3)
+C: (2)
+D: (4)
+E: (8)
+K: C
+P: Kalimat (2) menyebutkan kegiatan yang dilakukan wisatawan: menginap, mencicipi masakan lokal, bertani, dan membuat kerajinan.
+
+## PPU-IDE-011 | Ide Pokok dan Hubungan Antarparagraf | sulit | W=w_dw
+Q: Pola pengembangan paragraf kedua adalah ….
+A: induktif
+B: deskriptif
+C: perbandingan
+D: masalah dan pemecahan
+E: kronologis
+K: D
+P: Kalimat (5) dan (6) menyebutkan masalah akibat wisatawan yang terlalu banyak. Kalimat (7) dan (8) menyebutkan pemecahannya, yaitu pembatasan pengunjung.
+
+## PPU-IDE-012 | Ide Pokok dan Hubungan Antarparagraf | sedang | W=w_dw
+Q: Simpulan yang paling tepat dari bacaan mengenai desa wisata tersebut adalah ….
+A: Desa wisata sebaiknya tidak dikembangkan.
+B: Wisatawan tidak boleh menginap di rumah warga.
+C: Desa wisata menguntungkan warga, tetapi perlu dikelola agar dampak negatifnya terkendali.
+D: Pembatasan pengunjung menurunkan penghasilan warga desa.
+E: Kegiatan adat sebaiknya dihentikan.
+K: C
+P: Paragraf pertama menyampaikan manfaat, paragraf kedua dampak negatif dan cara mengatasinya. Simpulan yang mencakup keduanya adalah C.
+
+## PPU-IDE-013 | Ide Pokok dan Hubungan Antarparagraf | mudah | W=w_tu
+Q: Ide pokok paragraf pertama bacaan mengenai transportasi umum tersebut adalah ….
+A: Kendaraan pribadi sebaiknya dilarang di kota besar.
+B: Transportasi umum perlu didorong karena mengurangi kemacetan, polusi, dan biaya perjalanan.
+C: Bus lebih nyaman daripada kendaraan pribadi.
+D: Polusi udara hanya disebabkan oleh kendaraan pribadi.
+E: Harga tiket transportasi umum sudah murah.
+K: B
+P: Paragraf pertama menyebutkan perlunya mendorong transportasi umum dan manfaat-manfaatnya.
+
+## PPU-IDE-014 | Ide Pokok dan Hubungan Antarparagraf | sedang | W=w_tu
+Q: Kalimat (6) dan (7) berfungsi sebagai ….
+A: penjelas alasan rendahnya minat beralih ke transportasi umum
+B: contoh keberhasilan transportasi umum
+C: kalimat utama paragraf kedua
+D: simpulan seluruh bacaan
+E: pertentangan terhadap kalimat (5)
+K: A
+P: Kalimat (6) dan (7) menyebutkan jadwal tidak pasti dan halte jauh, yaitu alasan mengapa minat masyarakat belum tinggi seperti dinyatakan kalimat (5).
+
+## PPU-IDE-015 | Ide Pokok dan Hubungan Antarparagraf | sulit | W=w_tu
+Q: Simpulan yang paling tepat dari bacaan mengenai transportasi umum tersebut adalah ….
+A: Warga lebih baik tetap memakai kendaraan pribadi.
+B: Transportasi umum tidak memberikan manfaat bagi kota.
+C: Pemerintah kota tidak perlu memperluas layanan.
+D: Halte transportasi umum harus dipindahkan ke permukiman pribadi.
+E: Transportasi umum bermanfaat, tetapi agar peminatnya meningkat, ketepatan waktu dan jangkauan layanan perlu diperbaiki.
+K: E
+P: Manfaat disebutkan di paragraf pertama dan hambatan serta perbaikan di paragraf kedua. Simpulan yang mencakup keduanya adalah E.
+
+## PPU-IDE-016 | Ide Pokok dan Hubungan Antarparagraf | sedang | W=w_tu
+Q: Judul yang paling tepat untuk bacaan tersebut adalah ….
+A: Mendorong Warga Beralih ke Transportasi Umum
+B: Sejarah Perkembangan Bus Kota
+C: Mengatasi Kemacetan dengan Pembangunan Jalan Tol
+D: Keluhan Pengguna Kendaraan Pribadi
+E: Hemat Biaya dengan Sepeda Motor
+K: A
+P: Bacaan membahas manfaat transportasi umum dan upaya agar warga mau beralih. Judul A mencakup keduanya.
+
+## PPU-IDE-017 | Ide Pokok dan Hubungan Antarparagraf | mudah | W=w_um
+Q: Ide pokok paragraf pertama bacaan mengenai usaha mikro tersebut adalah ….
+A: Usaha rumahan wajib membuka toko di setiap kota.
+B: Foto produk lebih penting daripada kualitas produk.
+C: Media sosial menggantikan seluruh toko fisik.
+D: Ulasan pelanggan selalu bernilai positif.
+E: Pelaku usaha mikro memanfaatkan media sosial untuk memasarkan produk dan memperluas pasar.
+K: E
+P: Paragraf pertama menjelaskan pemanfaatan media sosial oleh pelaku usaha mikro beserta manfaatnya (kepercayaan pembeli, pesanan luar kota).
+
+## PPU-IDE-018 | Ide Pokok dan Hubungan Antarparagraf | sedang | W=w_um
+Q: Kalimat (8) berfungsi sebagai ….
+A: contoh persaingan di media sosial
+B: pertentangan terhadap kalimat (7)
+C: saran sebagai penutup yang menyimpulkan paragraf kedua
+D: penjelas kalimat (1)
+E: awal pembahasan baru
+K: C
+P: Kalimat (8) diawali "Karena itu" dan memuat kunci menghadapi persaingan, sehingga berfungsi sebagai saran sekaligus simpulan paragraf kedua.
+
+## PPU-IDE-019 | Ide Pokok dan Hubungan Antarparagraf | sulit | W=w_um
+Q: Kalimat (4) pada bacaan tersebut berfungsi sebagai ….
+A: kalimat utama paragraf pertama
+B: penutup yang menyimpulkan manfaat pemanfaatan media sosial
+C: pertentangan terhadap kalimat (1)
+D: contoh produk yang laris
+E: penghubung ke paragraf pertama
+K: B
+P: Kalimat (4) diawali "Kemudahan ini" yang merujuk pada manfaat sebelumnya, sehingga berfungsi menyimpulkan manfaat pemanfaatan media sosial bagi usaha rumahan.
+
+## PPU-IDE-020 | Ide Pokok dan Hubungan Antarparagraf | sedang | W=w_um
+Q: Gagasan utama paragraf kedua bacaan mengenai usaha mikro tersebut adalah ….
+A: Harga murah adalah satu-satunya cara memenangkan persaingan.
+B: Media sosial tidak layak digunakan untuk berdagang.
+C: Banyak penjual lebih memilih toko fisik.
+D: Persaingan di media sosial ketat sehingga pelaku usaha perlu membedakan produk dan pelayanannya.
+E: Ulasan pelanggan tidak berpengaruh pada penjualan.
+K: D
+P: Paragraf kedua menyatakan persaingan ketat dan menyarankan diferensiasi produk serta pelayanan yang baik.
+
+## PPU-IDE-021 | Ide Pokok dan Hubungan Antarparagraf | mudah
+Q: Perhatikan paragraf berikut.
+(1) Membaca buku sebelum tidur memberi banyak manfaat. (2) Kegiatan ini membantu pikiran menjadi lebih tenang. (3) Perpustakaan daerah buka setiap hari kerja. (4) Selain itu, kebiasaan ini memperkaya kosakata.
+Kalimat yang TIDAK mendukung ide pokok paragraf tersebut adalah kalimat ….
+A: (1)
+B: (2)
+C: (3)
+D: (4)
+E: tidak ada
+K: C
+P: Ide pokok paragraf adalah manfaat membaca sebelum tidur. Kalimat (3) membahas jam buka perpustakaan sehingga tidak mendukung ide pokok.
+
+## PPU-IDE-022 | Ide Pokok dan Hubungan Antarparagraf | sedang
+Q: Perhatikan paragraf berikut.
+(1) Pagi tadi harga cabai naik. (2) Siang harinya harga bawang ikut naik. (3) Menjelang sore, harga telur pun melonjak. (4) Jadi, harga kebutuhan pokok sedang bergerak naik.
+Berdasarkan letak kalimat utamanya, paragraf tersebut tergolong paragraf ….
+A: deduktif
+B: campuran
+C: deskriptif
+D: induktif
+E: naratif
+K: D
+P: Kalimat utama (4) berada di akhir paragraf dan didahului penjelasan khusus (1)–(3). Letak kalimat utama di akhir menandai paragraf induktif.
+
+## PPU-IDE-023 | Ide Pokok dan Hubungan Antarparagraf | sedang
+Q: Perhatikan paragraf berikut.
+(1) Perpustakaan berperan penting dalam membentuk kebiasaan membaca. (2) Koleksi buku yang beragam memudahkan anak memilih bacaan sesuai minat. (3) Suasana yang tenang membantu anak berkonsentrasi. (4) Program bedah buku mengajak anak berdiskusi tentang bacaan.
+Ide pokok paragraf tersebut adalah ….
+A: Koleksi buku perpustakaan selalu lengkap.
+B: Anak lebih senang berdiskusi daripada membaca.
+C: Program bedah buku hanya diikuti anak berprestasi.
+D: Suasana tenang adalah syarat utama membaca.
+E: Perpustakaan berperan dalam membentuk kebiasaan membaca.
+K: E
+P: Kalimat (1) menyatakan gagasan utama, sedangkan kalimat (2)–(4) menjelaskan bentuk peran perpustakaan.
+
+## PPU-IDE-024 | Ide Pokok dan Hubungan Antarparagraf | sulit
+Q: Perhatikan paragraf berikut.
+Penyakit diare banyak diderita warga di wilayah yang sulit memperoleh air bersih. Warga terpaksa memakai air sungai yang tercemar untuk memasak dan mencuci peralatan makan. Kuman dari air tersebut mudah berpindah ke makanan. Setelah dibangun sumur bor dan saluran air bersih, jumlah penderita diare di wilayah itu menurun tajam.
+Kalimat penutup yang paling tepat untuk melengkapi paragraf tersebut adalah ….
+A: Dengan demikian, penyediaan air bersih merupakan langkah penting untuk menjaga kesehatan warga.
+B: Sebaliknya, air sungai sebaiknya digunakan untuk mencuci peralatan makan.
+C: Misalnya, penderita diare sebaiknya tidak makan makanan berkuah.
+D: Namun, sumur bor dan saluran air bersih memerlukan biaya perawatan.
+E: Sementara itu, pembangunan jalan desa juga perlu dipercepat.
+K: A
+P: Paragraf menunjukkan hubungan air bersih dengan penurunan diare. Kalimat penutup yang tepat menyimpulkan hubungan itu, diawali penanda simpulan "Dengan demikian".
+
+## PPU-IDE-025 | Ide Pokok dan Hubungan Antarparagraf | sedang
+Q: Perhatikan paragraf yang kalimat pembukanya dihilangkan berikut.
+(...) Pengunjung dapat menyaksikan proses pembuatan batik tulis secara langsung. Mereka juga dapat mencoba membatik di atas kain kecil. Hasil karya itu boleh dibawa pulang sebagai kenang-kenangan.
+Kalimat pembuka yang paling tepat adalah ….
+A: Batik telah ditetapkan sebagai warisan budaya dunia oleh UNESCO.
+B: Museum itu menyediakan kegiatan membatik bagi para pengunjung.
+C: Harga kain batik di pasar sedang naik.
+D: Banyak orang lebih menyukai pakaian modern.
+E: Motif batik sangat beragam di setiap daerah.
+K: B
+P: Kalimat-kalimat sesudahnya membahas kegiatan membatik yang dapat dilakukan pengunjung. Kalimat pembuka yang paling sesuai adalah pengenalan kegiatan tersebut.
+
+@W w_tn
+(1) Tenun ikat merupakan kain tradisional yang dibuat dengan cara mengikat benang sebelum dicelup. (2) Bagian benang yang diikat tidak menyerap warna sehingga menghasilkan motif ketika benang ditenun. (3) Proses pembuatannya memerlukan ketelitian karena kesalahan pada satu ikatan dapat mengubah motif seluruh kain. (4) Selembar kain dengan motif rumit bahkan dapat dikerjakan selama berbulan-bulan. (5) [....] harga tenun ikat asli cenderung lebih tinggi daripada kain bermotif cetak. (6) Para pengrajin berharap konsumen memahami nilai kerja tangan di balik setiap lembar kain. (7) Sebagian pengrajin muda mulai memasarkan produknya melalui platform daring untuk menjangkau pembeli di luar daerah.
+@END
+
+@W w_tk
+(1) Terumbu karang sering disebut hutan hujan tropis di laut karena menjadi rumah bagi sangat banyak jenis biota. (2) Karang tumbuh sangat lambat, hanya beberapa sentimeter dalam setahun. (3) Karena itu, kerusakan yang terjadi dalam waktu singkat memerlukan puluhan tahun untuk pulih. (4) Salah satu penyebab kerusakannya adalah penangkapan ikan dengan bahan peledak. (5) Kenaikan suhu laut juga membuat karang memutih dan akhirnya mati. (6) Padahal, terumbu karang melindungi pantai dari gelombang besar dan menopang kehidupan nelayan. (7) [....] pelestarian terumbu karang tidak dapat ditunda lagi.
+@END
+
+@W w_pk
+(1) Perpustakaan keliling hadir untuk menjangkau warga yang tinggal jauh dari perpustakaan daerah. (2) Mobil yang dilengkapi rak buku itu mengunjungi desa-desa sesuai jadwal mingguan. (3) Anak-anak biasanya sudah menunggu di lapangan sebelum mobil tiba. (4) Selain meminjamkan buku, petugas mendongeng dan mengajak anak bermain tebak kata. (5) Namun, koleksi buku di mobil itu terbatas dan sebagian bukunya sudah lusuh. (6) Beberapa donatur mulai menyumbangkan buku baru. (7) [....] jumlah peminjam di desa-desa terpencil terus bertambah.
+@END
+
+@W w_kp
+(1) Sisa dapur, seperti kulit sayur dan ampas kopi, sebenarnya dapat diolah menjadi kompos di rumah. (2) Caranya cukup sederhana: sisa dapur dimasukkan ke dalam wadah berlubang, lalu dicampur dengan tanah dan daun kering. (3) Campuran itu perlu diaduk seminggu sekali agar mendapat cukup udara. (4) Dalam beberapa minggu, bahan tersebut berubah menjadi pupuk yang menyuburkan tanaman. (5) Kompos buatan sendiri juga membantu mengurangi sampah yang berakhir di tempat pembuangan. (6) [....] daging dan minyak sebaiknya tidak dimasukkan karena menimbulkan bau dan mengundang hama. (7) Dengan mengelola sisa dapur sendiri, rumah tangga ikut menjaga lingkungan sekaligus menghemat biaya pupuk.
+@END
+
+@W w_gb
+(1) Indonesia berada di wilayah pertemuan lempeng tektonik sehingga rawan gempa bumi. (2) Karena itu, pengetahuan tentang cara menyelamatkan diri sangat penting bagi masyarakat. (3) Saat gempa terjadi, orang di dalam gedung dianjurkan berlindung di bawah meja yang kokoh dan menjauhi kaca. (4) Setelah getaran berhenti, barulah mereka keluar menuju lapangan terbuka. (5) Sekolah di daerah rawan gempa rutin mengadakan simulasi evakuasi. (6) [....] siswa tidak panik ketika bencana benar-benar terjadi. (7) Simulasi ini dinilai lebih efektif jika melibatkan guru, siswa, dan warga sekitar sekolah.
+@END
+
+## PPU-KES-001 | Kesesuaian Wacana | mudah | W=w_tn
+Q: Pernyataan yang sesuai dengan isi bacaan tentang tenun ikat adalah ….
+A: Motif tenun ikat dibuat dengan mencetak gambar pada kain jadi.
+B: Tenun ikat dapat diselesaikan dalam satu hari.
+C: Motif tenun ikat dihasilkan dari benang yang diikat sebelum dicelup.
+D: Semua pengrajin tenun ikat menolak penjualan daring.
+E: Tenun ikat berharga lebih murah daripada kain cetak.
+K: C
+P: Kalimat (1) dan (2) menyatakan bahwa benang diikat sebelum dicelup sehingga bagian yang terikat tidak berwarna dan membentuk motif. Pilihan lain bertentangan dengan bacaan.
+
+## PPU-KES-002 | Kesesuaian Wacana | sedang | W=w_tn
+Q: Kata penghubung yang tepat untuk melengkapi bagian rumpang pada kalimat (5) adalah ….
+A: Namun
+B: Padahal
+C: Sebaliknya
+D: Misalnya
+E: Oleh karena itu
+K: E
+P: Proses pembuatan yang teliti dan lama (kalimat 3–4) menjadi sebab harga tinggi (kalimat 5), sehingga penghubung yang tepat adalah "Oleh karena itu".
+
+## PPU-KES-003 | Kesesuaian Wacana | sedang | W=w_tn
+Q: Pernyataan berikut yang TIDAK sesuai dengan bacaan tentang tenun ikat adalah ….
+A: Kesalahan pada satu ikatan dapat mengubah motif kain.
+B: Kain tenun ikat berpola rumit biasanya selesai dalam beberapa hari.
+C: Beberapa kain dikerjakan selama berbulan-bulan.
+D: Sebagian pengrajin muda memasarkan produknya secara daring.
+E: Benang yang terikat tidak menyerap warna saat dicelup.
+K: B
+P: Kalimat (4) menyatakan kain dengan motif rumit dapat dikerjakan berbulan-bulan, bukan beberapa hari.
+
+## PPU-KES-004 | Kesesuaian Wacana | sulit | W=w_tn
+Q: Simpulan yang paling tepat dari bacaan tentang tenun ikat tersebut adalah ….
+A: Harga tinggi tenun ikat asli sebanding dengan ketelitian dan waktu pengerjaannya.
+B: Tenun ikat sebaiknya dibuat dengan mesin agar murah.
+C: Pengrajin muda tidak berminat melanjutkan tenun ikat.
+D: Kain bermotif cetak lebih bernilai seni daripada tenun ikat.
+E: Konsumen sudah memahami nilai kerja tangan pengrajin.
+K: A
+P: Bacaan menjelaskan proses yang rumit dan memakan waktu, lalu menyebut harga yang tinggi dan harapan agar konsumen memahami nilai kerja tangan. Simpulan A merangkum hubungan itu.
+
+## PPU-KES-005 | Kesesuaian Wacana | mudah | W=w_tk
+Q: Pernyataan yang sesuai dengan isi bacaan tentang terumbu karang adalah ….
+A: Karang tumbuh sangat cepat sehingga cepat pulih.
+B: Terumbu karang hanya dihuni oleh satu jenis ikan.
+C: Suhu laut yang naik membuat karang semakin berwarna cerah.
+D: Pertumbuhan karang yang lambat membuat pemulihannya memerlukan waktu lama.
+E: Nelayan tidak memperoleh manfaat dari terumbu karang.
+K: D
+P: Kalimat (2) dan (3) menyatakan karang tumbuh lambat sehingga kerusakan memerlukan puluhan tahun untuk pulih.
+
+## PPU-KES-006 | Kesesuaian Wacana | sedang | W=w_tk
+Q: Kata penghubung yang tepat untuk melengkapi bagian rumpang pada kalimat (7) bacaan tentang terumbu karang adalah ….
+A: Misalnya,
+B: Akan tetapi,
+C: Selain itu,
+D: Sebaliknya,
+E: Dengan demikian,
+K: E
+P: Kalimat (7) merupakan simpulan dari penjelasan sebelumnya tentang pentingnya dan rusaknya terumbu karang. Penghubung yang tepat adalah "Dengan demikian,".
+
+## PPU-KES-007 | Kesesuaian Wacana | sedang | W=w_tk
+Q: Pernyataan berikut yang TIDAK sesuai dengan bacaan tentang terumbu karang adalah ….
+A: Karang tumbuh cepat sehingga kerusakan dapat pulih dalam waktu singkat.
+B: Penangkapan ikan dengan bahan peledak merusak terumbu karang.
+C: Kenaikan suhu laut dapat mematikan karang.
+D: Terumbu karang melindungi pantai dari gelombang besar.
+E: Terumbu karang menjadi rumah bagi banyak biota laut.
+K: A
+P: Bacaan menyatakan karang tumbuh sangat lambat dan pulih setelah puluhan tahun, sehingga pernyataan A bertentangan dengan bacaan.
+
+## PPU-KES-008 | Kesesuaian Wacana | sulit | W=w_tk
+Q: Pernyataan yang dapat disimpulkan dari bacaan tentang terumbu karang adalah ….
+A: Nelayan sebaiknya berhenti menangkap ikan di laut.
+B: Gelombang besar hanya terjadi di daerah yang tidak memiliki karang.
+C: Kerusakan terumbu karang dapat merugikan masyarakat pesisir, termasuk nelayan.
+D: Karang yang memutih akan segera pulih dengan sendirinya.
+E: Semua kerusakan karang disebabkan oleh bahan peledak.
+K: C
+P: Kalimat (6) menyatakan terumbu karang melindungi pantai dan menopang nelayan, sehingga kerusakannya dapat merugikan masyarakat pesisir. Pilihan lain berlebihan atau bertentangan dengan bacaan.
+
+## PPU-KES-009 | Kesesuaian Wacana | mudah | W=w_pk
+Q: Pernyataan yang sesuai dengan isi bacaan tentang perpustakaan keliling adalah ….
+A: Petugas hanya bertugas menjaga mobil perpustakaan.
+B: Petugas tidak hanya meminjamkan buku, tetapi juga mengajak anak beraktivitas.
+C: Perpustakaan keliling hanya melayani warga kota.
+D: Anak-anak tidak tertarik pada kegiatan perpustakaan keliling.
+E: Semua buku di perpustakaan keliling berkondisi baru.
+K: B
+P: Kalimat (4) menyatakan selain meminjamkan buku, petugas mendongeng dan mengajak anak bermain tebak kata.
+
+## PPU-KES-010 | Kesesuaian Wacana | sedang | W=w_pk
+Q: Kata penghubung yang tepat untuk melengkapi bagian rumpang pada kalimat (7) bacaan tentang perpustakaan keliling adalah ….
+A: Sebaliknya,
+B: Misalnya,
+C: Padahal,
+D: Hasilnya,
+E: Meskipun demikian,
+K: D
+P: Kehadiran perpustakaan keliling dan sumbangan buku baru berakibat pada bertambahnya peminjam. Penghubung yang tepat adalah "Hasilnya,".
+
+## PPU-KES-011 | Kesesuaian Wacana | sedang | W=w_pk
+Q: Pernyataan berikut yang TIDAK sesuai dengan bacaan tentang perpustakaan keliling adalah ….
+A: Mobil perpustakaan mengunjungi desa sesuai jadwal mingguan.
+B: Mobil perpustakaan mengunjungi setiap desa setiap hari.
+C: Beberapa donatur menyumbangkan buku baru.
+D: Anak-anak sering sudah menunggu sebelum mobil tiba.
+E: Perpustakaan keliling menjangkau warga yang jauh dari perpustakaan daerah.
+K: B
+P: Bacaan menyebut kunjungan sesuai jadwal mingguan, bukan setiap hari.
+
+## PPU-KES-012 | Kesesuaian Wacana | sedang | W=w_pk
+Q: Kendala yang dihadapi perpustakaan keliling menurut bacaan tersebut adalah ….
+A: Anak-anak tidak mau meminjam buku.
+B: Petugas tidak bersedia mendongeng.
+C: Jadwal kunjungan tidak ditentukan.
+D: Koleksi buku terbatas dan sebagian buku sudah lusuh.
+E: Desa terpencil menolak kedatangan mobil.
+K: D
+P: Kalimat (5) menyebut koleksi buku terbatas dan sebagian buku sudah lusuh sebagai kendala.
+
+## PPU-KES-013 | Kesesuaian Wacana | mudah | W=w_kp
+Q: Pernyataan yang sesuai dengan isi bacaan tentang kompos rumah tangga adalah ….
+A: Kompos rumah tangga dibuat dari sisa dapur yang dicampur dengan tanah dan daun kering.
+B: Kompos hanya dapat dibuat di pabrik pupuk.
+C: Campuran kompos tidak perlu diberi udara.
+D: Kompos tidak berguna bagi tanaman.
+E: Kompos dibuat dari sisa daging dan minyak.
+K: A
+P: Kalimat (2) menyebutkan sisa dapur dimasukkan ke wadah berlubang dan dicampur dengan tanah dan daun kering.
+
+## PPU-KES-014 | Kesesuaian Wacana | sedang | W=w_kp
+Q: Kata penghubung yang tepat untuk melengkapi bagian rumpang pada kalimat (6) bacaan tentang kompos adalah ….
+A: Akibatnya,
+B: Dengan demikian,
+C: Sehingga,
+D: Misalnya,
+E: Namun,
+K: E
+P: Kalimat (6) menyampaikan pengecualian terhadap kemudahan membuat kompos: daging dan minyak tidak boleh dimasukkan. Penghubung yang tepat adalah "Namun,".
+
+## PPU-KES-015 | Kesesuaian Wacana | sedang | W=w_kp
+Q: Pernyataan berikut yang TIDAK sesuai dengan bacaan tentang kompos adalah ….
+A: Kompos membantu mengurangi sampah yang dibuang ke tempat pembuangan.
+B: Pembuatan kompos dapat menghemat biaya pupuk.
+C: Campuran kompos harus diaduk setiap hari.
+D: Kulit sayur dan ampas kopi dapat dijadikan kompos.
+E: Dalam beberapa minggu bahan berubah menjadi pupuk.
+K: C
+P: Kalimat (3) menyatakan campuran diaduk seminggu sekali, bukan setiap hari.
+
+## PPU-KES-016 | Kesesuaian Wacana | sulit | W=w_kp
+Q: Simpulan yang paling tepat dari bacaan tentang kompos tersebut adalah ….
+A: Pengelolaan sampah sebaiknya diserahkan sepenuhnya kepada pemerintah.
+B: Semua sisa dapur aman dijadikan kompos.
+C: Pembuatan kompos rumah tangga rumit dan memerlukan alat mahal.
+D: Mengompos sisa dapur bermanfaat bagi lingkungan dan menghemat biaya, asalkan bahan yang dimasukkan tepat.
+E: Kompos hanya cocok untuk tanaman hias.
+K: D
+P: Bacaan menyebut manfaat bagi lingkungan dan penghematan pupuk, serta batasan bahan (daging dan minyak tidak boleh). Simpulan D mencakup semuanya.
+
+## PPU-KES-017 | Kesesuaian Wacana | mudah | W=w_gb
+Q: Pernyataan yang sesuai dengan isi bacaan tentang gempa bumi adalah ….
+A: Orang di dalam gedung dianjurkan berlari ke tangga saat gempa terjadi.
+B: Berlindung di bawah meja yang kokoh dianjurkan saat gempa terjadi di dalam gedung.
+C: Orang sebaiknya keluar gedung saat getaran masih terasa.
+D: Simulasi evakuasi hanya perlu dilakukan satu kali.
+E: Gempa bumi tidak terjadi di Indonesia.
+K: B
+P: Kalimat (3) menyebut orang di dalam gedung dianjurkan berlindung di bawah meja yang kokoh dan menjauhi kaca.
+
+## PPU-KES-018 | Kesesuaian Wacana | sedang | W=w_gb
+Q: Kata penghubung yang tepat untuk melengkapi bagian rumpang pada kalimat (6) bacaan tentang gempa bumi adalah ….
+A: Misalnya,
+B: Sebaliknya,
+C: Meskipun,
+D: Padahal,
+E: Dengan demikian,
+K: E
+P: Simulasi evakuasi dilakukan agar siswa tidak panik saat bencana nyata. Kalimat (6) menyatakan akibat atau tujuan sehingga tepat diawali "Dengan demikian,".
+
+## PPU-KES-019 | Kesesuaian Wacana | sedang | W=w_gb
+Q: Pernyataan berikut yang TIDAK sesuai dengan bacaan tentang gempa bumi adalah ….
+A: Indonesia rawan gempa karena berada di pertemuan lempeng tektonik.
+B: Orang dianjurkan menjauhi kaca saat gempa terjadi.
+C: Setelah gempa, orang dianjurkan keluar ketika getaran masih berlangsung.
+D: Sekolah di daerah rawan gempa rutin mengadakan simulasi evakuasi.
+E: Simulasi lebih efektif bila melibatkan warga sekitar sekolah.
+K: C
+P: Kalimat (4) menyatakan orang keluar setelah getaran berhenti, bukan saat getaran masih berlangsung.
+
+## PPU-KES-020 | Kesesuaian Wacana | sulit | W=w_gb
+Q: Pernyataan yang dapat disimpulkan dari bacaan tentang gempa bumi tersebut adalah ….
+A: Latihan evakuasi bertujuan membiasakan siswa bertindak tenang saat bencana.
+B: Gempa bumi hanya terjadi pada siang hari.
+C: Orang yang berada di lapangan terbuka tidak perlu menyelamatkan diri.
+D: Hanya guru yang perlu mengikuti simulasi evakuasi.
+E: Gempa bumi dapat dicegah dengan simulasi.
+K: A
+P: Kalimat (5)–(6) menunjukkan simulasi dilakukan agar siswa tidak panik saat bencana nyata. Pilihan lain tidak ditunjang bacaan.
+
+## PPU-KES-021 | Kesesuaian Wacana | mudah
+Q: Perhatikan paragraf berikut.
+(1) Sungai di kota itu kini jernih setelah warga bergotong royong membersihkannya. (2) Ikan-ikan kembali bermunculan di aliran sungai. (3) Karena sungai makin tercemar, wisatawan semakin ramai berkunjung. (4) Pemerintah kota berencana membangun taman di tepian sungai.
+Kalimat yang tidak logis dalam paragraf tersebut adalah kalimat ….
+A: (3)
+B: (1)
+C: (2)
+D: (4)
+E: tidak ada kalimat yang tidak logis
+K: A
+P: Kalimat (1) dan (2) menyatakan sungai makin bersih. Kalimat (3) menyebut sungai makin tercemar sehingga bertentangan dan tidak logis.
+
+## PPU-KES-022 | Kesesuaian Wacana | sedang
+Q: Kata hubung yang tepat untuk melengkapi kalimat "Hasil panen meningkat [....] petani menerapkan pola tanam baru" adalah ….
+A: meskipun
+B: agar
+C: karena
+D: sehingga
+E: sedangkan
+K: C
+P: Pola tanam baru menjadi sebab meningkatnya hasil panen, sehingga kata hubung yang tepat adalah karena.
+
+## PPU-KES-023 | Kesesuaian Wacana | sulit
+Q: Perhatikan paragraf berikut.
+Sebuah sekolah menerapkan program bebas kendaraan pribadi setiap hari Jumat. Hasilnya, jumlah siswa yang berjalan kaki atau bersepeda menjadi dua kali lipat dan kemacetan di depan sekolah berkurang.
+Simpulan yang paling tepat berdasarkan paragraf tersebut adalah ….
+A: Semua siswa kini berangkat dengan bersepeda.
+B: Sekolah melarang kendaraan pribadi setiap hari.
+C: Kemacetan di depan sekolah hilang sepenuhnya.
+D: Program bebas kendaraan pribadi mengurangi kemacetan di depan sekolah.
+E: Jumlah siswa di sekolah itu berkurang.
+K: D
+P: Paragraf menyebut kemacetan berkurang setelah program diterapkan. Pilihan lain berlebihan atau tidak disebutkan: tidak semua siswa bersepeda, program hanya pada hari Jumat, kemacetan hanya berkurang.
+
+## PPU-KES-024 | Kesesuaian Wacana | mudah
+Q: Perhatikan paragraf berikut.
+Saat banyak temannya menunda belajar hingga menjelang ujian, Rani mengulang materi sedikit demi sedikit setiap hari. Ketika ujian tiba, ia tampak tenang dan menyelesaikan soal dengan baik.
+Pernyataan yang paling sesuai dengan paragraf tersebut adalah ….
+A: Menunda belajar membuat siswa lebih tenang saat ujian.
+B: Belajar sedikit demi sedikit secara rutin membuat Rani lebih siap menghadapi ujian.
+C: Semua teman Rani gagal dalam ujian.
+D: Rani hanya belajar pada malam sebelum ujian.
+E: Ujian itu sangat mudah bagi semua siswa.
+K: B
+P: Paragraf membandingkan kebiasaan Rani (belajar rutin) dengan teman yang menunda, dan menunjukkan hasil Rani tenang dan baik, sehingga pernyataan B sesuai.
+
+## PPU-KES-025 | Kesesuaian Wacana | sedang
+Q: Perhatikan paragraf berikut.
+Kunang-kunang menghasilkan cahaya melalui reaksi kimia di dalam tubuhnya. Cahaya itu digunakan untuk menarik pasangan dan mengusir pemangsa. Kini kunang-kunang semakin jarang ditemukan karena cahaya buatan di perkotaan mengganggu cara mereka berkomunikasi.
+Pernyataan yang sesuai dengan paragraf tersebut adalah ….
+A: Kunang-kunang menghasilkan cahaya dari sinar matahari yang disimpan.
+B: Kunang-kunang semakin sering ditemukan di perkotaan.
+C: Cahaya kunang-kunang hanya digunakan untuk mencari makan.
+D: Kunang-kunang tidak memiliki pemangsa.
+E: Cahaya buatan dapat mengganggu komunikasi kunang-kunang.
+K: E
+P: Kalimat terakhir menyebutkan cahaya buatan di perkotaan mengganggu komunikasi kunang-kunang. Pilihan lain bertentangan dengan paragraf.
+

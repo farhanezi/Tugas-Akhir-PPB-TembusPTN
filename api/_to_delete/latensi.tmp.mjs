@@ -1,0 +1,14 @@
+import fs from 'node:fs'; const ANON = fs.readFileSync(process.env.HOME + '/mnt/TA/web/.env', 'utf8').split(/\r?\n/).find((l) => l.startsWith('VITE_SUPABASE_ANON_KEY=')).split('=').slice(1).join('=').replace(/"/g, '').trim();
+import { createClient } from '@supabase/supabase-js';
+const sb = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY, { auth: { persistSession: false } });
+const anon = createClient(process.env.SUPABASE_URL, ANON, { auth: { persistSession: false } });
+const med = (a) => { const s = [...a].sort((x, y) => x - y); return Math.round(s[Math.floor(s.length / 2)]); };
+const ukur = async (fn, n = 7) => { const t = []; for (let i = 0; i < n; i++) { const a = performance.now(); await fn(); t.push(performance.now() - a); } return `median ${String(med(t)).padStart(5)} ms  (min ${Math.round(Math.min(...t))}, maks ${Math.round(Math.max(...t))})`; };
+const { data } = await anon.auth.signInWithPassword({ email: process.env.UJI_EMAIL, password: process.env.UJI_PASSWORD });
+const tk = data.session.access_token;
+const get = (p) => fetch('http://localhost:3000/api' + p, { headers: { Authorization: `Bearer ${tk}` } }).then((r) => r.text());
+console.log('1 kueri DB langsung            :', await ukur(() => sb.from('subtes').select('id').limit(1)));
+console.log('auth.getUser(token)            :', await ukur(() => sb.auth.getUser(tk)));
+console.log('API  GET /subtes               :', await ukur(() => get('/subtes')));
+console.log('API  GET /try-out              :', await ukur(() => get('/try-out')));
+console.log('API  GET /dashboard            :', await ukur(() => get('/dashboard')));

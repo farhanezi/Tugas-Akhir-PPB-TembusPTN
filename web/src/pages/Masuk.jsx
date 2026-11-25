@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Lock, Mail } from 'lucide-react';
 import { supabase } from '../lib/supabase.js';
-import { GambarPlaceholder, Isian, Layar, LayarAuth, Logo, Pesan, Tombol } from '../components/ui.jsx';
+import masukPonsel from '../assets/masuk-ponsel.png';
+import { Isian, Layar, LayarAuth, Logo, Pesan, Tombol } from '../components/ui.jsx';
 
 export function pesanAuth(error) {
   const m = (error?.message || '').toLowerCase();
@@ -33,7 +34,7 @@ export default function Masuk() {
   return (
     <LayarAuth>
       <Logo className="lg:hidden" />
-      <GambarPlaceholder className="h-40 lg:hidden" nama="ilustrasi masuk" instruksi="Ilustrasi datar 350 x 160: siswa SMA belajar dengan laptop dan gerbang kampus di latar. Warna hijau tua, lime, putih. Tanpa teks." />
+      <img src={masukPonsel} alt="" className="h-40 w-full rounded-card object-cover lg:hidden" />
       <div className="flex flex-col gap-2">
         <h1 className="text-display">Masuk dan lanjutkan belajarmu</h1>
         <p className="text-body text-ink2">Materi, latihan soal, dan try out UTBK dalam satu tempat.</p>

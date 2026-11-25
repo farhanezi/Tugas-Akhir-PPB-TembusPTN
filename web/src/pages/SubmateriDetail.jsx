@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import videoSegeraHadir from '../assets/video-segera-hadir.png';
 import { ArrowRight, Check, ChevronLeft, ChevronRight, ExternalLink, FileText, Video } from 'lucide-react';
 import { api } from '../lib/api.js';
 import { useApi } from '../lib/useApi.js';
@@ -30,9 +31,9 @@ export function embedYoutube(url) {
 function Video16x9({ url, judul }) {
   if (!url) {
     return (
-      <div className="flex aspect-video flex-col items-center justify-center gap-2 rounded-card bg-sunken text-ink2">
-        <Video size={28} strokeWidth={1.75} />
-        <p className="text-body font-semibold">Video segera hadir</p>
+      <div className="relative aspect-video overflow-hidden rounded-card bg-panel">
+        <img src={videoSegeraHadir} alt="" className="absolute inset-0 size-full object-cover" />
+        <p className="absolute bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-panel/80 px-4 py-1.5 text-body font-semibold whitespace-nowrap text-white">Video segera hadir</p>
       </div>
     );
   }
