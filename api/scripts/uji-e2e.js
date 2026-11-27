@@ -50,6 +50,7 @@ async function main() {
     const uid = masuk.data.user.id;
 
     // bersihkan jejak uji sebelumnya (hanya milik akun uji)
+    await supabase.from('soal_tersimpan').delete().eq('profil_id', uid);
     await supabase.from('sesi').delete().eq('profil_id', uid); // jawaban & sesi_subtes ikut terhapus (cascade)
     await supabase.from('progres_materi').delete().eq('profil_id', uid);
     await supabase.from('progres_submateri').delete().eq('profil_id', uid);
@@ -125,6 +126,45 @@ async function main() {
     cek('jawab setelah selesai -> SESI_SELESAI', kode(await api('POST', `/latihan/sesi/${sesiL}/jawaban`, { soal_id: soalL[2].id, opsi_id: soalL[2].opsi[0].id })) === 'SESI_SELESAI');
     r = await api('GET', `/sesi/${sesiL}/hasil`);
     cek('hasil latihan: 2 dijawab, 1 belum', r.status === 200 && r.data.benar + r.data.salah === 2 && r.data.belum_dijawab === 1, JSON.stringify(r.data).slice(0, 200));
+
+    // ---------- 4b. soal tersimpan
+    r = await api('POST', '/soal-tersimpan', { soal_id: soalL[0].id, sesi_id: sesiL });
+    cek('simpan soal', r.status === 201 && r.data.tersimpan === true, JSON.stringify(r.data));
+    r = await api('POST', '/soal-tersimpan', { soal_id: soalL[0].id, sesi_id: sesiL });
+    cek('simpan soal dua kali aman', r.status === 201, JSON.stringify(r.data));
+    r = await api('GET', '/soal-tersimpan/id');
+    cek('daftar id tersimpan memuat soal', r.status === 200 && r.data.soal_ids.includes(soalL[0].id), JSON.stringify(r.data));
+    r = await api('GET', '/soal-tersimpan');
+    const st0 = r.data && r.data.soal && r.data.soal[0];
+    cek('daftar tersimpan: kunci, pembahasan, jawaban dari sesi asal',
+      r.status === 200 && st0 && st0.id === soalL[0].id && st0.terkunci === false && st0.opsi.some((o) => o.is_benar === true) &&
+      st0.jawaban_opsi_id === soalL[0].opsi[0].id && typeof st0.benar === 'boolean' && st0.subtes && st0.subtes.nama && st0.materi && st0.materi.nama,
+      JSON.stringify(r.data).slice(0, 300));
+    const soalTO = (await supabase.from('soal').select('id').not('try_out_id', 'is', null).limit(1)).data || [];
+    if (soalTO.length) cek('simpan soal try out ditolak (VALIDASI)', kode(await api('POST', '/soal-tersimpan', { soal_id: soalTO[0].id })) === 'VALIDASI');
+    cek('simpan soal tidak ada -> 404', kode(await api('POST', '/soal-tersimpan', { soal_id: 999999999 })) === 'TIDAK_DITEMUKAN');
+    cek('simpan dengan sesi tidak ada -> 404', kode(await api('POST', '/soal-tersimpan', { soal_id: soalL[1].id, sesi_id: 999999999 })) === 'TIDAK_DITEMUKAN');
+    cek('simpan soal_id bukan angka -> 422', kode(await api('POST', '/soal-tersimpan', { soal_id: 'x' })) === 'VALIDASI');
+    r = await api('POST', '/latihan/sesi', { materi_ids: materiBerisi.map((m) => m.id), jumlah: 1, umpan_balik: 'akhir' });
+    const sesiAkhir = r.data.sesi_id;
+    const soalAkhir = r.data.soal[0].id;
+    await api('POST', `/latihan/sesi/${sesiAkhir}/jawaban`, { soal_id: soalAkhir, opsi_id: r.data.soal[0].opsi[0].id });
+    await api('POST', '/soal-tersimpan', { soal_id: soalAkhir, sesi_id: sesiAkhir });
+    r = await api('GET', '/soal-tersimpan');
+    let stA = r.data.soal.find((s) => s.id === soalAkhir);
+    cek('mode akhir belum selesai: kunci & pembahasan ditahan',
+      stA && stA.terkunci === true && stA.opsi.every((o) => o.is_benar === undefined) && stA.pembahasan === null && stA.jawaban_opsi_id === null,
+      JSON.stringify(stA).slice(0, 300));
+    await api('POST', `/latihan/sesi/${sesiAkhir}/selesai`);
+    r = await api('GET', '/soal-tersimpan');
+    stA = r.data.soal.find((s) => s.id === soalAkhir);
+    cek('mode akhir setelah selesai: kunci terbuka', stA && stA.terkunci === false && stA.opsi.some((o) => o.is_benar === true), JSON.stringify(stA).slice(0, 200));
+    cek('urutan: terakhir disimpan di atas', r.data.soal[0].id === soalAkhir);
+    r = await api('DELETE', `/soal-tersimpan/${soalL[0].id}`);
+    cek('hapus soal tersimpan', r.status === 200 && r.data.tersimpan === false, JSON.stringify(r.data));
+    cek('hapus dua kali aman', (await api('DELETE', `/soal-tersimpan/${soalL[0].id}`)).status === 200);
+    r = await api('GET', '/soal-tersimpan/id');
+    cek('soal terhapus tidak ada di daftar', !r.data.soal_ids.includes(soalL[0].id) && r.data.soal_ids.includes(soalAkhir), JSON.stringify(r.data));
 
     // ---------- 5. try out
     r = await api('GET', '/try-out');

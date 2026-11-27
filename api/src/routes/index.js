@@ -8,6 +8,7 @@ const tryOut = require('../controllers/tryOutController');
 const hasil = require('../controllers/hasilController');
 const rekom = require('../controllers/rekomendasiController');
 const riwayat = require('../controllers/riwayatController');
+const tersimpan = require('../controllers/tersimpanController');
 
 const router = express.Router();
 
@@ -35,6 +36,11 @@ router.delete('/materi/:id/selesai', materi.batalSelesai);
 router.post('/latihan/sesi', latihan.mulai);
 router.post('/latihan/sesi/:id/jawaban', latihan.jawab);
 router.post('/latihan/sesi/:id/selesai', latihan.selesai);
+
+router.get('/soal-tersimpan', tersimpan.daftar);
+router.get('/soal-tersimpan/id', tersimpan.daftarId);
+router.post('/soal-tersimpan', tersimpan.simpan);
+router.delete('/soal-tersimpan/:soalId', tersimpan.hapus);
 
 router.get('/try-out', tryOut.daftar);
 router.get('/try-out/:id', tryOut.detail);
