@@ -20,6 +20,7 @@ import TryOut from './pages/TryOut.jsx';
 import TryOutDetail from './pages/TryOutDetail.jsx';
 import TryOutKerja from './pages/TryOutKerja.jsx';
 import Riwayat from './pages/Riwayat.jsx';
+import Tersimpan from './pages/Tersimpan.jsx';
 
 function Memuat() {
   return <Layar className="items-center justify-center gap-4"><Logo /><p className="text-body text-ink2" role="status">Memuat...</p></Layar>;
@@ -92,6 +93,7 @@ export default function App() {
           <Route path="/try-out" element={<TryOut />} />
           <Route path="/profil" element={<Profil />} />
           <Route path="/profil/riwayat" element={<Riwayat />} />
+          <Route path="/profil/tersimpan" element={<Tersimpan />} />
         </Route>
         {/* Di ponsel halaman ini tanpa menu bawah; di tablet dan desktop tetap memakai menu samping. */}
         <Route element={<Kerangka menuBawah={false} />}>

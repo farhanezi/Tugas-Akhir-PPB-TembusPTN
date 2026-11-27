@@ -155,6 +155,17 @@ async function main() {
     cek('mode akhir belum selesai: kunci & pembahasan ditahan',
       stA && stA.terkunci === true && stA.opsi.every((o) => o.is_benar === undefined) && stA.pembahasan === null && stA.jawaban_opsi_id === null,
       JSON.stringify(stA).slice(0, 300));
+    // celah: simpan ulang soal sesi akhir yang masih berjalan TANPA sesi_id -> kunci tetap ditahan
+    await api('DELETE', `/soal-tersimpan/${soalAkhir}`);
+    await api('POST', '/soal-tersimpan', { soal_id: soalAkhir });
+    r = await api('GET', '/soal-tersimpan');
+    stA = r.data.soal.find((s) => s.id === soalAkhir);
+    cek('mode akhir berjalan: simpan tanpa sesi_id tetap terkunci',
+      stA && stA.terkunci === true && stA.opsi.every((o) => o.is_benar === undefined) && stA.pembahasan === null,
+      JSON.stringify(stA).slice(0, 300));
+    const bukanAnggota = soalL.find((s) => s.id !== soalAkhir);
+    cek('simpan dengan sesi yang tidak memuat soal itu -> 422',
+      kode(await api('POST', '/soal-tersimpan', { soal_id: bukanAnggota.id, sesi_id: sesiAkhir })) === 'VALIDASI');
     await api('POST', `/latihan/sesi/${sesiAkhir}/selesai`);
     r = await api('GET', '/soal-tersimpan');
     stA = r.data.soal.find((s) => s.id === soalAkhir);

@@ -16,10 +16,24 @@ function potong(arr) {
   return hasil;
 }
 
-// Kunci dan pembahasan ditahan selama sesi asal bermode "akhir" masih berjalan.
-function sesiMasihBerjalan(sesi) {
-  if (!sesi || sesi.selesai_at || sesi.pengaturan?.umpan_balik !== 'akhir') return false;
-  return Date.now() - new Date(sesi.mulai_at).getTime() < BATAS_SESI_MS;
+// Id soal yang kunci dan pembahasannya harus ditahan: semua soal di sesi latihan mode "akhir"
+// milik pengguna yang masih berjalan. Dihitung per soal, bukan dari sesi asal simpanan, supaya
+// soal yang disimpan tanpa sesi_id (atau dari sesi lain) tetap tidak membocorkan kunci.
+async function soalTerkunci(userId) {
+  const berjalan = periksa(
+    await supabase
+      .from('sesi')
+      .select('pengaturan')
+      .eq('profil_id', userId)
+      .eq('jenis', 'latihan')
+      .is('selesai_at', null)
+      .gt('mulai_at', new Date(Date.now() - BATAS_SESI_MS).toISOString())
+  );
+  const ids = new Set();
+  for (const s of berjalan) {
+    if (s.pengaturan?.umpan_balik === 'akhir') for (const id of s.pengaturan.soal_ids || []) ids.add(id);
+  }
+  return ids;
 }
 
 // GET /api/soal-tersimpan/id
@@ -44,7 +58,7 @@ exports.daftar = bungkus(async (req, res) => {
   const soalIds = simpanan.map((r) => r.soal_id);
   const sesiIds = [...new Set(simpanan.map((r) => r.sesi_id).filter(Boolean))];
 
-  const [soalRows, sesiRows, jawabanRows] = await Promise.all([
+  const [soalRows, sesiRows, jawabanRows, terkunciIds] = await Promise.all([
     Promise.all(potong(soalIds).map(async (ids) => periksa(
       await supabase
         .from('soal')
@@ -57,6 +71,7 @@ exports.daftar = bungkus(async (req, res) => {
     Promise.all(potong(sesiIds).map(async (ids) => periksa(
       await supabase.from('jawaban').select('sesi_id, soal_id, opsi_id, is_benar').in('sesi_id', ids)
     ))),
+    soalTerkunci(req.user.id),
   ]);
 
   const petaSoal = new Map(soalRows.flat().map((s) => [s.id, s]));
@@ -67,8 +82,9 @@ exports.daftar = bungkus(async (req, res) => {
     .filter((r) => petaSoal.has(r.soal_id))
     .map((r) => {
       const s = petaSoal.get(r.soal_id);
-      const terkunci = sesiMasihBerjalan(petaSesi.get(r.sesi_id));
-      const j = !terkunci && r.sesi_id ? petaJawab.get(`${r.sesi_id}:${r.soal_id}`) : null;
+      const terkunci = terkunciIds.has(r.soal_id);
+      // jawaban hanya diambil dari sesi milik pengguna sendiri (petaSesi sudah disaring per profil)
+      const j = !terkunci && petaSesi.has(r.sesi_id) ? petaJawab.get(`${r.sesi_id}:${r.soal_id}`) : null;
       const opsi = [...s.opsi]
         .sort((a, b) => a.label.localeCompare(b.label))
         .map(({ is_benar: isBenar, ...o }) => (terkunci ? o : { ...o, is_benar: isBenar }));
@@ -102,9 +118,10 @@ exports.simpan = bungkus(async (req, res) => {
   if (soal.try_out_id !== null) throw new Galat('VALIDASI', 'Hanya soal latihan yang bisa disimpan.');
 
   if (sesiId !== null) {
-    const sesi = periksa(await supabase.from('sesi').select('id, profil_id, jenis').eq('id', sesiId).maybeSingle());
+    const sesi = periksa(await supabase.from('sesi').select('id, profil_id, jenis, pengaturan').eq('id', sesiId).maybeSingle());
     if (!sesi || sesi.jenis !== 'latihan') throw new Galat('TIDAK_DITEMUKAN', 'Sesi latihan tidak ditemukan.');
     if (sesi.profil_id !== req.user.id) throw new Galat('BUKAN_PEMILIK', 'Sesi ini bukan milik Anda.');
+    if (!(sesi.pengaturan?.soal_ids || []).includes(soalId)) throw new Galat('VALIDASI', 'Soal tidak termasuk sesi ini.');
   }
 
   await pastikanProfil(req.user.id);

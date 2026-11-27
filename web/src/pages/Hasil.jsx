@@ -1,46 +1,74 @@
 import { useMemo, useState } from 'react';
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
-import { BookOpen, ChevronDown, Lightbulb, PenLine, RotateCcw } from 'lucide-react';
+import { BookOpen, Bookmark, ChevronDown, Lightbulb, PenLine, RotateCcw } from 'lucide-react';
 import { useApi } from '../lib/useApi.js';
+import { useTersimpan } from '../lib/tersimpan.js';
 import { mulaiLatihan } from '../lib/sesiLatihan.js';
 import { bulat, menitDetik } from '../lib/format.js';
 import { BarAtas, Chip, GalatMuat, IsiSoal, JarakTarget, JudulBagian, Kartu, MemuatDaftar, Opsi, Pesan, Progres, Stat, Tombol } from '../components/ui.jsx';
 
 const BATAS_AWAL = 20;
 
+const TEKS_TERKUNCI = 'Kunci dan pembahasan muncul setelah sesi latihannya selesai.';
+
+// Tombol ikon simpan soal. Dipakai di daftar pembahasan dan halaman Soal tersimpan.
+export function TombolSimpan({ tersimpan, onClick }) {
+  const label = tersimpan ? 'Hapus dari simpanan' : 'Simpan soal';
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={tersimpan}
+      aria-label={label}
+      title={label}
+      className={`grid size-10 shrink-0 place-items-center rounded-full hover:bg-sunken ${tersimpan ? 'text-primary' : 'text-ink3'}`}
+    >
+      <Bookmark size={20} strokeWidth={1.75} fill={tersimpan ? 'currentColor' : 'none'} />
+    </button>
+  );
+}
+
 // Satu baris soal di daftar pembahasan; diketuk untuk membuka soal, kunci, dan pembahasan.
-function BarisSoal({ soal }) {
+// `onSimpan` (opsional) menampilkan tombol simpan di kanan baris.
+// `soal.terkunci` (soal tersimpan dari sesi mode akhir yang belum selesai): kunci dan pembahasan ditahan.
+export function BarisSoal({ soal, tersimpan, onSimpan }) {
   const [buka, setBuka] = useState(false);
+  const terkunci = Boolean(soal.terkunci);
   const kunci = soal.opsi.find((o) => o.is_benar);
   const jawab = soal.opsi.find((o) => o.id === soal.jawaban_opsi_id);
   const kosong = soal.benar == null;
   const warna = kosong ? 'bg-sunken text-ink2' : soal.benar ? 'bg-ok-soft text-ok' : 'bg-bad-soft text-bad';
-  const status = kosong
-    ? `Tidak dijawab${kunci ? ` · kunci ${kunci.label}` : ''}`
-    : soal.benar ? 'Benar' : `Salah · jawabanmu ${jawab?.label ?? '-'}${kunci ? `, kunci ${kunci.label}` : ''}`;
+  const status = terkunci
+    ? 'Kunci muncul setelah sesi selesai'
+    : kosong
+      ? `Tidak dijawab${kunci ? ` · kunci ${kunci.label}` : ''}`
+      : soal.benar ? 'Benar' : `Salah · jawabanmu ${jawab?.label ?? '-'}${kunci ? `, kunci ${kunci.label}` : ''}`;
   return (
     <li className="border-t border-line first:border-t-0">
-      <button type="button" onClick={() => setBuka((v) => !v)} aria-expanded={buka} className="flex w-full items-center gap-3 py-3 text-left">
-        <span className={`grid size-8 shrink-0 place-items-center rounded-[10px] text-[13px] font-bold ${warna}`}>{soal.nomor}</span>
-        <span className="min-w-0 flex-1">
-          <span className="line-clamp-2 text-[14px] leading-5 font-medium break-words">{soal.pertanyaan}</span>
-          <span className={`block text-caption ${kosong ? 'text-ink3' : soal.benar ? 'text-ok' : 'text-bad'}`}>
-            {status}{soal.ragu && <span className="text-warn"> · ragu</span>}
+      <div className="flex items-center gap-1">
+        <button type="button" onClick={() => setBuka((v) => !v)} aria-expanded={buka} className="flex min-w-0 flex-1 items-center gap-3 py-3 text-left">
+          <span className={`grid size-8 shrink-0 place-items-center rounded-[10px] text-[13px] font-bold ${warna}`}>{soal.nomor}</span>
+          <span className="min-w-0 flex-1">
+            <span className="line-clamp-2 text-[14px] leading-5 font-medium break-words">{soal.pertanyaan}</span>
+            <span className={`block text-caption ${kosong || terkunci ? 'text-ink3' : soal.benar ? 'text-ok' : 'text-bad'}`}>
+              {status}{soal.ragu && <span className="text-warn"> · ragu</span>}
+            </span>
           </span>
-        </span>
-        <ChevronDown size={18} strokeWidth={1.75} className={`shrink-0 text-ink3 transition-transform duration-150 ${buka ? 'rotate-180' : ''}`} />
-      </button>
+          <ChevronDown size={18} strokeWidth={1.75} className={`shrink-0 text-ink3 transition-transform duration-150 ${buka ? 'rotate-180' : ''}`} />
+        </button>
+        {onSimpan && <TombolSimpan tersimpan={tersimpan} onClick={onSimpan} />}
+      </div>
       {buka && (
         <div className="flex flex-col gap-3 pb-4">
           <IsiSoal soal={soal} />
           <div className="flex flex-col gap-2">
             {soal.opsi.map((o) => (
-              <Opsi key={o.id} label={o.label} isi={o.isi} keadaan={o.is_benar ? 'benar' : o.id === soal.jawaban_opsi_id ? 'salah' : undefined} />
+              <Opsi key={o.id} label={o.label} isi={o.isi} keadaan={terkunci ? undefined : o.is_benar ? 'benar' : o.id === soal.jawaban_opsi_id ? 'salah' : undefined} />
             ))}
           </div>
           <div className="flex flex-col gap-2 rounded-2xl bg-sunken p-4">
             <p className="flex items-center gap-2 text-heading"><Lightbulb size={18} strokeWidth={1.75} /> Pembahasan</p>
-            <p className="text-body break-words whitespace-pre-line">{soal.pembahasan || 'Pembahasan untuk soal ini belum tersedia.'}</p>
+            <p className="text-body break-words whitespace-pre-line">{terkunci ? TEKS_TERKUNCI : soal.pembahasan || 'Pembahasan untuk soal ini belum tersedia.'}</p>
           </div>
         </div>
       )}
@@ -48,13 +76,20 @@ function BarisSoal({ soal }) {
   );
 }
 
-function DaftarSoal({ soal }) {
+// `simpan` (opsional): { ids: Set, ubah(soalId) } untuk menampilkan tombol simpan per soal.
+function DaftarSoal({ soal, simpan }) {
   const [semua, setSemua] = useState(false);
   const tampil = semua ? soal : soal.slice(0, BATAS_AWAL);
   if (soal.length === 0) return <Kartu><p className="text-body text-ink2">Tidak ada soal di saringan ini.</p></Kartu>;
   return (
     <>
-      <Kartu className="py-1"><ul>{tampil.map((s) => <BarisSoal key={s.id} soal={s} />)}</ul></Kartu>
+      <Kartu className="py-1">
+        <ul>
+          {tampil.map((s) => (
+            <BarisSoal key={s.id} soal={s} {...(simpan && { tersimpan: simpan.ids.has(s.id), onSimpan: () => simpan.ubah(s.id) })} />
+          ))}
+        </ul>
+      </Kartu>
       {soal.length > tampil.length && <Tombol jenis="secondary" onClick={() => setSemua(true)}>Tampilkan {soal.length - tampil.length} soal lainnya</Tombol>}
     </>
   );
@@ -90,6 +125,14 @@ function HasilLatihan({ d }) {
   const [hanyaSalah, setHanyaSalah] = useState(false);
   const [sibuk, setSibuk] = useState(false);
   const [galat, setGalat] = useState('');
+  const { ids: tersimpan, ubah } = useTersimpan();
+  const simpan = {
+    ids: tersimpan,
+    ubah: async (soalId) => {
+      setGalat('');
+      if (!(await ubah(soalId, d.sesi_id))) setGalat('Simpanan soal gagal diperbarui. Periksa koneksimu lalu coba lagi.');
+    },
+  };
   const total = d.soal.length;
   const soal = hanyaSalah ? d.soal.filter((s) => s.benar === false) : d.soal;
 
@@ -151,7 +194,7 @@ function HasilLatihan({ d }) {
         >
           Pembahasan soal
         </JudulBagian>
-        <DaftarSoal key={String(hanyaSalah)} soal={soal} />
+        <DaftarSoal key={String(hanyaSalah)} soal={soal} simpan={simpan} />
       </section>
       </div>
 

@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { ArrowRight, Lightbulb, X } from 'lucide-react';
+import { ArrowRight, Bookmark, Lightbulb, X } from 'lucide-react';
 import { api } from '../lib/api.js';
+import { useTersimpan } from '../lib/tersimpan.js';
 import { bacaSesi, hapusSesi, simpanSesi } from '../lib/sesiLatihan.js';
 import { BarBawah, Dialog, IsiSoal, Opsi, Pesan, Progres, Tombol } from '../components/ui.jsx';
 
@@ -13,6 +14,8 @@ export default function LatihanKerja() {
   const [sibuk, setSibuk] = useState(false);
   const [galat, setGalat] = useState('');
   const [tanyaKeluar, setTanyaKeluar] = useState(false);
+  const [pesanSimpan, setPesanSimpan] = useState('');
+  const { ids: tersimpan, ubah } = useTersimpan();
   const atas = useRef(null);
 
   useEffect(() => { if (sesi) simpanSesi(sesi); }, [sesi]);
@@ -35,6 +38,7 @@ export default function LatihanKerja() {
   const langsung = sesi.umpan_balik === 'langsung';
   const terakhir = indeks === total - 1;
   const opsiBenar = hasil && soal.opsi.find((o) => o.id === hasil.opsi_benar_id);
+  const disimpan = tersimpan.has(soal.id);
 
   async function tutupSesi() {
     setSibuk(true);
@@ -106,10 +110,20 @@ export default function LatihanKerja() {
         <button type="button" onClick={() => setTanyaKeluar(true)} aria-label="Keluar dari latihan" className="grid size-10 place-items-center rounded-full hover:bg-sunken">
           <X size={22} strokeWidth={1.75} />
         </button>
-        <div className="flex min-w-0 flex-1 flex-col gap-1.5 pr-10 md:max-w-[420px] md:pr-0">
+        <div className="flex min-w-0 flex-1 flex-col gap-1.5 md:max-w-[420px]">
           <p className="text-caption text-ink2">Soal {indeks + 1} dari {total}</p>
           <Progres nilai={((indeks + (hasil ? 1 : 0)) / total) * 100} />
         </div>
+        <button
+          type="button"
+          onClick={async () => { setPesanSimpan(''); if (!(await ubah(soal.id, Number(id)))) setPesanSimpan('Simpanan soal gagal diperbarui. Periksa koneksimu lalu coba lagi.'); }}
+          aria-pressed={disimpan}
+          aria-label={disimpan ? 'Hapus dari simpanan' : 'Simpan soal'}
+          title={disimpan ? 'Hapus dari simpanan' : 'Simpan soal'}
+          className={`grid size-10 shrink-0 place-items-center rounded-full hover:bg-sunken md:ml-auto ${disimpan ? 'text-primary' : 'text-ink2'}`}
+        >
+          <Bookmark size={22} strokeWidth={1.75} fill={disimpan ? 'currentColor' : 'none'} />
+        </button>
       </header>
 
       {/* Ponsel dan tablet: satu kolom dengan bar bawah. Desktop: soal di kiri, pembahasan dan aksi di kanan. */}
@@ -140,6 +154,7 @@ export default function LatihanKerja() {
           )}
           {hasil && langsung && hasil.benar === undefined && <Pesan jenis="ok">Jawaban soal ini sudah tersimpan. Pembahasannya ada di halaman hasil.</Pesan>}
           {galat && <Pesan>{galat}</Pesan>}
+          {pesanSimpan && <Pesan>{pesanSimpan}</Pesan>}
           <div className="hidden gap-2.5 lg:flex">{aksi}</div>
           {!hasil && <p className="hidden text-caption text-ink3 lg:block">{langsung ? 'Pembahasan muncul di sini setelah kamu menekan Periksa.' : 'Pembahasan baru terlihat setelah sesi selesai.'}</p>}
         </div>

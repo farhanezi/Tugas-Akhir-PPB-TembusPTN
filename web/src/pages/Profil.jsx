@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Check, ChevronRight, History, LogOut, Target, X } from 'lucide-react';
+import { Bookmark, Check, ChevronRight, History, LogOut, Target, X } from 'lucide-react';
 import { api } from '../lib/api.js';
+import { useTersimpan } from '../lib/tersimpan.js';
 import { DESKTOP, useMedia } from '../lib/useApi.js';
 import { useAuth } from '../auth/AuthProvider.jsx';
 import { IsiRiwayat } from './Riwayat.jsx';
@@ -53,6 +54,7 @@ export default function Profil() {
   const [mengubah, setMengubah] = useState(false);
   const [keluarSibuk, setKeluarSibuk] = useState(false);
   const desktop = useMedia(DESKTOP); // di desktop Riwayat tampil di kolom kanan
+  const tersimpan = useTersimpan(); // hanya untuk jumlah di menu
 
   // Angka ringkasan bisa berubah sejak profil terakhir dimuat (materi ditandai, try out selesai).
   useEffect(() => { muatProfil(); }, [muatProfil]);
@@ -103,6 +105,13 @@ export default function Profil() {
       </div>
 
       <Kartu className="flex flex-col py-1">
+        <Link to="/profil/tersimpan" className="flex items-center gap-3 py-3">
+          <Bookmark size={20} strokeWidth={1.75} />
+          <span className="flex-1 text-[15px] font-semibold">Soal tersimpan</span>
+          {tersimpan.siap && <span className="text-caption text-ink2">{tersimpan.ids.size}</span>}
+          <ChevronRight size={20} strokeWidth={1.75} className="text-ink3" />
+        </Link>
+        <div className="border-t border-line" />
         <Link to="/profil/riwayat" className="flex items-center gap-3 py-3 lg:hidden">
           <History size={20} strokeWidth={1.75} />
           <span className="flex-1 text-[15px] font-semibold">Riwayat</span>
